@@ -11,5 +11,8 @@ venv/
 Thumbs.db
 .DS_Store
 
+# ferramentas locais
+.playwright-mcp/
+
 # PDFs extraidos e temporarios intermediarios nao estruturados
 *.tmp
