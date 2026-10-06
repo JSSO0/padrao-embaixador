@@ -65,10 +65,10 @@ def classify(
     doc_type = row.get("doc_type", "")
     stype = source_type_for(pdf, manifest)
     stem = pdf.stem.lower()
-    if "gabarito" in stem:
-        return "gabarito", stype
     if doc_type in SKIP_DOCTYPES:
         return "outro", stype
+    if "gabarito" in stem:
+        return "gabarito", stype
     if doc_type in PROVA_DOCTYPES:
         return "prova", stype
     if any(w in stem for w in NAME_SKIP):

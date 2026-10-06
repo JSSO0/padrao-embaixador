@@ -48,7 +48,7 @@ class CebraspeModernParser(DocumentParser):
             contest_id=doc.contest_id, source_file=doc.source_file, family=self.family
         )
         year = int(doc.contest_id.replace("CACD_", "").split("_")[0])
-        lines = doc.text.split("\n")
+        lines = (doc.linear_text or doc.text).split("\n")
 
         # comeca apos o gatilho de prova (ou do inicio se nao achar)
         start = 0
@@ -58,7 +58,13 @@ class CebraspeModernParser(DocumentParser):
                 break
 
         discipline: str | None = None
+        # semeia o contador pelo primeiro candidato que inicia uma sequencia n, n+1
+        cand = self._candidate_numbers(doc)
         expected_next = 1
+        for j in range(len(cand) - 1):
+            if cand[j + 1] == cand[j] + 1:
+                expected_next = cand[j]
+                break
         context: list[str] = []  # paragrafos entre itens (comando/estimulo)
         open_item: int | None = None
         open_item_lines: list[str] = []

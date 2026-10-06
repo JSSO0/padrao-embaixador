@@ -57,10 +57,42 @@ def parse_answer_key(
 
 def extract_answer_key(doc) -> tuple[dict[int, str], list[str]]:
     """Interpreta um LoadedDoc de gabarito. Retorna (mapa numero->resposta, avisos)."""
+    # formato tabela Cebraspe 2024-2026: numeros em sequencia + letras C/E/X em sequencia
     ce, letters, warns = parse_answer_key(doc.text)
+    if len(ce) < 20:
+        tbl, warns_t = parse_cebraspe_table(doc.text)
+        if len(tbl) > len(ce) + len(letters):
+            return tbl, warns + warns_t + [f"modo=tabela ({len(tbl)} pares)"]
     if len(ce) >= len(letters):
         return ce, warns + [f"modo=C/E ({len(ce)} pares)"]
     return letters, warns + [f"modo=letras ({len(letters)} pares)"]
+
+
+def parse_cebraspe_table(text: str) -> tuple[dict[int, str], list[str]]:
+    """Gabarito Cebraspe moderno: coluna de numeros + coluna de letras (C/E/X).
+    X = item anulado -> nao entra no mapa."""
+    warns: list[str] = []
+    tokens = text.split()
+    nums: list[int] = []
+    vals: list[str] = []
+    for tok in tokens:
+        if re.fullmatch(r"\d{1,3}", tok):
+            n = int(tok)
+            if 1 <= n <= 300:
+                nums.append(n)
+        elif tok.upper() in ("C", "E", "X"):
+            vals.append(tok.upper())
+    out: dict[int, str] = {}
+    if len(nums) == len(vals) and len(nums) >= 10:
+        anulados = 0
+        for n, v in zip(nums, vals):
+            if v == "X":
+                anulados += 1
+                continue
+            out[n] = v
+        if anulados:
+            warns.append(f"{anulados} itens anulados (X)")
+    return out, warns
 
 
 def merge_answers(

@@ -30,6 +30,7 @@ class LoadedDoc:
     contest_id: str
     family: str
     source_file: str  # relativo ao root
+    source_type: str = "secondary_repository"
     text: str = ""  # texto com colunas resolvidas
     linear_text: str = ""  # texto linear (get_text simple) p/ comparacao
     n_pages: int = 0
@@ -61,21 +62,20 @@ def source_type_for(pdf_path: Path, manifest: dict[str, dict]) -> str:
 
 
 def cluster_columns(blocks: list[dict], page_width: float) -> list[list[dict]]:
-    """Separa blocos em 1 ou 2 colunas por x0. Retorna colunas ordenadas esquerda->direita."""
+    """Separa blocos em 1 ou 2 colunas APENAS se houver gutter real (nenhum
+    bloco cruzando o meio). Retorna colunas ordenadas esquerda->direita."""
     if len(blocks) < 6:
         return [sorted(blocks, key=lambda b: (b[1], b[0]))]
-    mid = None
-    # encontra gap no meio da pagina: algum x0 sensivelmente maior que width*0.45
-    right = [b for b in blocks if b[0] > page_width * 0.45]
-    left = [b for b in blocks if b[0] <= page_width * 0.45]
-    # heuristica: 2 colunas se ha muitos blocos nos dois lados e poucos cruzando o centro
-    crossing = [b for b in blocks if b[0] < page_width * 0.45 < b[2]]
-    if len(right) >= 3 and len(left) >= 3 and len(crossing) <= len(blocks) * 0.15:
-        cols = [
-            sorted(left, key=lambda b: (b[1], b[0])),
-            sorted(right, key=lambda b: (b[1], b[0])),
-        ]
-        return cols
+    for frac in (0.50, 0.48, 0.52, 0.45, 0.55):
+        cut = page_width * frac
+        left = [b for b in blocks if b[2] <= cut]
+        right = [b for b in blocks if b[0] >= cut]
+        crossing = [b for b in blocks if b[0] < cut < b[2]]
+        if len(left) >= 3 and len(right) >= 3 and len(crossing) == 0:
+            return [
+                sorted(left, key=lambda b: (b[1], b[0])),
+                sorted(right, key=lambda b: (b[1], b[0])),
+            ]
     return [sorted(blocks, key=lambda b: (b[1], b[0]))]
 
 
@@ -88,6 +88,7 @@ def load_pdf(pdf_path: Path, root: Path) -> LoadedDoc:
     )
     pdf = pymupdf.open(pdf_path)
     doc.n_pages = pdf.page_count
+    linear_parts: list[str] = []
     for page in pdf:
         pw = page.rect.width
         raw_blocks = []
@@ -102,8 +103,10 @@ def load_pdf(pdf_path: Path, root: Path) -> LoadedDoc:
             for x0, y0, x1, y1, text in col:
                 page_blocks.append((round(x0, 1), round(y0, 1), text))
         doc.blocks_per_page.append(page_blocks)
+        linear_parts.append(page.get_text("text"))
         doc.text += "\n".join(b[2] for b in page_blocks) + "\n"
     pdf.close()
+    doc.linear_text = "\n".join(linear_parts)
     return doc
 
 
