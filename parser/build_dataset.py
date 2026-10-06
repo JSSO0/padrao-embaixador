@@ -156,9 +156,8 @@ def main() -> None:
     # gabaritos por edicao (definitivo por ultimo na lista -> vence no merge)
     all_questions: list = []
     for exam in exams:
-        keys = [
-            (name, key) for name, key in answer_keys if name.startswith(exam.contest_id)
-        ]
+        prefix = f"data/raw/{exam.contest_id}".replace("\\", "/")
+        keys = [(name, key) for name, key in answer_keys if name.startswith(prefix)]
         keys_sorted = sorted(
             keys, key=lambda kv: ("definitivo" not in kv[0].lower(), kv[0])
         )

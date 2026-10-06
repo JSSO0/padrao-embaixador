@@ -106,7 +106,7 @@ class CespeLegacyParser(DocumentParser):
                     continue
                 head = is_section_header(s)
                 if head:
-                    disc = self.normalize_discipline(head)
+                    disc = normalize_disc(head)
                     continue
                 m_alone = RE_ALT_LETTER_ALONE.match(s)
                 m_inline = RE_ALT_LETTER_INLINE.match(s)

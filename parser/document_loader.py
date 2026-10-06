@@ -62,16 +62,34 @@ def source_type_for(pdf_path: Path, manifest: dict[str, dict]) -> str:
 
 
 def cluster_columns(blocks: list[dict], page_width: float) -> list[list[dict]]:
-    """Separa blocos em 1 ou 2 colunas APENAS se houver gutter real (nenhum
-    bloco cruzando o meio). Retorna colunas ordenadas esquerda->direita."""
+    """Separa blocos em 1 ou 2 colunas. Estrategia em duas passadas:
+    1) gutter exato (nenhum bloco cruzando o corte); 2) atribuicao por centro
+    do bloco (xc), se ambos os lados tiverem massa suficiente."""
     if len(blocks) < 6:
         return [sorted(blocks, key=lambda b: (b[1], b[0]))]
+    # passada 1: gutter sem cruzamentos
     for frac in (0.50, 0.48, 0.52, 0.45, 0.55):
         cut = page_width * frac
         left = [b for b in blocks if b[2] <= cut]
         right = [b for b in blocks if b[0] >= cut]
         crossing = [b for b in blocks if b[0] < cut < b[2]]
         if len(left) >= 3 and len(right) >= 3 and len(crossing) == 0:
+            return [
+                sorted(left, key=lambda b: (b[1], b[0])),
+                sorted(right, key=lambda b: (b[1], b[0])),
+            ]
+    # passada 2: por centro do bloco (layouts 2 colunas com blocos largos raros)
+    cut = page_width * 0.5
+    left = [b for b in blocks if (b[0] + b[2]) / 2 < cut]
+    right = [b for b in blocks if (b[0] + b[2]) / 2 >= cut]
+    # passada 2: por centro do bloco (layouts 2 colunas com blocos largos raros)
+    cut = page_width * 0.5
+    left = [b for b in blocks if (b[0] + b[2]) / 2 < cut]
+    right = [b for b in blocks if (b[0] + b[2]) / 2 >= cut]
+    if len(left) >= 5 and len(right) >= 5 and 0.25 <= len(left) / len(blocks) <= 0.75:
+        left_ok = max(b[2] for b in left) <= cut + page_width * 0.12
+        right_ok = min(b[0] for b in right) >= cut - page_width * 0.12
+        if left_ok and right_ok:
             return [
                 sorted(left, key=lambda b: (b[1], b[0])),
                 sorted(right, key=lambda b: (b[1], b[0])),
@@ -85,6 +103,11 @@ def load_pdf(pdf_path: Path, root: Path) -> LoadedDoc:
         contest_id=pdf_path.relative_to(root / "data" / "raw").parts[0],
         family=pdf_path.parent.name,
         source_file=str(pdf_path.relative_to(root)),
+    )
+    doc.year = (
+        int(doc.contest_id.replace("CACD_", "").split("_")[0])
+        if doc.contest_id.startswith("CACD_")
+        else 0
     )
     pdf = pymupdf.open(pdf_path)
     doc.n_pages = pdf.page_count
