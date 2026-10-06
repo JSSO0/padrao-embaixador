@@ -1,5 +1,7 @@
 # CACD Forecast AI
 
+> **Handoff:** o documento de referência para qualquer pessoa/modelo que assumir o projeto é [`docs/plano-mestre.md`](docs/plano-mestre.md) — contexto, decisões, schemas, protocolo de backtesting e checklist imediato.
+
 Sistema experimental de previsão de temas, subtemas e formatos de questão do **Concurso de Admissão à Carreira de Diplomata (CACD)** — Terceiro-Secretário — baseado em ~24 edições de histórico (2003–2026).
 
 > **O objetivo NÃO é prever a próxima questão literal.** O objetivo científico é medir, com backtesting temporal rigoroso, até que ponto o histórico das provas permite prever a distribuição temática da próxima edição — e comparar baselines estatísticos, ML tabular, NLP (embeddings) e modelos de decisão probabilística (Laya).
