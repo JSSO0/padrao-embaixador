@@ -37,7 +37,7 @@ Transformar os 453 TXTs + 463 PDFs do corpus em um **dataset granular validado**
 | `pandera` | schema do parquet de saída (validação obrigatória antes de escrever) | adicionar |
 | `pandas` + `pyarrow` | dataset parquet | adicionar |
 | `duckdb` | QA analítico (contagens por edição/disciplina) | adicionar |
-| `litellm` + `instructor` | LLM só para casos ambíguos (determinar disciplina de bloco, corrigir recorte quebrado) — opcional e amostrado | adicionar quando precisar |
+| `litellm` + `instructor` | **NÃO usado nesta etapa** — parser é 100% baseado em regras (decisão: reprodutibilidade e custo); IA entra só nas etapas semânticas (7+) | fora de escopo |
 | `pytest` | testes dos parsers com **fixtures de texto real** (trechos dos TXTs) | adicionar |
 | `tqdm` | progresso | adicionar |
 
@@ -102,7 +102,7 @@ class Question(BaseModel):
     source_type: SourceType
     source_file: str                 # caminho relativo do PDF
     page: int | None
-    extraction_method: Literal["rules", "llm_assist", "manual"] = "rules"
+    extraction_method: Literal["rules", "manual"] = "rules"
 
 class ParsedExam(BaseModel):
     contest_id: str
