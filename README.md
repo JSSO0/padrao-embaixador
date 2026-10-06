@@ -1,6 +1,6 @@
 # CACD Forecast AI
 
-> **Handoff:** o documento de referência para qualquer pessoa/modelo que assumir o projeto é [`docs/plano-mestre.md`](docs/plano-mestre.md) — contexto, decisões, schemas, protocolo de backtesting e checklist imediato.
+> **Handoff:** o documento de referência para qualquer pessoa/modelo que assumir o projeto é [`docs/plano-mestre.md`](docs/plano-mestre.md) — contexto, decisões, schemas, protocolo de backtesting e checklist imediato. Os **requisitos originais** (fonte da verdade) estão em [`docs/spec-requisitos.md`](docs/spec-requisitos.md).
 
 Sistema experimental de previsão de temas, subtemas e formatos de questão do **Concurso de Admissão à Carreira de Diplomata (CACD)** — Terceiro-Secretário — baseado em ~24 edições de histórico (2003–2026).
 

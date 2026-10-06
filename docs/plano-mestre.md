@@ -1,6 +1,6 @@
 # CACD Forecast AI — Plano Mestre (handoff)
 
-> **Documento de transferência.** Escrito para permitir que qualquer pessoa (ou modelo de IA) assuma o projeto a partir daqui. Inclui contexto completo, decisões tomadas, estado atual, e o que fazer em seguida.
+> **Documento de transferência.** Escrito para permitir que qualquer pessoa (ou modelo de IA) assuma o projeto a partir daqui. Complementa a especificação original de requisitos (`docs/spec-requisitos.md`) — aquele define **o quê e por quê**; este define **como e em que ordem**, com o estado atual.
 >
 > Snapshot: 2026-10-06 · Repositório: `padrao-embaixador/` (branch `main`)
 
