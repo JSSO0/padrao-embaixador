@@ -1,0 +1,189 @@
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 1 
+Aplicação: 2/5/2026 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+ 
+A função de produção representa a relação tecnológica que associa combinações de insumos — tipicamente trabalho e 
+capital — ao nível máximo de produto que a firma pode obter, refletindo a fronteira tecnológica disponível. Essa relação é 
+central para a determinação da produtividade marginal dos fatores e da estrutura de custos. No curto prazo, a presença de 
+fatores fixos implica a vigência da lei dos rendimentos marginais decrescentes, segundo a qual o produto marginal do fator 
+variável tende a diminuir à medida que sua utilização aumenta, elevando o custo marginal. No longo prazo, com todos os 
+fatores variáveis, a firma pode ajustar sua escala produtiva e operar sob diferentes retornos de escala. Retornos crescentes 
+implicam economias de escala, com redução do custo médio e possíveis vantagens competitivas associadas a indivisibilidades 
+tecnológicas e custos fixos elevados; retornos constantes indicam proporcionalidade entre insumos e produto; e retornos 
+decrescentes refletem deseconomias de escala, como problemas de coordenação, que elevam custos médios e limitam a 
+expansão eficiente. 
+ 
+A elasticidade-preço da oferta mede a sensibilidade da quantidade ofertada às variações de preço e está diretamente 
+associada à estrutura de custos derivada da função de produção, em especial à inclinação do custo marginal. Em contextos de 
+maior flexibilidade produtiva, disponibilidade de capacidade ociosa e facilidade de ajuste dos fatores, a oferta tende a ser mais 
+elástica. Por outro lado, restrições tecnológicas e presença de fatores fixos tornam a oferta mais inelástica, sobretudo no curto 
+prazo. No longo prazo, a possibilidade de ajuste da escala produtiva amplia essa elasticidade. A presença de retornos 
+crescentes de escala pode permitir expansão da produção com redução dos custos médios, ampliando a capacidade de resposta, 
+enquanto retornos decrescentes tendem a restringi-la. 
+ 
+As estruturas de mercado condicionam a forma como as firmas transformam custos em preços e quantidades. Na 
+concorrência perfeita, a ausência de poder de mercado implica que as firmas sejam tomadoras de preço e produzam até o ponto 
+em que o preço se iguala ao custo marginal (P = CM), condição que garante eficiência alocativa, uma vez que o preço reflete o 
+custo marginal social, e eficiência produtiva, dado que a produção ocorre ao menor custo possível. Em estruturas com poder de 
+mercado, como o monopólio, a formação de preços deixa de refletir diretamente as condições tecnológicas de produção, uma 
+vez que a firma define preços com base em uma regra de mark-up sobre o custo marginal. A maximização de lucros implica a 
+escolha de uma quantidade tal que a receita marginal se iguale ao custo marginal (RM = CM), o que, sob demanda 
+negativamente inclinada, resulta em preços superiores ao custo marginal (P > CM). A magnitude desse mark-up está 
+inversamente relacionada à elasticidade-preço da demanda, conforme formalizado pelo índice de Lerner. Como consequência, 
+há ruptura da eficiência alocativa, pois o preço deixa de sinalizar o custo marginal, gerando subprodução e perda de peso 
+morto. No oligopólio, a interdependência estratégica entre poucas firmas torna o processo de decisão mais complexo, uma vez 
+que cada firma leva em consideração as reações dos concorrentes. Modelos, como Cournot, baseados na escolha de 
+quantidades, e Bertrand, baseados na competição de preços, mostram que os resultados podem variar entre situações próximas 
+à concorrência perfeita e ao monopólio, conforme as hipóteses sobre comportamento estratégico e estrutura de custos. A 
+presença de barreiras à entrada e de economias de escala — frequentemente associadas a retornos crescentes — tende a 
+sustentar estruturas concentradas e maior poder de mercado. Além disso, a possibilidade de colusão, explícita ou tácita, pode 
+levar à coordenação de preços e quantidades, aproximando o resultado do monopólio e ampliando as perdas de bem-estar. 
+ 
+A interação entre função de produção, elasticidade da oferta e estrutura de mercado é central para compreender os 
+resultados econômicos. A função de produção define a tecnologia e os custos, que determinam a forma da curva de oferta e sua 
+elasticidade. Em mercados competitivos, preços refletem diretamente os custos marginais, e a oferta responde de maneira mais 
+sensível às condições tecnológicas. Em mercados com poder de mercado, a presença de mark-ups rompe a ligação direta entre 
+custos e preços, reduzindo a sensibilidade da quantidade ofertada às variações de preço e alterando os incentivos produtivos. 
+No caso do oligopólio, além das restrições tecnológicas, a resposta da oferta é condicionada por estratégias de interação entre 
+firmas, podendo resultar em níveis de produção inferiores aos socialmente eficientes. Dessa forma, a análise integrada desses 
+elementos evidencia como tecnologia, custos, elasticidade e estrutura de mercado determinam preços, quantidades e grau de 
+eficiência econômica, tanto do ponto de vista produtivo quanto alocativo. 
+ 
+ 
+ 
+
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 2 
+Aplicação: 2/5/2026 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+ 
+Eugênio Gudin se tornou ministro da Fazenda em agosto de 1954 e buscou atacar aqueles que eram considerados os 
+dois maiores problemas econômicos na época: 
+a) a inflação — considerada um problema econômico porque: (i) levava à perda de poder de compra da população; (ii) 
+distorcia preços relativos; (iii) levou a uma valorização real da moeda nacional e, consequentemente, perda de competitividade 
+de produtos nacionais no exterior, prejudicando o equilíbrio do balanço de pagamentos; 
+b) a crise no balanço de pagamentos ou cambial — considerada um problema econômico porque: (i) desde que o país buscou 
+se industrializar, por meio de uma política de substituição de importações, e usar a política cambial e tarifária para isso, ele 
+apresentava forte demanda de importação de bens de capital e intermediários, enquanto sua pauta exportadora (concentrada no 
+café) era suscetível a oscilações de preço e de demanda externa; (ii) a valorização real da moeda nacional favorecia o aumento 
+das importações e prejudicava o desempenho das exportações; (iii) havia baixas reservas internacionais; (iv) havia dificuldade 
+de acesso a financiamento e mercados de capital devido a atrasos cambiais; (v) o sistema cambial artificial provocava 
+distorções alocativas. 
+ 
+Gudin defendia políticas de contração monetária e fiscal para contrair a demanda e combater a inflação. Em suas 
+próprias palavras: “Uma redução substancial dos investimentos e (...) uma cessação do aumento do consumo (...) sustentadas 
+por injeções monetárias cujo ritmo importa, urgentemente, reduzir”. Dessa forma, o economista propunha um programa de 
+austeridade que incluía: restrição de crédito, redução de gastos e enxugamento da liquidez monetária. 
+ 
+Já para a crise de balanço de pagamentos, Gudin buscou acesso a novos financiamentos para enfrentar a situação 
+externa e propôs a Instrução n.º 113 da SUMOC, que visava favorecer a entrada de capital estrangeiro. Gudin reduziu ainda o 
+subsídio ao petróleo, visando reduzir as despesas governamentais e o efeito multiplicador que tinham sobre o preço, além de 
+aumentar as receitas sob intermédio do ágio sobre a gasolina.  
+ 
+A Instrução n.º 108 aumentou o compulsório e obrigou que este ficasse retido na SUMOC, e não mais no Banco do 
+Brasil. Ao aumentar o compulsório, pôs em prática uma medida clássica de contração monetária e de crédito. Ao obrigar a 
+retenção do compulsório na SUMOC e não no Banco do Brasil, evitou uma distorção que existia na época, causada pela 
+ambiguidade no papel do Banco do Brasil, que exercia, simultaneamente, papel de executor da política monetária e de banco 
+comercial. 
+ 
+
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 3 
+Aplicação: 2/5/2026 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+ 
+A moeda desempenha papel central nas economias modernas, não apenas como instrumento de troca, mas como 
+instituição que organiza as relações econômicas, contratuais e financeiras. Suas funções — meio de troca, meio de pagamento, 
+unidade de conta e reserva de valor — estruturam o funcionamento do sistema econômico. Como meio de troca, a moeda 
+elimina as fricções do escambo, reduz custos de transação e viabiliza a especialização produtiva. Ao permitir a separação entre 
+compra e venda, sustenta a divisão do trabalho e o funcionamento dos mercados, sendo amplamente aceita em virtude de seu 
+reconhecimento institucional e social. Como meio de pagamento, a moeda possui função jurídica fundamental, sendo o ativo 
+utilizado para a liquidação definitiva de obrigações. Trata-se do instrumento que extingue dívidas, o que decorre, em grande 
+medida, de sua definição pelo Estado como meio de pagamento legal, especialmente para a quitação de tributos. Dessa forma, 
+a moeda estrutura as relações de crédito e débito na economia. Como unidade de conta, a moeda exerce função estruturante ao 
+servir de referência para a denominação de preços, ativos, passivos e contratos. Nesse sentido, ela organiza o sistema 
+econômico ao longo do tempo. Destaca-se, nesse contexto, o papel dos contratos de trabalho, que constituem o principal 
+vínculo econômico da sociedade e o núcleo da geração de renda. Os salários, definidos em termos monetários, sustentam a 
+demanda agregada e a reprodução do sistema produtivo. Assim, a moeda é socialmente validada pelos contratos — 
+especialmente o contrato de trabalho — que garantem sua aceitação generalizada como referência de valor e instrumento de 
+liquidação. Como reserva de valor, a moeda permite a transferência de poder de compra ao longo do tempo, embora essa 
+função dependa da estabilidade de preços. Em contextos inflacionários, sua capacidade de preservação de riqueza é reduzida, 
+levando os agentes a buscar ativos alternativos. Ainda assim, a moeda permanece como o ativo de maior liquidez, sendo 
+essencial para a gestão da incerteza, conforme destacado pela teoria da preferência pela liquidez. 
+ 
+No que se refere à criação de moeda, o Banco Central atua no processo como monopolista da base monetária, 
+controlando a emissão de moeda física e das reservas bancárias. Por meio de instrumentos de política monetária, como 
+operações de mercado aberto, exigências de reservas e definição da taxa básica de juros, o Banco Central regula a liquidez do 
+sistema financeiro. Entretanto, a maior parte da moeda em circulação é criada pelos bancos comerciais, por meio da concessão 
+de crédito. Ao conceder empréstimos, os bancos criam simultaneamente depósitos, expandindo os meios de pagamento na 
+economia. Trata-se de um processo endógeno, condicionado pela demanda por crédito, pelas condições de solvência e pelas 
+restrições regulatórias. 
+ 
+A distribuição da moeda ocorre por meio do sistema financeiro e da intermediação bancária, sendo direcionada pelas 
+decisões de crédito, consumo e investimento. O sistema bancário, portanto, desempenha papel central na alocação de recursos 
+e na dinâmica econômica. 
+ 
+Por fim, a moeda afeta a economia por meio de um canal de transmissão monetária. A atuação do Banco Central 
+altera as condições de liquidez do sistema, influenciando as taxas de juros de mercado. A redução das taxas de juros tende a 
+estimular o crédito, o consumo e o investimento, elevando o nível de atividade econômica. Em sentido oposto, a restrição de 
+liquidez eleva as taxas de juros e desestimula a demanda agregada. Assim, a política monetária atua como instrumento central 
+de estabilização macroeconômica. 
+ 
+Dessa forma, a moeda deve ser compreendida como uma instituição que organiza contratos, viabiliza o crédito, 
+sustenta a demanda e constitui um dos principais mecanismos de transmissão das condições econômicas. 
+ 
+ 
+ 
+
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 4 
+Aplicação: 2/5/2026 
+PADRÃO DE RESPOSTA DEFINITIVO  
+ 
+ 
+Termos de troca correspondem à relação entre os preços dos produtos exportados e os preços dos produtos importados 
+de um país. A deterioração desses termos significa que essa relação cai com o tempo, exigindo um volume de exportações (em 
+quantidade ou em receitas) para comprar a mesma quantidade de importações — ou seja, um país precisa exportar cada vez 
+mais para continuar importando um mesmo nível de produtos. 
+ 
+A elasticidade-renda da demanda (E) é dada pela divisão da variação percentual da quantidade demandada pela 
+variação percentual da renda (ou em termos de derivada 𝜉𝐷
+𝑅= 
+𝜕𝑄
+𝜕𝑌
+𝑌
+𝑄 ou, ainda, 𝜉𝐷
+𝑅= 
+%
+%
+∆𝑄
+∆𝑌). Quando E < 1, tem-se um bem 
+inferior em relação à renda. Quando E > 1, tem-se um bem superior em relação à renda. E < 1 significa que aumentos de renda 
+não levam a aumentos proporcionais na quantidade demandada. Esse é o caso de muitos dos bens primários e alimentícios, por 
+isso sua demanda apresenta ponto de saturação. Em outras palavras, um aumento na renda global não leva a um aumento na 
+demanda desses bens. 
+ 
+A teoria ricardiana do comércio internacional argumentava que, se os países se especializassem naquilo em que eles 
+têm vantagem comparativa, o comércio poderia levar a ganhos de eficiência a todos. Entretanto, a crítica de Prebisch e da 
+CEPAL argumenta que tal teoria não levou em consideração padrões de demanda nem de termos de troca de longo prazo e que 
+suas recomendações levariam alguns países a se especializar em produtos primários que apresentam demandas renda-
+inelásticas e que, portanto, a demanda por esses produtos não acompanha os aumentos de renda mundial, enquanto suas 
+importações provavelmente não apresentam o mesmo padrão. Dessa forma, esse tipo de especialização levaria a um padrão de 
+deterioração de termos de troca a esses países, sendo, portanto, prejudicial em longo prazo. 
+ 

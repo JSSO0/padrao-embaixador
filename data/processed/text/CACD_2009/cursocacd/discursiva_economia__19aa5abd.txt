@@ -1,0 +1,407 @@
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 1 –
+PROVA ESCRITA DE NOÇÕES DE ECONOMIA
+Na prova a seguir, faça o que se pede, usando, caso julgue necessário, as páginas para rascunho constantes deste caderno. Em seguida,
+transcreva os textos para as respectivas folhas do CADERNO DE TEXTOS DEFINITIVOS DA PROVA ESCRITA DE NOÇÕES
+DE ECONOMIA, nos locais apropriados, pois não serão avaliados fragmentos de texto escritos em locais indevidos. Em cada
+questão, respeite o limite máximo de linhas estabelecido.
+No caderno de textos definitivos, identifique-se apenas na capa, pois não serão avaliados os textos que tenham qualquer assinatura
+ou marca identificadora fora do local apropriado.
+QUESTÃO 1
+Em Formação Econômica do Brasil, Celso Furtado defende a seguinte tese:
+É [...] perfeitamente claro que a recuperação da economia brasileira, que se manifesta a partir de 1933, não se deve a nenhum fator
+externo e sim à política de fomento seguida inconscientemente no país e que era um subproduto da defesa dos interesses cafeeiros.
+Celso Furtado. Formação Econômica do Brasil. 22. ed. São Paulo: Companhia Editora Nacional, 1987, p. 193.
+Assim, Furtado atribui, em última instância, às políticas de proteção ao setor cafeeiro um papel importante na determinação da
+trajetória do PIB nos anos trinta. Apresente os argumentos de Furtado que fundamentam sua tese quanto aos seguintes aspectos:
+a) os efeitos da crise de 1929 sobre os preços do café;
+b) as principais causas da desvalorização cambial nos anos trinta; e
+c) os fatores que propiciaram a recuperação da economia brasileira a partir de 1933.
+Extensão máxima: 60 linhas
+(valor: 30 pontos; 10 pontos para cada item)
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 2 –
+QUESTÃO 2
+Considere os seguintes componentes do Produto Interno Bruto, PIB (Y), de uma economia aberta: consumo final total das
+famílias e do Governo (C), investimento total (I), exportações (X) e importações (M) de bens e serviços. Estes últimos não incluem
+as rendas dos fatores de produção recebidas do exterior nem as enviadas ao resto do mundo. Considere também os seguintes
+componentes do saldo das transações correntes (TC) do balanço de pagamentos: saldo da balança comercial e da conta de serviços
+(BC), saldo de rendas (BR) e saldo das transferências unilaterais (TU). Responda aos itens abaixo e justifique as respostas
+correspondentes.
+(a) A Tabela abaixo apresenta as participações dos quatro referidos componentes do PIB, em porcentagem (%) do PIB, no Brasil, entre
+1995 e 1999. Por exemplo, o consumo representou 83,5 % do PIB em 1995. A última coluna mostra o saldo da balança comercial e
+da conta de serviços (BC) em % do PIB. Calcule os valores representados na Tabela pelas letras x, y, z e w.
+Tabela: Componentes do PIB (% do PIB), no
+Brasil, de 1995 a 1999.
+Ano
+C/Y
+I/Y
+X/Y
+M/Y
+BC/Y
+1995
+83,5
+y
+7,3
+8,8
+!1,5
+1996
+84,8
+17,0
+z
+8,4
+!1,8
+1997
+84,8
+17,4
+6,8
+9,0
+w
+1998
+x
+17,0
+6,9
+8,9
+!2,0
+1999
+85,0
+16,4
+9,4
+10,8
+!1,4
+Nota: dados do IBGE e cálculos da Banca
+(b) Considerando as definições de PIB, de Produto Nacional Bruto (PNB) e de saldo de transações correntes (TC), demonstre que:
+PNB = C + I + TC ! TU.
+(c) A Renda Disponível Bruta (RDB) corresponde ao PNB acrescido do saldo das transferências unilaterais. Defina a Poupança Bruta
+(S), em termos do Investimento (I) e de um ou mais componente(s) do balanço de pagamentos.
+(d) O Brasil financiou os investimentos, entre 1995 e 1999, mediante recurso à poupança externa? Justifique a resposta especialmente
+com base em seu conhecimento sobre a economia brasileira. 
+(e) Para uma economia sem governo e fechada, ou seja, sem transações com o resto do mundo, qual a relação entre Poupança (S) e
+Investimento (I)? Se a função consumo pudesse ser descrita pela equação C = 0,8 RDB, ou seja, igual a oito décimos da RDB, qual
+seria a taxa de investimento, em % do PIB? 
+(f) Ainda para uma economia fechada, pode-se estimar o impacto de um aumento independente dos investimentos sobre o produto
+total. Se a propensão marginal ao consumo é 1/5, qual o impacto imediato de uma elevação de R$ 10 bilhões nos investimentos
+sobre esse produto total? Qual é o impacto final dessa elevação sobre o produto total, uma vez integralizada a progressão em cadeia
+dos seus efeitos sobre os dispêndios? Defina e calcule o multiplicador (keynesiano) correspondente.
+Extensão máxima: 60 linhas
+(valor: 30 pontos; 5 pontos para cada item)
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 3 –
+QUESTÃO 3
+De uma perspectiva neoclássica ou marginalista do mercado de trabalho (em que famílias e firmas maximizam respectivamente
+a utilidade e o lucro, sujeitas a restrição orçamentária e a uma tecnologia de produção com rendimentos marginais decrescentes),
+explique como podem ser definidos os seguintes elementos:
+a) demanda por trabalho;
+b) oferta de trabalho;
+c) salários reais e nível de emprego.
+Em Formação Econômica do Brasil, Celso Furtado observa os impactos diferenciados da abolição da escravatura nas diversas regiões
+econômicas do Brasil. Em relação à atividade cafeeira, afirma o seguinte:
+A situação favorável, do ponto de vista das oportunidades de trabalho, que existia na região cafeeira, valeu aos antigos escravos
+liberados salários relativamente elevados. Com efeito, tudo indica que na região do café a abolição provocou efetivamente uma
+redistribuição da renda em favor da mão-de-obra. Sem embargo, essa melhora na remuneração real do trabalho parece haver tido
+efeitos antes negativos que positivos sobre a utilização dos fatores. [...] Dessa forma, uma das consequências diretas da abolição, nas
+regiões em mais rápido desenvolvimento, foi reduzir-se o grau de utilização da força de trabalho.
+Celso Furtado. Formação Econômica do Brasil. 22. ed. São Paulo: Companhia Editora Nacional, 1987, p. 140.
+d) Com base em seus conhecimentos sobre mercado de trabalho, explique os argumentos apontados por Furtado para a situação
+descrita acima.
+Extensão máxima: 40 linhas
+(valor: 20 pontos; 5 pontos para cada item)
+QUESTÃO 4
+Considere um mercado de um único bem em concorrência perfeita. As firmas produzem esse produto idêntico por meio de uma
+tecnologia de produção com custo marginal, CMg(q) = 10 + 0,5q, onde q representa a quantidade produzida por cada firma. Suponha
+ainda que a demanda de mercado por este produto seja Qd (P) = 160 ! 4P, onde P é o preço de mercado.
+a) Encontre a oferta de cada firma, ou seja a quantidade que a firma deseja produzir como função do preço de mercado.
+b) Encontre o preço e quantidade de equilíbrio neste mercado, se o número de firmas for igual a 10, de modo que a oferta de mercado
+seja 10 vezes a oferta de cada firma tal como encontrada no item anterior.
+c) Determine a quantidade e o custo marginal de cada firma associado a esta quantidade, tendo em conta que as firmas, por serem
+idênticas, produzirão, em equilíbrio, cada uma, a mesma quantidade da mercadoria.
+d) Caso uma firma pudesse vender uma unidade a mais do produto pelo preço de equilíbrio (item b) o seu lucro seria maior ou menor?
+Explique.
+Suponha agora que uma das firmas do exemplo acima tenha comprado as demais, tornando-se monopolista deste mercado. Considere
+que a mudança na estrutura de mercado não afetou a demanda. 
+e) Encontre a receita total da firma monopolista como função da quantidade produzida.
+f)
+Determine o preço cobrado pelo monopolista e a quantidade negociada no mercado, considerando que a receita marginal é dada
+por RMg(Q) = 40 ! 0,5Q.
+g) O preço cobrado pelo monopolista é maior ou menor que o custo marginal pago pelo monopolista na quantidade de equilíbrio?
+Explique.
+h) Caso o monopolista pudesse vender uma unidade a mais do produto pelo preço de equilíbrio (item f) o seu lucro seria maior ou
+menor? Explique.
+Com os resultados dos exercícios acima, responda aos dois itens abaixo.
+i)
+Os professores Lee Ohanian, da Universidade da Califórnia, Los Angeles, e Edward Cole, da Universidade da Pensilvânia,
+argumentam que o aumento da concentração de mercado que seguiu a crise de 1929 foi um dos principais responsáveis pela
+duração da Grande Depressão. As quantidades de concorrência (item b) e monopólio (item f) encontradas no item anterior são
+favoráveis ao argumento dos professores? Explique.
+j)
+O Prof. Phillipe Aghion, da Universidade de Harvard, afirma que empresas monopolistas podem investir em pesquisa porque
+cobram um preço maior do que o custo marginal, de forma que esta diferença pode ser utilizada para financiar atividades que não
+entram diretamente na produção (não são fatores). O mesmo não ocorreria com firmas em concorrência perfeita. Os preços e custos
+marginais encontrados nos exemplos acima refutam a proposta do professor? Explique.
+Extensão máxima: 40 linhas
+(valor: 20 pontos; 2 pontos para cada item)
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 4 –
+QUESTÃO 1
+RASCUNHO – 1/2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 5 –
+QUESTÃO 1
+RASCUNHO – 2/2
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 6 –
+QUESTÃO 2
+RASCUNHO – 1/2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 7 –
+QUESTÃO 2
+RASCUNHO – 2/2
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 8 –
+QUESTÃO 3
+RASCUNHO – 1/2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 9 –
+QUESTÃO 3
+RASCUNHO – 2/2
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 10 –
+QUESTÃO 4
+RASCUNHO – 1/2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+UnB/CESPE – Instituto Rio Branco
+Prova Escrita de Noções de Economia
+Admissão à Carreira de Diplomata (Terceiro Secretário)
+– 11 –
+QUESTÃO 4
+RASCUNHO – 2/2
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40

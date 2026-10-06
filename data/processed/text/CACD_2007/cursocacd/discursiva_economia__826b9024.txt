@@ -1,0 +1,654 @@
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 1 – 
+ 
+Ministério das Relações Exteriores 
+Instituto Rio Branco 
+ 
+Concurso de Admissão à Carreira de Diplomata 
+ 
+ 
+Prova Escrita de Noções de Economia 
+ 
+ 
+Questão 1 
+ 
+Recorde seus estudos sobre evolução da análise econômica, noções de Economia 
+Internacional e formação da economia brasileira. Contraste as implicações da teoria 
+clássica do comércio e da teoria do desenvolvimento — esta associada à Comissão 
+Econômica para a América Latina (CEPAL) — quanto à inserção de países em 
+desenvolvimento na estrutura do comércio internacional. 
+(Valor da questão: 20 pontos) 
+ 
+   
+Questão 2 
+ 
+Recorde seus estudos sobre noções de Microeconomia e Economia Internacional. 
+Um bem é comercializado internacionalmente ao preço de R$ 8,00. Comparado com 
+o resto da economia mundial, o país denominado ficticiamente República Fechada é 
+relativamente muito pequeno. Dispõe de barreiras que impedem o comércio 
+exterior. O bem acima referido é produzido nesse país e aí se comercializa 
+conforme as curvas de oferta e demanda abaixo. 
+   
+ 
+0 
+4 
+8 
+12 
+16 
+20 
+24 
+28 
+32 
+36 
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+                          quantidade (unidades) 
+preço 
+(R$) 
+oferta
+demanda
+ 
+ 
+a) Quais são o preço e a quantidade de equilíbrio e a receita total da venda do 
+bem em equilíbrio na República Fechada?  
+(Valor do item: 2 pontos) 
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 2 – 
+ 
+b) Suponha que se tivesse registrado progresso tecnológico na produção do bem, 
+levando a um novo preço de equilíbrio de R$ 12,00. Indique a quantidade nesse 
+novo equilíbrio e calcule, pelo método do ponto médio, a elasticidade-preço da 
+demanda entre o novo ponto de equilíbrio e o original. 
+(Valor do item: 4 pontos) 
+ 
+ 
+Para responder aos itens de c a g, desconsidere a hipótese de progresso 
+tecnológico e reconsidere o equilíbrio original. Suponha que o governo da 
+República Fechada esteja cogitando duas opções de medida econômica. 
+ 
+c) A opção 1 consiste em cobrar imposto diretamente dos compradores, no valor 
+de R$ 8,00 por unidade. Qual seria a quantidade de equilíbrio nesse caso?  
+(Valor do item: 3 pontos) 
+ 
+d) Ainda na opção 1, quanto pagariam, incluindo o imposto, os compradores por 
+unidade do bem? Quanto receberiam os vendedores por unidade do bem?  
+(Valor do item: 2 pontos) 
+ 
+e) A opção 2 implica permitir a importação do bem, mas sujeito a uma taxa de 
+importação de R$ 4,00 por unidade. Nesse caso, quais seriam o preço e a 
+quantidade de equilíbrio?  
+(Valor do item: 3 pontos) 
+ 
+f) Ainda na opção 2, quantos bens demandados na República Fechada seriam 
+produzidos dentro e fora do país, em equilíbrio? 
+(Valor do item: 3 pontos) 
+ 
+g) Quanto o governo da República Fechada arrecadaria em impostos oriundos da 
+comercialização do bem, em equilíbrio, em cada uma das opções 1 e 2? 
+(Valor do item: 3 pontos) 
+ 
+Questão 3 
+ 
+Recorde seus estudos sobre moeda e sistema bancário e sobre a formação da 
+economia brasileira.  
+ 
+a) Defina moeda e aponte suas funções.  
+(Valor do item: 5 pontos) 
+ 
+b) Discuta o enfraquecimento das funções da moeda no Brasil na década de 1980. 
+(Valor do item: 5 pontos) 
+ 
+c) Explique o processo de criação de moeda, defina o multiplicador monetário e 
+discuta o papel da Autoridade Monetária nesse processo.  
+(Valor do item: 10 pontos) 
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 3 – 
+ 
+Questão 4 
+ 
+Recorde seus estudos sobre atividade econômica e contas nacionais, noções de 
+Economia Internacional e formação da economia brasileira. Considere a seguinte 
+nomenclatura para agregados das contas nacionais: 
+ 
+Y 
+=  PIB;  
+C 
+=  consumo das famílias; 
+G =  gastos do governo; 
+I 
+=  investimento bruto total; 
+X 
+=  exportações de bens e serviços; e 
+M =  importações de bens e serviços. 
+ 
+Considere ainda a seguinte nomenclatura para dois componentes do balanço de 
+pagamentos: 
+ 
+TC =  transações correntes; e 
+BC =  balança comercial de bens. 
+ 
+Recorde que, no Brasil, não mais se incluem serviços de fatores (remuneração aos 
+fatores de produção) na conta de serviços, mas, sim, na conta de renda das 
+transações correntes.  
+ 
+Período 
+Crescimento 
+real, % 
+C/Y % G/Y % I/Y %
+X/M %
+M/Y %
+(X–M)/Y % BC/Y % TC/Y %
+1967-73 
+10,7 
+69,6 
+10,9 
+20,3 
+6,7 
+7,6 
+–0,9 
+–0,2 
+–2,0 
+1974-79 
+6,9 
+69,2 
+9,7 
+23,5 
+7,2 
+9,7 
+–2,5 
+–1,5 
+–4,6 
+1980-84 
+1,4 
+67,8 
+9,6 
+21,4 
+10,8 
+9,8 
+1,0 
+1,2 
+–3,9 
+1985-89 
+2,0 
+60,9 
+12,4 
+22,8 
+10,6 
+6,4 
+4,2 
+4,8 
+–0,2 
+ 
+Nota: Os dados por período são médias aritméticas aproximadas de dados anuais do período. 
+Fontes: IBGE (Sistema de Contas Nacionais - Anual) e BCB-DEPEC 
+a) Defina o PIB (Y) pela ótica do dispêndio.  
+(Valor do item: 2 pontos) 
+ 
+b) Na tabela, os saldos dados por BC/Y têm sinal negativo nos dois primeiros 
+períodos e positivo nos dois últimos. Comente as causas de tal inversão.  
+(Valor do item: 6 pontos) 
+ 
+c) Comente as relações entre os dados apresentados para TC/Y e BC/Y na tabela. 
+Indique, em seus comentários, outros componentes do balanço de pagamentos 
+e outras variáveis que contribuiriam para a melhor compreensão dessas 
+relações.   
+(Valor do item: 6 pontos) 
+ 
+d)  Comente as implicações das evoluções de TC/Y e BC/Y em relação aos outros 
+componentes do PIB e ao crescimento da economia brasileira entre 1967 e 
+1989. 
+(Valor do item: 6 pontos)  
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 4 – 
+ 
+Questão 5 
+ 
+Recorde seus estudos sobre noções de Economia Internacional e formação da 
+economia brasileira. Ao comentar “a grande depreciação cambial do último decênio 
+do século XIX, provocada principalmente pela expansão creditícia imoderada do 
+primeiro governo provisório (...)”, Celso Furtado nota que o governo Campos Salles 
+(1898–1902) “adotou pela primeira vez no Brasil um conjunto de medidas 
+econômico-financeiras coordenadas e visando a um objetivo definido, que era 
+reduzir a pressão sobre a balança de pagamentos e a restabelecer o crédito exterior 
+do governo” (p.172). 
+ 
+a) Em momentos de pressão inflacionária, credores internacionais tendem a 
+associar a concessão de novos créditos à implementação de políticas 
+monetárias restritivas, bem como à adoção de medidas de ajuste fiscal. Discuta 
+a racionalidade subjacente a essa tendência e mostre como ela se coaduna com 
+a avaliação de Furtado.  
+(Valor do item: 15 pontos) 
+ 
+b) Discuta a postura dos credores internacionais no contexto da concessão do 
+funding loan de 1898. 
+(Valor do item: 5 pontos) 
+ 
+ 
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 5 – 
+ 
+QUESTÃO 1 
+RASCUNHO – 1/2 
+ 
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
+9  
+10  
+11  
+12  
+13  
+14  
+15  
+16  
+17  
+18  
+19  
+20  
+21  
+22  
+23  
+24  
+25  
+26  
+27  
+28  
+29  
+30  
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 6 – 
+ 
+QUESTÃO 1 
+RASCUNHO – 2/2 
+ 
+31  
+32  
+33  
+34  
+35  
+36  
+37  
+38  
+39  
+40  
+41  
+42  
+43  
+44  
+45  
+46  
+47  
+48  
+49  
+50  
+51  
+52  
+53  
+54  
+55  
+56  
+57  
+58  
+59  
+60  
+EXTENSÃO MÁXIMA: 60 LINHAS 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 7 – 
+ 
+QUESTÃO 2 
+RASCUNHO – 1/2 
+ 
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
+9  
+10  
+11  
+12  
+13  
+14  
+15  
+16  
+17  
+18  
+19  
+20  
+21  
+22  
+23  
+24  
+25  
+26  
+27  
+28  
+29  
+30  
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 8 – 
+ 
+QUESTÃO 2 
+RASCUNHO – 2/2 
+ 
+31  
+32  
+33  
+34  
+35  
+36  
+37  
+38  
+39  
+40  
+41  
+42  
+43  
+44  
+45  
+46  
+47  
+48  
+49  
+50  
+51  
+52  
+53  
+54  
+55  
+56  
+57  
+58  
+59  
+60  
+EXTENSÃO MÁXIMA: 60 LINHAS 
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 9 – 
+ 
+QUESTÃO 3 
+RASCUNHO – 1/2 
+ 
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
+9  
+10  
+11  
+12  
+13  
+14  
+15  
+16  
+17  
+18  
+19  
+20  
+21  
+22  
+23  
+24  
+25  
+26  
+27  
+28  
+29  
+30  
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 10 – 
+ 
+QUESTÃO 3 
+RASCUNHO – 2/2 
+ 
+31  
+32  
+33  
+34  
+35  
+36  
+37  
+38  
+39  
+40  
+41  
+42  
+43  
+44  
+45  
+46  
+47  
+48  
+49  
+50  
+51  
+52  
+53  
+54  
+55  
+56  
+57  
+58  
+59  
+60  
+EXTENSÃO MÁXIMA: 60 LINHAS 
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 11 – 
+ 
+QUESTÃO 4 
+RASCUNHO – 1/2 
+ 
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
+9  
+10  
+11  
+12  
+13  
+14  
+15  
+16  
+17  
+18  
+19  
+20  
+21  
+22  
+23  
+24  
+25  
+26  
+27  
+28  
+29  
+30  
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 12 – 
+ 
+QUESTÃO 4 
+RASCUNHO – 2/2 
+ 
+31  
+32  
+33  
+34  
+35  
+36  
+37  
+38  
+39  
+40  
+41  
+42  
+43  
+44  
+45  
+46  
+47  
+48  
+49  
+50  
+51  
+52  
+53  
+54  
+55  
+56  
+57  
+58  
+59  
+60  
+EXTENSÃO MÁXIMA: 60 LINHAS 
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 13 – 
+ 
+QUESTÃO 5 
+RASCUNHO – 1/2 
+ 
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
+9  
+10  
+11  
+12  
+13  
+14  
+15  
+16  
+17  
+18  
+19  
+20  
+21  
+22  
+23  
+24  
+25  
+26  
+27  
+28  
+29  
+30  
+ 
+
+IRBr — Terceira Fase  
+Prova Escrita de Noções de Economia 
+ 
+Admissão à Carreira de Diplomata (Terceiro Secretário)                                                                                      – 14 – 
+ 
+QUESTÃO 5 
+RASCUNHO – 2/2 
+ 
+31  
+32  
+33  
+34  
+35  
+36  
+37  
+38  
+39  
+40  
+41  
+42  
+43  
+44  
+45  
+46  
+47  
+48  
+49  
+50  
+51  
+52  
+53  
+54  
+55  
+56  
+57  
+58  
+59  
+60  
+EXTENSÃO MÁXIMA: 60 LINHAS 
+
+ 

@@ -1,0 +1,155 @@
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 1 
+Aplicação: 30/8/2025 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+1 
+A elasticidade-preço da demanda é uma medida da sensibilidade da quantidade demandada a uma variação no preço de 
+um bem. O valor numérico da elasticidade é calculado pela razão entre a variação percentual na quantidade demandada 
+e a variação percentual no preço (E  = %ΔQd /%ΔP). Dado que a relação entre preço e quantidade é geralmente inversa 
+(conforme a lei da demanda), o valor é tipicamente negativo. O valor da elasticidade-preço da demanda é normalmente 
+interpretado em termos de valor absoluto. Se |E| > 1, a demanda é elástica, indicando alta sensibilidade da demanda ao 
+preço — uma variação no preço corresponde a uma variação mais do que proporcional na quantidade demandada. Se 
+|E| < 1, a demanda é inelástica, e determinada variação no preço corresponde a uma variação relativamente menor, em 
+termos percentuais, na quantidade demandada. 
+2 
+Sim, existe um potencial conflito entre os objetivos de gerar receita e de desestimular o consumo. Para o objetivo de se 
+elevar a arrecadação fiscal, o ideal é que a demanda seja inelástica (|E| < 1). Nesse cenário, o aumento de preço não 
+reduz significativamente o consumo, mantendo a base de cálculo do tributo elevada. Por outro lado, para que o objetivo 
+de promoção da saúde seja atingido, a demanda deve ser elástica (|E| > 1), pois, assim, o aumento de preço levaria a 
+uma redução expressiva do consumo — mas, nesse caso, a arrecadação será menor. Verifica-se que existe um trade-off 
+entre os dois objetivos: maior êxito em alcançar um deles implica relativo fracasso no outro.  
+3 
+O impacto total de uma alta de preços na quantidade demandada reflete a soma de dois efeitos distintos: o efeito 
+substituição e o efeito renda. O efeito substituição representa a mudança no consumo decorrente da alteração dos preços 
+relativos; o bem se torna mais caro em comparação com seus substitutos, o que invariavelmente leva à redução de seu 
+consumo. Assim, a direção do efeito substituição é inequívoca — uma alta de preços positivos corresponde a uma 
+redução na quantidade demandada. Já o efeito renda captura a variação na quantidade demandada resultante da perda 
+de poder de compra real do consumidor provocada pelo aumento do preço do bem.  
+4 
+A direção do efeito renda e consequentemente o impacto total dependem da natureza do bem. Se as bebidas açucaradas 
+forem um bem normal, o efeito renda é negativo positivo: com a redução ampliação do poder de compra, o consumidor 
+também reduzi aumentará seu consumo. Assim, os efeitos substituição e renda atuam na mesma direção, reforçando-se 
+mutuamente, ou seja, há elasticidade-renda da demanda positiva. Contudo, se as bebidas açucaradas forem consideradas 
+um bem inferior, o efeito renda será positivo negativo: a redução ampliação do poder de compra levaria a uma aumento 
+redução do consumo desse bem, ou seja, haveria elasticidade-renda da demanda negativa. São geralmente bens de 
+qualidade inferior substituídos por opções melhores quando a renda sobe (ex.: transporte público, carne de segunda 
+etc.). Nesse caso, o efeito renda se oporia ao efeito substituição, atenuando a queda total no consumo, o que tornaria o 
+imposto menos eficaz para o alcance do objetivo de saúde pública, mas contribuiria para o objetivo de maior arrecadação 
+fiscal. 
+
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 2 
+Aplicação: 30/8/2025 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+ 
+A inflação crônica prejudicou a economia brasileira por décadas, especialmente entre os anos 80 e meados dos anos 90 
+do século XX. Nesse período turbulento, o país passou por uma série de planos econômicos, de abordagens tanto ortodoxas 
+quanto heterodoxas, com o firme objetivo de estabilizar os preços. Dois desses planos se destacam pela sua relevância e pelos 
+seus resultados distintos: o Plano Cruzado, de 1986, e o Plano Real, de 1994. Embora ambos tivessem o objetivo comum de 
+combater a inflação, suas estratégias e sucessos foram marcadamente diferentes. 
+ 
+O Plano Cruzado foi uma aposta na heterodoxia, caracterizado por um choque forte e imediato na economia. Sua 
+principal ferramenta foi o congelamento generalizado de preços e salários. Essa medida drástica visava quebrar a inércia 
+inflacionária, paralisando a espiral de reajustes. Complementarmente, o governo instituiu o tabelamento de preços para diversos 
+produtos, incentivando até mesmo a população a fiscalizar e denunciar abusos. A intenção era também promover uma 
+desindexação da economia, eliminando os indexadores que alimentavam a inflação. Contudo, essa tentativa foi comprometida 
+pela criação do gatilho salarial, um mecanismo que previa reajustes automáticos dos salários a cada 20% de inflação acumulada. 
+Embora visasse proteger o poder de compra, o gatilho acabou por reativar a espiral inflacionária quando acionado, mostrando 
+uma inconsistência na própria estratégia de desindexação. A moeda, o cruzado (Cz$), foi introduzida para simbolizar a ruptura 
+com o passado inflacionário do cruzeiro. 
+ 
+O Plano Real, por outro lado, adotou uma abordagem mais gradual e fundamentada em princípios ortodoxos, com um 
+forte componente de credibilidade. Sua estratégia de desindexação da economia foi muito mais sofisticada e bem-sucedida, 
+começando com a introdução da unidade real de valor (URV). A URV funcionava como uma “moeda de conta” estável, indexada 
+ao dólar, preparando a população para uma nova referência de valor antes da transição da moeda física. Somente após essa fase 
+de adaptação foi que a nova moeda, o real (R$), foi efetivamente criada e posta em circulação. 
+ 
+Diferentemente do cruzado, o real não começou com congelamento de preços. Em vez disso, focou em pilares 
+fundamentais da estabilidade macroeconômica. Um rigoroso ajuste fiscal e controle monetário foram implementados para conter 
+os gastos públicos e a emissão de moeda, atacando as causas da inflação. Além disso, a abertura comercial foi uma medida 
+crucial do Plano Real, com a redução de tarifas de importação. Isso não só aumentou a oferta de produtos no mercado interno, 
+combatendo pressões inflacionárias, mas também estimulou a competitividade e a modernização da indústria nacional. 
+ 
+A principal diferença entre as desindexações dos dois planos reside no método e na consistência. Enquanto o Plano 
+Cruzado tentou uma desindexação abrupta com o gatilho salarial como contradição, o Plano Real utilizou a URV para uma 
+transição gradual e consciente, garantindo que os preços já estivessem convertidos em uma base estável antes da entrada da nova 
+moeda. Esse conjunto de medidas, aliado a uma forte credibilidade e ao apoio político, resultou no fim da hiperinflação que tanto 
+afetava o Brasil. O Plano Real não apenas estabilizou a economia, mas também restaurou o poder de compra da população, 
+marcando um dos maiores sucessos econômicos da história recente do país. 
+
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 3 
+Aplicação: 30/8/2025 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+A equação quantitativa da moeda é dada por M × V = P × Y, em que M é a oferta de moeda, ou quantidade de moeda; 
+V, a velocidade da moeda, isto é, a frequência com que a moeda troca de mãos; P, o nível geral de preços; e Y, o produto real. 
+A equação é uma identidade contábil que afirma que o valor total gasto na economia (a oferta de moeda, M, multiplicada pelo 
+número de vezes que ela gira, V) deve ser igual ao valor nominal do produto (o nível de preços, P, multiplicado pela produção 
+real, Y). 
+Para transformar essa identidade em uma teoria, assumem-se dois pressupostos para o longo prazo: primeiro, que a 
+velocidade da moeda (V) é constante, pois reflete hábitos e tecnologias de transação que mudam lentamente; segundo, que o 
+produto real (Y) está fixo em seu nível de pleno emprego (ou potencial), sendo determinado por fatores reais (capital, trabalho, 
+tecnologia). 
+Com base nos pressupostos de que as variáveis V e Y podem ser consideradas fixos, a principal predição da TQM é a 
+existência de uma relação diretamente proporcional entre a oferta de moeda (M) e o nível de preços (P). Assim, a taxa de 
+crescimento da oferta monetária (M) determina a taxa de inflação de longo prazo. A teoria afirma o princípio de neutralidade da 
+moeda, segundo o qual qualquer variação na quantidade de moeda (M) afeta somente variáveis nominais, como o nível de preços 
+(P), e não tem impacto sobre variáveis reais como produto e emprego. 
+Segundo a TQM, a política monetária é ineficaz para promover o crescimento econômico de longo prazo. A moeda é 
+considerada neutra e não pode influenciar variáveis reais, como a acumulação de capital e o progresso tecnológico, que 
+determinam o crescimento do produto potencial. O papel da política monetária, segundo essa visão, não é gerar crescimento 
+diretamente, mas sim garantir a estabilidade de preços e controlar a inflação de longo prazo, o que é feito pelo Banco Central 
+por meio da gestão da expansão monetária. 
+ 
+
+ 
+CONCURSO PÚBLICO DE ADMISSÃO À CARREIRA DE 
+DIPLOMATA 
+DIPLOMATA (TERCEIRO SECRETÁRIO) 
+Prova Escrita de Economia – Questão 4 
+Aplicação: 30/8/2025 
+PADRÃO DE RESPOSTA DEFINITIVO 
+ 
+ 
+No universo da economia internacional, a “tríade impossível”, também chamada de trilema de Mundell-Fleming, 
+defende, em sua essência, que um país não consegue ter, ao mesmo tempo, um regime de câmbio fixo, livre mobilidade de 
+capitais e autonomia da política monetária. 
+ 
+O primeiro desses pilares, o regime de câmbio fixo, é como uma âncora para a moeda nacional, em que o Banco Central 
+decide manter seu valor estável em relação a outra moeda ou a um grupo delas. Isso traz uma sensação de segurança e 
+previsibilidade para investidores, importadores e exportadores. A livre mobilidade de capitais, por sua vez, é a possibilidade de 
+o capital ser transferido sem amarras, facilitando investimentos, tanto diretos quanto de portfólio, e permitindo uma 
+diversificação mais ampla. Por último, a política monetária autônoma é a liberdade que o Banco Central tem de usar suas 
+ferramentas — as taxas de juros, as operações no mercado aberto e as exigências de reservas — a fim de influenciar a economia 
+interna. A taxa básica de juros é a variável básica da política monetária, e influencia diretamente o custo do crédito e, por 
+consequência, o ritmo da atividade econômica. 
+ 
+As escolhas que se fazem entre esses três objetivos determinam o futuro econômico de um país. A combinação de 
+câmbio fixo com livre mobilidade de capitais traz previsibilidade a quem comercializa e investe do exterior, atraindo o capital e 
+impulsionando o crescimento. O revés, contudo, é a perda de controle sobre a política monetária. Para manter a moeda estável, 
+o Banco Central se vê obrigado a alinhar suas taxas de juros com as internacionais, abandonando a capacidade de combater a 
+inflação ou de estimular a economia quando necessário. 
+ 
+Por outro lado, se um país decide combinar o câmbio fixo com a autonomia da política monetária, o seu Banco Central 
+adquire a capacidade de injetar incentivos na economia local sem se preocupar com a instabilidade cambial. No entanto, essa 
+escolha impõe uma barreira: a necessidade de controles sobre a mobilidade de capitais. Isso significa que investidores não terão 
+a mesma liberdade para diversificar seus ativos globalmente, o que pode afastar investimentos estrangeiros diretos, impactar 
+como os recursos são alocados e dificultar o acesso a financiamento externo. 
+ 
+Por fim, a rota mais trilhada pelas grandes economias é a combinação da livre mobilidade de capitais com política 
+monetária autônoma. A vantagem é clara: o Banco Central consegue estabilizar a economia doméstica enquanto empresas e 
+investidores podem movimentar seus recursos por todo o globo com facilidade. A desvantagem, porém, é a aceitação de um 
+regime de câmbio flutuante, que traz consigo a volatilidade cambial. Essa volatilidade pode criar um conjunto de incertezas para 
+exportadores e importadores, e ainda expor a economia a vendavais externos, exigindo que o país se equipe com mecanismos de 
+hedge e fortaleça sua resiliência interna. 
