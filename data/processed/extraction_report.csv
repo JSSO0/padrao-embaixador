@@ -1,0 +1,37 @@
+contest_id,source_file,family,doc_role,parser,questions_found,status,issues,reason
+CACD_2026,data/raw/CACD_2026/cebraspe/edital__5496df8a.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/edital__bc3bf4b6.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/edital_retificacao__9f766389.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/gabarito_definitivo__6380322e.pdf,cebraspe,gabarito,,6,gabarito,modo=C/E (6 pares),
+CACD_2026,data/raw/CACD_2026/cebraspe/gabarito_definitivo__89c364da.pdf,cebraspe,gabarito,,6,gabarito,modo=C/E (6 pares),
+CACD_2026,data/raw/CACD_2026/cebraspe/gabarito_justificativa__c3cc430b.pdf,cebraspe,gabarito,,16,gabarito,modo=C/E (16 pares),
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__1cecb3c5.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__39280296.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__3a092777.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__5ea5a2b8.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__75c69d1f.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__d3967d54.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__d6e35254.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__e4db3a3b.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__17c8da89.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__1bf535ea.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__501adbae.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__7341f0b7.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__8291a695.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__8e855300.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__b035dd6a.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__dcf8ab53.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__66ea1db4.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__c604e903.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_direito__c1ed9512.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_economia__7b3de9c0.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_espanhol_frances__e76d7d36.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_geografia__c8abda8e.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_historia__1e59e288.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_ingles__a6b9020f.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_pol_internacional__16a73e63.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_portugues__16c78d13.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cursocacd/gabarito__412000e5.pdf,cursocacd,gabarito,,27,gabarito,modo=C/E (27 pares),
+CACD_2026,data/raw/CACD_2026/cursocacd/padrao_resposta__d86a0150.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_1__97ad52d5.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_2__85f06cc7.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
