@@ -1,0 +1,69 @@
+contest_id,source_type,doc_type,discipline,description,url,status
+ALL,secondary_repository,index,"Página de provas do Curso CACD (organizada por edição, tipo e matéria; base da coleta)",https://www.cursocacd.com/conteudo,PAGE_VERIFIED,2026-10-06
+ALL,secondary_repository,prova_objetiva,"Pacote com provas objetivas de todas as edições 2003-2025",https://www.cursocacd.com/_files/ugd/06e458_c30d31abcccb4eb69576151910c03b8c.pdf,LISTED_NOT_VERIFIED
+ALL,secondary_repository,gabarito,"Pacote de gabaritos 2003-2025",https://www.cursocacd.com/_files/ugd/06e458_39cafbaec78a4f23851e7498390f3ea1.pdf,LISTED_NOT_VERIFIED
+ALL,secondary_repository,guia_estudos,"Guias de estudos 2003-2025 (melhores respostas discursivas)",https://www.cursocacd.com/_files/ugd/06e458_485f2b95b0cd4183aa0d7f9081c738e8.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_objetiva,,"Prova objetiva 1 (manhã) - 2026",https://www.cursocacd.com/_files/ugd/06e458_57421ed0007d48bf9e6c4fd77238e66d.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_objetiva,,"Prova objetiva 2 (tarde) - 2026",https://www.cursocacd.com/_files/ugd/06e458_a0a224236f114aef8f3e9b860fd8e618.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,gabarito,,"Gabarito - 2026",https://www.cursocacd.com/_files/ugd/06e458_23fe2fe87b404f2ca695397f356be4f5.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Português,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_6b1986bc573940f6ae9064508190b69e.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Inglês,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_3a1909bc7ea14c7b9f5ddcbc31b4f0d2.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Direito,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_8aa8bc94a63a4c5c888d6aeea45cfb20.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Economia,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_30b360d250984772a6a467179941a1ba.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Geografia,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_e44d1fe1cc78494f86f193872c24c13d.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,História do Brasil,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_7c7ff1e25a0147df877c6e7c927bda47.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Política Internacional,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_c168ba9b59144721957f999f81dd0590.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,prova_discursiva,Espanhol e Francês,Discursiva - 2026,https://www.cursocacd.com/_files/ugd/06e458_f84eb77108354242ab428f31463cc2fe.pdf,LISTED_NOT_VERIFIED
+CACD_2026,secondary_repository,padrao_resposta,,"Padrão de resposta - 2026",https://www.cursocacd.com/_files/ugd/06e458_f6296e0a9fe24b5c84d4130cde69aa61.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_objetiva,,"Prova objetiva 1 - 2023 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_b1aab22b17aa4f439f525fa0b73e1485.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_objetiva,,"Prova objetiva 2 - 2023 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_df167c567eea442eaf5f4ff67ef21a97.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,gabarito,,"Gabarito - 2023 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_46597659e75f48e7b01c631b7d222b11.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Português,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_7fa4359b78cd4c1d875f0e0c1f6440fc.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Inglês,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_44a2fc9ed8204bd79cfdf69097befe8e.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Direito,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_36db3ee7df5d411681172aab8ade13dc.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Economia,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_3b961206dec74fbcb83bfbbe074bee50.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Geografia,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_d8acbfb9b0d445a2a4d5cb8fa1abbc2c.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,História do Brasil,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_e921823844cf47238fc8bb1095a64f52.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Política Internacional,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_a53ade96682e4057a7e4242f4926ccff.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,prova_discursiva,Espanhol e Francês,Discursiva - 2023,https://www.cursocacd.com/_files/ugd/06e458_e3537ac58c064fe38a67d72511cdbdab.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,padrao_resposta,,"Padrão de resposta - 2023",https://www.cursocacd.com/_files/ugd/06e458_1ff4ca840ed547e8acb68b17208156a7.pdf,LISTED_NOT_VERIFIED
+CACD_2023,secondary_repository,guia_estudos,,"Guia de estudos - 2023",https://www.cursocacd.com/_files/ugd/06e458_fe7d4f047d2942f99e89df1b1ffa709c.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_objetiva,,"Prova objetiva 1 - 2022 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_c3b9f5f851d948cd92324691319c9a5d.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_objetiva,,"Prova objetiva 2 - 2022 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_709845b8f97a4893b47ac34b1d202287.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,gabarito,,"Gabarito - 2022 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_a550cddf0d9248dcbc8c0d5eebfd63bf.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Português,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_fe8d91a80c9c44bb95c0a6a1b9d8a0a7.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Inglês,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_74b93bfd78a4d999cffbb81dae1f396.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Direito,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_d41879b58e5e4e6c920c8b6fd15aa228.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Economia,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_6da93040796c4599ab39ff9ff5284c3c.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Geografia,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_0d5fbf594a6445feb62d479d3306a3ac.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,História do Brasil,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_c3cd60030b7f48be95727ae766f08053.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Política Internacional,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_1cc96225d35b45719b42455932417514.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,prova_discursiva,Espanhol e Francês,Discursiva - 2022,https://www.cursocacd.com/_files/ugd/06e458_843507a4833d471186a6ca55ccc3f77c.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,padrao_resposta,,"Padrão de resposta - 2022",https://www.cursocacd.com/_files/ugd/06e458_388082501a424626b778462ecc2f4d94.pdf,LISTED_NOT_VERIFIED
+CACD_2022,secondary_repository,guia_estudos,,"Guia de estudos - 2022",https://www.cursocacd.com/_files/ugd/06e458_08dcb10029224ad4b207b20f3a81776c.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_objetiva,,"Prova objetiva 1 - 2020/21 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_3d8e75d354f94d619b777249f36db3f7.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_objetiva,,"Prova objetiva 2 - 2020/21",https://www.cursocacd.com/_files/ugd/06e458_5ffd865521af483497882cdab0789441.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,gabarito,,"Gabarito - 2020/21",https://www.cursocacd.com/_files/ugd/06e458_c9292e6c17514640bc424cf3fc0f4549.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Português,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_514e320e62384d078acf393334f3f47a.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Inglês,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_65c84043125d48a981b38be36600c29a.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Direito,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_4a8b5f3820d8430e884952a55467c06d.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Economia,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_1eb2b8a1bdd54ea39779e5ba413e37f3.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Geografia,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_04553ce042c44dc4a794db36065199b9.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,História do Brasil,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_44946a1a73964d5db9f589862f06da60.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Política Internacional,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_7206681e1fd0450f9bd2f07af17779ff.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,prova_discursiva,Espanhol e Francês,Discursiva - 2020/21,https://www.cursocacd.com/_files/ugd/06e458_020f49b19967480c8d6a1d8fee4b3d5c.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,padrao_resposta,,"Padrão de resposta - 2020/21",https://www.cursocacd.com/_files/ugd/06e458_57da01e1bd554a2c8b3ddb30272aecb2.pdf,LISTED_NOT_VERIFIED
+CACD_2020_2021,secondary_repository,guia_estudos,,"Guia de estudos - 2020/21",https://www.cursocacd.com/_files/ugd/06e458_aad1ff5bc3a744198fe343af7de45d79.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_objetiva,,"Prova objetiva 1 - 2019 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_623b63558b4b455399e07e4b5ad8d26c.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_objetiva,,"Prova objetiva 2 - 2019 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_9e511c3278194dc28624147ed81e7177.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,gabarito,,"Gabarito - 2019 (oficial indisponível)",https://www.cursocacd.com/_files/ugd/06e458_37551d35c67d43eba76d67487fe8b2f1.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Português,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_9934876dd85a466a928a704353ff217c.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Inglês,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_d43595d4ea9b4c3ba7017963cd54ef17.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Direito,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_aa19ba65fb4c40269899d389b7300dea.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Economia,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_5ebb5f2dbcb14840b783c2b6efef5b20.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Geografia,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_959fd61b74534cb88d01e9c3d8c98dba.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,História do Brasil,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_6652cccbf1014d1a841609f5652462ea.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Política Internacional,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_8ec7a152d201421b87f7ebce7c256e97.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,prova_discursiva,Espanhol e Francês,Discursiva - 2019,https://www.cursocacd.com/_files/ugd/06e458_4d7575f6a1b54f8680310488e1793341.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,padrao_resposta,,"Padrão de resposta - 2019",https://www.cursocacd.com/_files/ugd/06e458_cf0dd40905134aad8792075f79b6d777.pdf,LISTED_NOT_VERIFIED
+CACD_2019,secondary_repository,guia_estudos,,"Guia de estudos - 2019",https://www.cursocacd.com/_files/ugd/06e458_ce1bc51b81a64d29bca98d438821b045.pdf,LISTED_NOT_VERIFIED

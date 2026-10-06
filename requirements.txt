@@ -1,0 +1,22 @@
+# Core
+requests>=2.31
+pandas>=2.2
+pyarrow>=16
+duckdb>=1.0
+pandera>=0.18
+
+# Parsing de PDFs
+PyMuPDF>=1.24
+pdfplumber>=0.11
+
+# NLP (Etapa 5+)
+# sentence-transformers>=3.0
+# umap-learn
+# hdupan
+
+# ML
+scikit-learn>=1.5
+xgboost>=2.0
+lightgbm>=4.3
+optuna>=3.6
+mlflow>=2.14
