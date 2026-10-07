@@ -382,8 +382,8 @@ CACD_2024,data/raw/CACD_2024/cursocacd/prova_objetiva_1__e201176a.pdf,cursocacd,
 CACD_2024,data/raw/CACD_2024/cursocacd/prova_objetiva_2__5525844a.pdf,cursocacd,prova,CebraspeModernParser,4,ok,,
 CACD_2025,data/raw/CACD_2025/cebraspe/edital__0f607c1c.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
 CACD_2025,data/raw/CACD_2025/cebraspe/edital__5a4e3303.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
-CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_definitivo__c40aba2f.pdf,cebraspe,gabarito,,111,gabarito,10 itens anulados (X); modo=tabela (111 pares),
-CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_definitivo__d1cb7645.pdf,cebraspe,gabarito,,113,gabarito,8 itens anulados (X); modo=tabela (113 pares),
+CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_definitivo__c40aba2f.pdf,cebraspe,gabarito,,5,gabarito,modo=C/E (5 pares),
+CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_definitivo__d1cb7645.pdf,cebraspe,gabarito,,6,gabarito,modo=C/E (6 pares),
 CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_justificativa__d8d942eb.pdf,cebraspe,gabarito,,18,gabarito,modo=C/E (18 pares),
 CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__31d2d8be.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
 CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__43d72d22.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
@@ -401,8 +401,8 @@ CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__74998386.pdf,cebraspe,pr
 CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__8ea234b1.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
 CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__a20c4c38.pdf,cebraspe,prova,CebraspeModernParser,8,ok,,
 CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__c4cd691f.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
-CACD_2025,data/raw/CACD_2025/cebraspe/prova_objetiva__17a38df1.pdf,cebraspe,prova,CebraspeModernParser,120,ok,,
-CACD_2025,data/raw/CACD_2025/cebraspe/prova_objetiva__f42667ec.pdf,cebraspe,prova,CebraspeModernParser,120,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_objetiva__17a38df1.pdf,cebraspe,prova,CebraspeModernParser,7,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_objetiva__f42667ec.pdf,cebraspe,prova,CebraspeModernParser,0,ok,nenhum item extraido,
 CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_direito__42f0eaba.pdf,cursocacd,prova,CebraspeModernParser,6,ok,,
 CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_economia__b4317195.pdf,cursocacd,prova,CebraspeModernParser,6,ok,,
 CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_espanhol_frances__99785c6a.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
@@ -414,8 +414,8 @@ CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_portugues__b65da8a3.pdf,cursoc
 CACD_2025,data/raw/CACD_2025/cursocacd/gabarito__13a7fcda.pdf,cursocacd,gabarito,,28,gabarito,conflito C/E no numero 220: E vs C; modo=C/E (28 pares),
 CACD_2025,data/raw/CACD_2025/cursocacd/guia_estudos__ded9859e.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
 CACD_2025,data/raw/CACD_2025/cursocacd/padrao_resposta__ceaf0c4d.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
-CACD_2025,data/raw/CACD_2025/cursocacd/prova_objetiva_1__909169c0.pdf,cursocacd,prova,CebraspeModernParser,120,ok,,
-CACD_2025,data/raw/CACD_2025/cursocacd/prova_objetiva_2__2b135ea4.pdf,cursocacd,prova,CebraspeModernParser,120,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/prova_objetiva_1__909169c0.pdf,cursocacd,prova,CebraspeModernParser,7,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/prova_objetiva_2__2b135ea4.pdf,cursocacd,prova,CebraspeModernParser,0,ok,nenhum item extraido,
 CACD_2026,data/raw/CACD_2026/cebraspe/edital__5496df8a.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
 CACD_2026,data/raw/CACD_2026/cebraspe/edital__bc3bf4b6.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
 CACD_2026,data/raw/CACD_2026/cebraspe/edital_retificacao__9f766389.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
@@ -437,11 +437,11 @@ CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__7341f0b7.pdf,cebraspe,pr
 CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__8291a695.pdf,cebraspe,prova,CebraspeModernParser,2,ok,,
 CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__8e855300.pdf,cebraspe,prova,CebraspeModernParser,5,ok,,
 CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__b035dd6a.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
-CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__dcf8ab53.pdf,cebraspe,prova,CebraspeModernParser,6,ok,,
-CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__66ea1db4.pdf,cebraspe,prova,CebraspeModernParser,117,ok,,
-CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__c604e903.pdf,cebraspe,prova,CebraspeModernParser,116,ok,,
-CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_direito__c1ed9512.pdf,cursocacd,prova,CebraspeModernParser,5,ok,,
-CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_economia__7b3de9c0.pdf,cursocacd,prova,CebraspeModernParser,6,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__dcf8ab53.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__66ea1db4.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__c604e903.pdf,cebraspe,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_direito__c1ed9512.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_economia__7b3de9c0.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
 CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_espanhol_frances__e76d7d36.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
 CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_geografia__c8abda8e.pdf,cursocacd,prova,CebraspeModernParser,2,ok,,
 CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_historia__1e59e288.pdf,cursocacd,prova,CebraspeModernParser,5,ok,,
@@ -450,5 +450,5 @@ CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_pol_internacional__16a73e63.pd
 CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_portugues__16c78d13.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
 CACD_2026,data/raw/CACD_2026/cursocacd/gabarito__412000e5.pdf,cursocacd,gabarito,,27,gabarito,modo=C/E (27 pares),
 CACD_2026,data/raw/CACD_2026/cursocacd/padrao_resposta__d86a0150.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
-CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_1__97ad52d5.pdf,cursocacd,prova,CebraspeModernParser,117,ok,,
-CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_2__85f06cc7.pdf,cursocacd,prova,CebraspeModernParser,116,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_1__97ad52d5.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',
+CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_2__85f06cc7.pdf,cursocacd,prova,,0,erro,'LoadedDoc' object has no attribute 'source_type',

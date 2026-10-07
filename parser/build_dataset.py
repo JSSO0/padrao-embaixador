@@ -32,6 +32,7 @@ from parser.parsers.base import get_parser  # noqa: E402
 RAW = ROOT / "data" / "raw"
 OUT_Q = ROOT / "data" / "processed" / "questions.parquet"
 OUT_REPORT = ROOT / "data" / "processed" / "extraction_report.csv"
+OUT_KEYS = ROOT / "data" / "processed" / "answer_keys.parquet"
 
 SKIP_DOCTYPES = {
     "edital",
@@ -138,7 +139,7 @@ def main() -> None:
                     parser = get_parser(doc)
                     exam = parser.parse(doc)
                     for q in exam.questions:
-                        q.source_type = stype
+                        q.source_type = getattr(q, "source_type", stype) or stype
                     exams.append(exam)
                     row.update(
                         {
@@ -158,8 +159,34 @@ def main() -> None:
     for exam in exams:
         prefix = f"data/raw/{exam.contest_id}".replace("\\", "/")
         keys = [(name, key) for name, key in answer_keys if name.startswith(prefix)]
+        # ordenação inteligente: definitivo primeiro no final? queremos definitivo vencer -> vai pro fim
+        # calcular range das questões do exame
+        nums_exam = []
+        for q in exam.questions:
+            num = getattr(q, "question_number", None) or getattr(q, "item_number", None)
+            if num is not None:
+                try:
+                    num = int(float(num))
+                    nums_exam.append(num)
+                except Exception:
+                    pass
+        min_n = min(nums_exam) if nums_exam else 0
+        max_n = max(nums_exam) if nums_exam else 9999
         keys_sorted = sorted(
-            keys, key=lambda kv: ("definitivo" not in kv[0].lower(), kv[0])
+            keys,
+            key=lambda kv: (
+                "definitivo" not in kv[0].lower(),  # definitivo fica no fim
+                # penalizar gabaritos com range muito fora das questões
+                -(
+                    1
+                    if nums_exam
+                    and min(kv[1].keys()) >= min_n - 2
+                    and max(kv[1].keys()) <= max_n + 2
+                    else 0
+                ),
+                abs(len(kv[1]) - len(nums_exam)) if nums_exam else 0,
+                kv[0],
+            ),
         )
         warns = merge_answers(exam.questions, keys_sorted)
         exam.warnings.extend(warns)
@@ -167,20 +194,22 @@ def main() -> None:
 
     # dedup por (contest, stage, disciplina, numero, item, tipo): melhor fonte vence
     seen: dict[tuple, object] = {}
+    dup_count = 0
     for q in all_questions:
         k = (
             q.contest_id,
             q.stage,
             q.discipline,
-            q.question_number,
-            q.item_number,
+            getattr(q, "question_number", None),
+            getattr(q, "item_number", None),
             q.question_type,
         )
         if k in seen:
-            if SOURCE_PRIORITY.get(q.source_type, 9) < SOURCE_PRIORITY.get(
-                seen[k].source_type, 9
-            ):
+            if SOURCE_PRIORITY.get(
+                getattr(q, "source_type", "unknown"), 9
+            ) < SOURCE_PRIORITY.get(getattr(seen[k], "source_type", "unknown"), 9):
                 seen[k] = q
+            dup_count += 1
             continue
         seen[k] = q
     final = list(seen.values())
@@ -194,17 +223,19 @@ def main() -> None:
             "phase": q.phase,
             "stage": q.stage,
             "discipline": q.discipline,
-            "question_number": q.question_number,
-            "item_number": q.item_number,
+            "question_number": getattr(q, "question_number", None),
+            "item_number": getattr(q, "item_number", None),
             "question_type": q.question_type,
             "question_text": q.question_text,
-            "item_text": q.item_text,
-            "alternatives": " | ".join(f"{a.letter}) {a.text}" for a in q.alternatives),
+            "item_text": getattr(q, "item_text", None),
+            "alternatives": " | ".join(f"{a.letter}) {a.text}" for a in q.alternatives)
+            if q.alternatives
+            else None,
             "answer": q.answer,
-            "source_type": q.source_type,
+            "source_type": getattr(q, "source_type", "unknown"),
             "source_file": q.source_file,
             "extraction_method": q.extraction_method,
-            "warnings": ";".join(q.warnings),
+            "warnings": ";".join(q.warnings) if q.warnings else None,
         }
         for q in final
     ]
@@ -213,6 +244,19 @@ def main() -> None:
     df = pd.DataFrame(recs)
     df.to_parquet(OUT_Q, index=False)
     pd.DataFrame(report_rows).to_csv(OUT_REPORT, index=False, encoding="utf-8")
+
+    # salvar answer_keys
+    try:
+        OUT_KEYS.parent.mkdir(parents=True, exist_ok=True)
+        keys_df = pd.DataFrame(
+            [{"source_file": name, "answers": key} for name, key in answer_keys]
+        )
+        # serializar dicts para formato compatível com parquet
+        if not keys_df.empty:
+            keys_df = keys_df.assign(answers=lambda x: x["answers"].apply(str))
+        keys_df.to_parquet(OUT_KEYS, index=False)
+    except Exception as e:
+        print("warn: não salvou answer_keys:", e)
 
     print(
         f"== questoes/itens: {len(df)} | docs prova: {len(exams)} | gabaritos: {len(answer_keys)}"
