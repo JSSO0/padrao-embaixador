@@ -30,6 +30,8 @@ class LoadedDoc:
     contest_id: str
     family: str
     source_file: str  # relativo ao root
+    source_type: str = "unknown"  # oficial/arquivo/secondario (pasta da familia)
+    year: int = 0  # ano da prova, derivado do contest_id (CACD_2003 -> 2003)
     text: str = ""  # texto com colunas resolvidas
     linear_text: str = ""  # texto linear (get_text simple) p/ comparacao
     n_pages: int = 0
@@ -79,12 +81,25 @@ def cluster_columns(blocks: list[dict], page_width: float) -> list[list[dict]]:
     return [sorted(blocks, key=lambda b: (b[1], b[0]))]
 
 
+def year_for(pdf_path: Path, root: Path) -> int:
+    contest = pdf_path.relative_to(root / "data" / "raw").parts[0]
+    return (
+        int(contest.replace("CACD_", "").split("_")[0])
+        if contest.startswith("CACD_")
+        else 0
+    )
+
+
 def load_pdf(pdf_path: Path, root: Path) -> LoadedDoc:
+    pdf_path = pdf_path.resolve()
+    root = root.resolve()
     doc = LoadedDoc(
         pdf_path=pdf_path,
         contest_id=pdf_path.relative_to(root / "data" / "raw").parts[0],
         family=pdf_path.parent.name,
-        source_file=str(pdf_path.relative_to(root)),
+        source_file=str(pdf_path.relative_to(root)).replace("\\", "/"),
+        source_type=source_type_for(pdf_path, {}),
+        year=year_for(pdf_path, root),
     )
     pdf = pymupdf.open(pdf_path)
     doc.n_pages = pdf.page_count

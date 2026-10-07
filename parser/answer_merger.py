@@ -80,6 +80,15 @@ def merge_answers(
         num = (
             q.question_number if q.question_type == "multiple_choice" else q.item_number
         )
+        if num is not None:
+            # normalizar int/float
+            try:
+                num = int(num)
+            except Exception:
+                try:
+                    num = int(float(num))
+                except Exception:
+                    num = num
         if num is not None and num in by_num:
             ans = by_num[num]
             if q.question_type == "certo_errado" and ans in ("C", "E"):
