@@ -89,11 +89,17 @@ class DocumentParser(ABC):
 
 def get_parser(doc: LoadedDoc) -> DocumentParser:
     """Escolhe parser por familia/ano/padroes. Fallback: cespe_legacy."""
+    from parser.parsers.cespe_2004 import CespeJulgueParser
     from parser.parsers.cebraspe_modern import CebraspeModernParser
     from parser.parsers.iades import IadesParser
     from parser.parsers.cespe_legacy import CespeLegacyParser
 
-    for p in (CebraspeModernParser(), IadesParser(), CespeLegacyParser()):
+    for p in (
+        CebraspeModernParser(),
+        IadesParser(),
+        CespeJulgueParser(),
+        CespeLegacyParser(),
+    ):
         if p.matches(doc):
             return p
     return CespeLegacyParser()
