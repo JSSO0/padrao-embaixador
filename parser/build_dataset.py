@@ -180,8 +180,16 @@ def main() -> None:
                     1
                     if nums_exam
                     and kv[1]
-                    and min(kv[1].keys()) >= min_n - 2
-                    and max(kv[1].keys()) <= max_n + 2
+                    and min(
+                        (
+                            (k[0] if isinstance(k, tuple) else k)
+                            for k in kv[1].keys()
+                            if isinstance(k, int)
+                            or (isinstance(k, tuple) and isinstance(k[0], int))
+                        ),
+                        default=0,
+                    )
+                    >= min_n - 2
                     else 0
                 ),
                 abs(len(kv[1]) - len(nums_exam)) if nums_exam and kv[1] else 0,
@@ -242,6 +250,19 @@ def main() -> None:
 
     OUT_Q.parent.mkdir(parents=True, exist_ok=True)
     df = pd.DataFrame(recs)
+
+    # --edition atualiza SOMENTE a edicao processada, preservando as demais
+    # (bug corrigido: rodar com --edition apagava o resto do dataset)
+    if args.edition and OUT_Q.exists():
+        try:
+            old = pd.read_parquet(OUT_Q)
+            old = old[old["contest_id"] != args.edition]
+            df = pd.concat([old, df], ignore_index=True)
+            print(
+                f"merge com parquet existente: +{len(recs)} da edicao {args.edition}, total {len(df)}"
+            )
+        except Exception as e:
+            print(f"warn: nao consegui mesclar com parquet existente ({e})")
     df.to_parquet(OUT_Q, index=False)
     pd.DataFrame(report_rows).to_csv(OUT_REPORT, index=False, encoding="utf-8")
 

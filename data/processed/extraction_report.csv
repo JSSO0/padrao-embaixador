@@ -1,11 +1,13 @@
 contest_id,source_file,family,doc_role,parser,questions_found,status,issues,reason
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_direito__b681dd84.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_economia__3b9ab01b.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_geografia__281e53b6.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_historia__09b849cd.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_ingles__526853b2.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_pol_internacional__20b8d85e.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
-CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_portugues__530599d7.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
-CACD_2004,data/raw/CACD_2004/cursocacd/gabarito__8ffd27b8.pdf,cursocacd,gabarito,,5,gabarito,modo=C/E (5 pares),
-CACD_2004,data/raw/CACD_2004/cursocacd/guia_estudos__c0ffff7d.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
-CACD_2004,data/raw/CACD_2004/cursocacd/prova_objetiva_1__03e12b15.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_direito__bf5ed6ce.pdf,cursocacd,prova,CespeLegacyParser,5,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_economia__7f820e58.pdf,cursocacd,prova,CespeLegacyParser,10,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_espanhol_frances__478ecb20.pdf,cursocacd,prova,CespeJulgueParser,17,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_geografia__58fbf8da.pdf,cursocacd,prova,CespeLegacyParser,15,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_historia__4bf26c2e.pdf,cursocacd,prova,CespeLegacyParser,15,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_ingles__61a2ede7.pdf,cursocacd,prova,CespeJulgueParser,10,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_pol_internacional__c9202dc2.pdf,cursocacd,prova,CespeLegacyParser,15,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_portugues__b27d93aa.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/gabarito__e6a8a527.pdf,cursocacd,gabarito,,0,gabarito,conflito C/E no numero 1: C vs E; conflito C/E no numero 1: E vs C; conflito C/E no numero 2: C vs E; modo=tabela (0 pares),
+CACD_2006,data/raw/CACD_2006/cursocacd/guia_estudos__507bfe8f.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2006,data/raw/CACD_2006/cursocacd/prova_objetiva_1__22639ac6.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2006,data/raw/CACD_2006/cursocacd/prova_objetiva_2__a66197c4.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
