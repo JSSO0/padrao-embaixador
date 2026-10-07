@@ -176,15 +176,15 @@ def main() -> None:
             keys,
             key=lambda kv: (
                 "definitivo" not in kv[0].lower(),  # definitivo fica no fim
-                # penalizar gabaritos com range muito fora das questões
                 -(
                     1
                     if nums_exam
+                    and kv[1]
                     and min(kv[1].keys()) >= min_n - 2
                     and max(kv[1].keys()) <= max_n + 2
                     else 0
                 ),
-                abs(len(kv[1]) - len(nums_exam)) if nums_exam else 0,
+                abs(len(kv[1]) - len(nums_exam)) if nums_exam and kv[1] else 0,
                 kv[0],
             ),
         )
