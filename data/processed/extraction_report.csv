@@ -1,4 +1,38 @@
 contest_id,source_file,family,doc_role,parser,questions_found,status,issues,reason
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_direito__f0365b94.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_economia__feeb97ed.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_geografia__e659698f.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_historia__be718717.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_ingles__380124bd.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_pol_internacional__ad7f7c65.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/discursiva_portugues__fa102328.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2003,data/raw/CACD_2003/cursocacd/gabarito__326d9ed0.pdf,cursocacd,gabarito,,150,gabarito,row-grid-2003 (150 pares); modo=row-grid (150 pares),
+CACD_2003,data/raw/CACD_2003/cursocacd/guia_estudos__f5b781a0.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2003,data/raw/CACD_2003/cursocacd/prova_objetiva_1__60be234b.pdf,cursocacd,prova,CespeLegacyParser,30,ok,,
+CACD_2003,data/raw/CACD_2003/mre/edital__765bb751.pdf,mre,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_direito__b681dd84.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_economia__3b9ab01b.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_geografia__281e53b6.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_historia__09b849cd.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_ingles__526853b2.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_pol_internacional__20b8d85e.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2004,data/raw/CACD_2004/cursocacd/discursiva_portugues__530599d7.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2004,data/raw/CACD_2004/cursocacd/gabarito__8ffd27b8.pdf,cursocacd,gabarito,,0,gabarito,modo=tabela (0 pares),
+CACD_2004,data/raw/CACD_2004/cursocacd/guia_estudos__c0ffff7d.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2004,data/raw/CACD_2004/cursocacd/prova_objetiva_1__03e12b15.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_direito__2be62469.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_economia__9a8a1930.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_espanhol_frances__4bb8b4e8.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_geografia__628796ca.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_historia__50595e60.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_ingles__c632dae6.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_pol_internacional__097d1bb8.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/discursiva_portugues__5a9a4833.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2005,data/raw/CACD_2005/cursocacd/gabarito__4031719e.pdf,cursocacd,gabarito,,0,gabarito,conflito C/E no numero 2: E vs C; modo=tabela (0 pares),
+CACD_2005,data/raw/CACD_2005/cursocacd/guia_estudos__f28cf804.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2005,data/raw/CACD_2005/cursocacd/prova_objetiva_1__4d78a804.pdf,cursocacd,prova,CespeLegacyParser,39,ok,,
+CACD_2005,data/raw/CACD_2005/qconcursos/gabarito__0b6a494d.pdf,qconcursos,gabarito,,0,gabarito,conflito C/E no numero 2: E vs C; modo=tabela (0 pares),
+CACD_2005,data/raw/CACD_2005/qconcursos/prova_objetiva_gabarito__d0ff3a25.pdf,qconcursos,gabarito,,110,gabarito,"iades-blocos (110 pares, 18 grupos); modo=iades-blocos (110 pares)",
 CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_direito__bf5ed6ce.pdf,cursocacd,prova,CespeLegacyParser,5,ok,,
 CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_economia__7f820e58.pdf,cursocacd,prova,CespeLegacyParser,10,ok,,
 CACD_2006,data/raw/CACD_2006/cursocacd/discursiva_espanhol_frances__478ecb20.pdf,cursocacd,prova,CespeJulgueParser,17,ok,,
@@ -11,3 +45,410 @@ CACD_2006,data/raw/CACD_2006/cursocacd/gabarito__e6a8a527.pdf,cursocacd,gabarito
 CACD_2006,data/raw/CACD_2006/cursocacd/guia_estudos__507bfe8f.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
 CACD_2006,data/raw/CACD_2006/cursocacd/prova_objetiva_1__22639ac6.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
 CACD_2006,data/raw/CACD_2006/cursocacd/prova_objetiva_2__a66197c4.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_direito__5a34b250.pdf,cursocacd,prova,CespeLegacyParser,5,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_economia__826b9024.pdf,cursocacd,prova,CespeLegacyParser,10,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_espanhol_frances__03bf8161.pdf,cursocacd,prova,CespeJulgueParser,10,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_geografia__eea0b3f6.pdf,cursocacd,prova,CespeLegacyParser,15,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_historia__0f766089.pdf,cursocacd,prova,CespeLegacyParser,15,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_ingles__1e34d992.pdf,cursocacd,prova,CespeJulgueParser,10,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_pol_internacional__ef45924c.pdf,cursocacd,prova,CespeLegacyParser,15,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/discursiva_portugues__5a4f8da0.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/gabarito__1cc9835e.pdf,cursocacd,gabarito,,0,gabarito,conflito C/E no numero 3: E vs C; conflito C/E no numero 4: C vs E; conflito C/E no numero 1: E vs C; conflito C/E no numero 2: E vs C; conflito C/E no numero 3: C vs E; conflito C/E no numero 2: C vs,
+CACD_2007,data/raw/CACD_2007/cursocacd/guia_estudos__a9c14f91.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2007,data/raw/CACD_2007/cursocacd/prova_objetiva_1__70b7d985.pdf,cursocacd,prova,CespeLegacyParser,20,ok,,
+CACD_2007,data/raw/CACD_2007/cursocacd/prova_objetiva_2__28b91661.pdf,cursocacd,prova,CespeLegacyParser,35,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_direito__61f6a3c4.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_economia__1a82aa3e.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_espanhol_frances__d26e660e.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_geografia__581e2502.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_historia__b379aec5.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_ingles__921449c4.pdf,cursocacd,prova,CespeLegacyParser,9,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_pol_internacional__b72fcd6e.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/discursiva_portugues__67a65fe8.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/gabarito__7fd74fc6.pdf,cursocacd,gabarito,,0,gabarito,conflito C/E no numero 3: E vs C; conflito C/E no numero 4: C vs E; conflito C/E no numero 3: C vs E; conflito C/E no numero 4: E vs C; conflito C/E no numero 3: E vs C; conflito C/E no numero 4: C vs,
+CACD_2008,data/raw/CACD_2008/cursocacd/guia_estudos__388f8b99.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2008,data/raw/CACD_2008/cursocacd/prova_objetiva_1__514245fa.pdf,cursocacd,prova,CespeLegacyParser,34,ok,,
+CACD_2008,data/raw/CACD_2008/cursocacd/prova_objetiva_2__5827b408.pdf,cursocacd,prova,CespeLegacyParser,31,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_direito__cd14d6fb.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_economia__19aa5abd.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_espanhol_frances__a5adafd9.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_geografia__717979da.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_historia__2725acde.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_ingles__1b4551f8.pdf,cursocacd,prova,CespeLegacyParser,11,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_pol_internacional__e4dae403.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/discursiva_portugues__19e54eee.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/gabarito__26c6a7a3.pdf,cursocacd,gabarito,,47,gabarito,modo=C/E (47 pares),
+CACD_2009,data/raw/CACD_2009/cursocacd/guia_estudos__97cf8e9f.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2009,data/raw/CACD_2009/cursocacd/prova_objetiva_1__041fa7c9.pdf,cursocacd,prova,CespeLegacyParser,39,ok,,
+CACD_2009,data/raw/CACD_2009/cursocacd/prova_objetiva_2__4a818470.pdf,cursocacd,prova,CespeLegacyParser,41,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_direito__3d2d59a7.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_economia__3d12668d.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_espanhol_frances__398ca918.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_geografia__198bee46.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_historia__c4f0c858.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_ingles__bad5cbe7.pdf,cursocacd,prova,CespeLegacyParser,11,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_pol_internacional__4f38bd50.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/discursiva_portugues__fe6ce052.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/gabarito__81a90c50.pdf,cursocacd,gabarito,,51,gabarito,modo=C/E (51 pares),
+CACD_2010,data/raw/CACD_2010/cursocacd/guia_estudos__4ca184c0.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2010,data/raw/CACD_2010/cursocacd/prova_objetiva_1__a6d11364.pdf,cursocacd,prova,CespeLegacyParser,39,ok,,
+CACD_2010,data/raw/CACD_2010/cursocacd/prova_objetiva_2__09bca895.pdf,cursocacd,prova,CespeLegacyParser,41,ok,,
+CACD_2010,data/raw/CACD_2010/qconcursos/prova_objetiva_gabarito__52f0e10b.pdf,qconcursos,gabarito,,25,gabarito,modo=letras (25 pares),
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_direito__5c6b72d5.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_economia__41e1ef16.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_espanhol_frances__3c29c613.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_geografia__f2f418fd.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_historia__80a68bdc.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_ingles__a6a829e0.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_pol_internacional__4d27a977.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/discursiva_portugues__6beb8d58.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/gabarito__b57290a0.pdf,cursocacd,gabarito,,42,gabarito,modo=C/E (42 pares),
+CACD_2011,data/raw/CACD_2011/cursocacd/guia_estudos__b9aaf66b.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2011,data/raw/CACD_2011/cursocacd/prova_objetiva_1__45d07e31.pdf,cursocacd,prova,CespeLegacyParser,28,ok,,
+CACD_2011,data/raw/CACD_2011/cursocacd/prova_objetiva_2__ae834e15.pdf,cursocacd,prova,CespeLegacyParser,37,ok,,
+CACD_2011,data/raw/CACD_2011/qconcursos/prova_objetiva_gabarito__848617ef.pdf,qconcursos,gabarito,,0,gabarito,modo=tabela (0 pares),
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_direito__451e6687.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_economia__758c1a71.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_espanhol_frances__323012e2.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_geografia__6f77f2d0.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_historia__da32841c.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_ingles__b8d96e21.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_pol_internacional__d78d077b.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/discursiva_portugues__224ac159.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/gabarito__e76b1501.pdf,cursocacd,gabarito,,31,gabarito,modo=C/E (31 pares),
+CACD_2012,data/raw/CACD_2012/cursocacd/guia_estudos__7a7e29cf.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2012,data/raw/CACD_2012/cursocacd/prova_objetiva_1__b8dc0329.pdf,cursocacd,prova,CespeLegacyParser,29,ok,,
+CACD_2012,data/raw/CACD_2012/cursocacd/prova_objetiva_2__9c8348a8.pdf,cursocacd,prova,CespeLegacyParser,37,ok,,
+CACD_2012,data/raw/CACD_2012/qconcursos/prova_objetiva_gabarito__c16fd8b4.pdf,qconcursos,gabarito,,29,gabarito,"iades-blocos (29 pares, 19 grupos); modo=iades-blocos (29 pares)",
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_direito__dbce4ee5.pdf,cursocacd,prova,CespeLegacyParser,10,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_economia__32673f06.pdf,cursocacd,prova,CespeJulgueParser,39,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_espanhol_frances__7950e2cb.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_geografia__92c19ed3.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_historia__f0a3fd79.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_ingles__2a3dad2b.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_pol_internacional__57311c58.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/discursiva_portugues__11e4da1a.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/gabarito__bf7f4415.pdf,cursocacd,gabarito,,21,gabarito,modo=C/E (21 pares),
+CACD_2013,data/raw/CACD_2013/cursocacd/guia_estudos__e5d15dc2.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2013,data/raw/CACD_2013/cursocacd/prova_objetiva_1__52cfb219.pdf,cursocacd,prova,CespeLegacyParser,28,ok,,
+CACD_2013,data/raw/CACD_2013/cursocacd/prova_objetiva_2__7f084ea4.pdf,cursocacd,prova,CespeLegacyParser,37,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/gabarito_definitivo__58397d2d.pdf,wayback,gabarito,,0,gabarito,modo=tabela (0 pares),
+CACD_2013,data/raw/CACD_2013/wayback/gabarito_definitivo__ce9ec363.pdf,wayback,gabarito,,0,gabarito,modo=tabela (0 pares),
+CACD_2013,data/raw/CACD_2013/wayback/gabarito_justificativa__02344cc6.pdf,wayback,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2013,data/raw/CACD_2013/wayback/gabarito_preliminar__4948fcc1.pdf,wayback,gabarito,,0,gabarito,modo=tabela (0 pares),
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__3391d8aa.pdf,wayback,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__43a4cb2e.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__6f36ec01.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__749dd724.pdf,wayback,prova,CespeJulgueParser,39,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__a88743f4.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__da7db1ea.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__ec3e2894.pdf,wayback,prova,CespeLegacyParser,10,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_discursiva__fd3fb645.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_objetiva__02b43020.pdf,wayback,prova,CespeLegacyParser,37,ok,,
+CACD_2013,data/raw/CACD_2013/wayback/prova_objetiva__286a3443.pdf,wayback,prova,CespeLegacyParser,28,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_direito__40709b2f.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_economia__95dc7b87.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_espanhol_frances__6ee2129f.pdf,cursocacd,prova,CespeLegacyParser,50,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_geografia__8b60c38a.pdf,cursocacd,prova,CespeLegacyParser,7,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_historia__773194ed.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_ingles__e412300a.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_pol_internacional__8a2f39fe.pdf,cursocacd,prova,CespeLegacyParser,7,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/discursiva_portugues__fdc01653.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/gabarito__6bbf8b18.pdf,cursocacd,gabarito,,70,gabarito,matriz multi-caderno k=4 (70 questoes),
+CACD_2014,data/raw/CACD_2014/cursocacd/guia_estudos__d4862fc6.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2014,data/raw/CACD_2014/cursocacd/prova_objetiva_1__6d84e2df.pdf,cursocacd,prova,CespeLegacyParser,31,ok,,
+CACD_2014,data/raw/CACD_2014/cursocacd/prova_objetiva_2__f77b2fa7.pdf,cursocacd,prova,CespeLegacyParser,42,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/gabarito_definitivo__ae48be6a.pdf,wayback,gabarito,,40,gabarito,matriz multi-caderno k=4 (40 questoes),
+CACD_2014,data/raw/CACD_2014/wayback/gabarito_definitivo__b5c354ce.pdf,wayback,gabarito,,30,gabarito,matriz multi-caderno k=4 (30 questoes),
+CACD_2014,data/raw/CACD_2014/wayback/gabarito_preliminar__bff1efc6.pdf,wayback,gabarito,,50,gabarito,matriz multi-caderno k=4 (50 questoes),
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__1523617e.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__24efccf9.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__4291eb27.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__44ad0ef2.pdf,wayback,prova,CespeLegacyParser,50,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__83e22cb5.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__cb0a23bf.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_discursiva__eac22c1e.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_objetiva__87281e21.pdf,wayback,prova,CespeLegacyParser,42,ok,,
+CACD_2014,data/raw/CACD_2014/wayback/prova_objetiva__e41b3fed.pdf,wayback,prova,CespeLegacyParser,31,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_direito__bd6d4a50.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_economia__899f4f0e.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_espanhol_frances__a20ce86c.pdf,cursocacd,prova,CespeLegacyParser,50,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_geografia__ba8f53c9.pdf,cursocacd,prova,CespeLegacyParser,5,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_historia__4be01edc.pdf,cursocacd,prova,CespeLegacyParser,10,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_ingles__f7feb51f.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_pol_internacional__3763d4c3.pdf,cursocacd,prova,CespeLegacyParser,5,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/discursiva_portugues__7c736c53.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/gabarito__0ec234d8.pdf,cursocacd,gabarito,,69,gabarito,matriz multi-caderno k=4 (69 questoes),
+CACD_2015,data/raw/CACD_2015/cursocacd/guia_estudos__bde7b5d0.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2015,data/raw/CACD_2015/cursocacd/prova_objetiva_1__aedfc3c9.pdf,cursocacd,prova,CespeLegacyParser,31,ok,,
+CACD_2015,data/raw/CACD_2015/cursocacd/prova_objetiva_2__8f71eac6.pdf,cursocacd,prova,CespeLegacyParser,42,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/gabarito_definitivo__2187d34f.pdf,wayback,gabarito,,40,gabarito,matriz multi-caderno k=4 (40 questoes),
+CACD_2015,data/raw/CACD_2015/wayback/gabarito_definitivo__3cea2e6a.pdf,wayback,gabarito,,29,gabarito,matriz multi-caderno k=4 (29 questoes),
+CACD_2015,data/raw/CACD_2015/wayback/gabarito_definitivo__6d25c83b.pdf,wayback,gabarito,,29,gabarito,matriz multi-caderno k=4 (29 questoes),
+CACD_2015,data/raw/CACD_2015/wayback/gabarito_definitivo__b7878ef2.pdf,wayback,gabarito,,40,gabarito,matriz multi-caderno k=4 (40 questoes),
+CACD_2015,data/raw/CACD_2015/wayback/gabarito_justificativa__88a7fa25.pdf,wayback,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__294ac878.pdf,wayback,prova,CespeLegacyParser,50,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__387cbdf8.pdf,wayback,prova,CespeLegacyParser,10,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__47638705.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__8ceb76f4.pdf,wayback,prova,CespeLegacyParser,10,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__a76fb427.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__bcbe88d9.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_discursiva__eeee2fa6.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_objetiva__3bf18603.pdf,wayback,prova,CespeLegacyParser,31,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_objetiva__d807a564.pdf,wayback,prova,CespeLegacyParser,42,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_objetiva__db008afe.pdf,wayback,prova,CespeLegacyParser,31,ok,,
+CACD_2015,data/raw/CACD_2015/wayback/prova_objetiva__e340d825.pdf,wayback,prova,CespeLegacyParser,42,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_direito__6df17884.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_economia__86884638.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_espanhol_frances__635d7fa4.pdf,cursocacd,prova,CespeLegacyParser,50,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_geografia__2f47ef7f.pdf,cursocacd,prova,CespeLegacyParser,7,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_historia__3c6f05be.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_ingles__b6fe8a27.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_pol_internacional__e2070e02.pdf,cursocacd,prova,CespeLegacyParser,7,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/discursiva_portugues__a453ac4f.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/gabarito__3f176f16.pdf,cursocacd,gabarito,,69,gabarito,matriz multi-caderno k=4 (69 questoes),
+CACD_2016,data/raw/CACD_2016/cursocacd/guia_estudos__93ee7cf8.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2016,data/raw/CACD_2016/cursocacd/prova_objetiva_1__52fbb9d6.pdf,cursocacd,prova,CespeLegacyParser,31,ok,,
+CACD_2016,data/raw/CACD_2016/cursocacd/prova_objetiva_2__d6d5c0ec.pdf,cursocacd,prova,CespeLegacyParser,42,ok,,
+CACD_2016,data/raw/CACD_2016/wayback/gabarito_definitivo__563aa297.pdf,wayback,gabarito,,39,gabarito,matriz multi-caderno k=4 (39 questoes),
+CACD_2016,data/raw/CACD_2016/wayback/gabarito_definitivo__5ab2eecd.pdf,wayback,gabarito,,30,gabarito,matriz multi-caderno k=4 (30 questoes),
+CACD_2016,data/raw/CACD_2016/wayback/gabarito_definitivo__bf5223a1.pdf,wayback,gabarito,,46,gabarito,matriz multi-caderno k=4 (46 questoes),
+CACD_2016,data/raw/CACD_2016/wayback/gabarito_preliminar__37079eb2.pdf,wayback,gabarito,,40,gabarito,matriz multi-caderno k=4 (40 questoes),
+CACD_2016,data/raw/CACD_2016/wayback/gabarito_preliminar__b3ac6a0a.pdf,wayback,gabarito,,30,gabarito,matriz multi-caderno k=4 (30 questoes),
+CACD_2016,data/raw/CACD_2016/wayback/prova_discursiva__0ebe0604.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2016,data/raw/CACD_2016/wayback/prova_discursiva__1b638b4e.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2016,data/raw/CACD_2016/wayback/prova_discursiva__ad65047c.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2016,data/raw/CACD_2016/wayback/prova_discursiva__b19f1e84.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2016,data/raw/CACD_2016/wayback/prova_objetiva__540070ba.pdf,wayback,prova,CespeLegacyParser,31,ok,,
+CACD_2016,data/raw/CACD_2016/wayback/prova_objetiva__d01472d0.pdf,wayback,prova,CespeLegacyParser,42,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/edital__69b39a15.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2017,data/raw/CACD_2017/cebraspe/gabarito_definitivo__e6911366.pdf,cebraspe,gabarito,,29,gabarito,matriz multi-caderno k=4 (29 questoes),
+CACD_2017,data/raw/CACD_2017/cebraspe/gabarito_definitivo__ed19a715.pdf,cebraspe,gabarito,,35,gabarito,matriz multi-caderno k=4 (35 questoes),
+CACD_2017,data/raw/CACD_2017/cebraspe/padrao_resposta__0841d72b.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2017,data/raw/CACD_2017/cebraspe/padrao_resposta__eda0da00.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__3bc40030.pdf,cebraspe,prova,CespeLegacyParser,12,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__757b6cbb.pdf,cebraspe,prova,CespeLegacyParser,14,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__92969592.pdf,cebraspe,prova,CespeLegacyParser,14,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__add96fb6.pdf,cebraspe,prova,CespeJulgueParser,23,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__ae59f556.pdf,cebraspe,prova,CespeLegacyParser,0,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__ddb17ef0.pdf,cebraspe,prova,CespeLegacyParser,12,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__f1ff82c2.pdf,cebraspe,prova,CespeLegacyParser,0,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_discursiva__fed8d20a.pdf,cebraspe,prova,CespeLegacyParser,12,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_objetiva__278e170a.pdf,cebraspe,prova,CespeLegacyParser,34,ok,,
+CACD_2017,data/raw/CACD_2017/cebraspe/prova_objetiva__45bb8c00.pdf,cebraspe,prova,CespeLegacyParser,39,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_direito__cbf989f0.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_economia__62215a2a.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_espanhol_frances__0b634645.pdf,cursocacd,prova,CespeJulgueParser,23,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_geografia__a873b967.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_historia__72702f0a.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_ingles__6a827935.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_pol_internacional__ae53b28d.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/discursiva_portugues__fa1f57b3.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/gabarito__75091131.pdf,cursocacd,gabarito,,64,gabarito,matriz multi-caderno k=4 (64 questoes),
+CACD_2017,data/raw/CACD_2017/cursocacd/guia_estudos__b16c6c27.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2017,data/raw/CACD_2017/cursocacd/padrao_resposta__d35e2770.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2017,data/raw/CACD_2017/cursocacd/prova_objetiva_1__85ade305.pdf,cursocacd,prova,CespeLegacyParser,34,ok,,
+CACD_2017,data/raw/CACD_2017/cursocacd/prova_objetiva_2__cd3592b6.pdf,cursocacd,prova,CespeLegacyParser,39,ok,,
+CACD_2017,data/raw/CACD_2017/wayback/gabarito_preliminar__152e1ad9.pdf,wayback,gabarito,,35,gabarito,matriz multi-caderno k=4 (35 questoes),
+CACD_2017,data/raw/CACD_2017/wayback/gabarito_preliminar__4af8d8f9.pdf,wayback,gabarito,,30,gabarito,matriz multi-caderno k=4 (30 questoes),
+CACD_2018,data/raw/CACD_2018/cebraspe/edital__3f99427e.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/gabarito_definitivo__25ea8df3.pdf,cebraspe,gabarito,,32,gabarito,matriz multi-caderno k=4 (32 questoes),
+CACD_2018,data/raw/CACD_2018/cebraspe/gabarito_definitivo__fb529524.pdf,cebraspe,gabarito,,29,gabarito,matriz multi-caderno k=4 (29 questoes),
+CACD_2018,data/raw/CACD_2018/cebraspe/gabarito_preliminar__739f5f2d.pdf,cebraspe,gabarito,,30,gabarito,matriz multi-caderno k=4 (30 questoes),
+CACD_2018,data/raw/CACD_2018/cebraspe/gabarito_preliminar__c9c2f7e7.pdf,cebraspe,gabarito,,35,gabarito,matriz multi-caderno k=4 (35 questoes),
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__5b3adce8.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__9824dd3d.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__b00b9fad.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__b4dff7db.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__babbb561.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__bf7842fa.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__e554f6aa.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/padrao_resposta__ec6e100c.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cebraspe/prova_discursiva__4fa2a87f.pdf,cebraspe,prova,CespeLegacyParser,0,ok,,
+CACD_2018,data/raw/CACD_2018/cebraspe/prova_discursiva__da059bd6.pdf,cebraspe,prova,CespeLegacyParser,0,ok,,
+CACD_2018,data/raw/CACD_2018/cebraspe/prova_objetiva__07e96d27.pdf,cebraspe,prova,CespeLegacyParser,39,ok,,
+CACD_2018,data/raw/CACD_2018/cebraspe/prova_objetiva__875157a4.pdf,cebraspe,prova,CespeLegacyParser,34,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_direito__7972eab2.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_economia__cdd6ace5.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_espanhol_frances__943ac4c7.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_geografia__a35b05ad.pdf,cursocacd,prova,CespeLegacyParser,12,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_historia__489e0531.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_ingles__86367947.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_pol_internacional__396be32a.pdf,cursocacd,prova,CespeLegacyParser,14,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/discursiva_portugues__f90e6eef.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/gabarito__906cbf9c.pdf,cursocacd,gabarito,,61,gabarito,matriz multi-caderno k=4 (61 questoes),
+CACD_2018,data/raw/CACD_2018/cursocacd/guia_estudos__6f80cafe.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cursocacd/padrao_resposta__ae802372.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2018,data/raw/CACD_2018/cursocacd/prova_objetiva_1__f9bedc4f.pdf,cursocacd,prova,CespeLegacyParser,34,ok,,
+CACD_2018,data/raw/CACD_2018/cursocacd/prova_objetiva_2__b083db41.pdf,cursocacd,prova,CespeLegacyParser,39,ok,,
+CACD_2018,data/raw/CACD_2018/wayback/prova_discursiva__21cde616.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2018,data/raw/CACD_2018/wayback/prova_discursiva__2c64377f.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2018,data/raw/CACD_2018/wayback/prova_discursiva__5438089b.pdf,wayback,prova,CespeLegacyParser,14,ok,,
+CACD_2018,data/raw/CACD_2018/wayback/prova_discursiva__91d833e3.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2018,data/raw/CACD_2018/wayback/prova_discursiva__927d3060.pdf,wayback,prova,CespeLegacyParser,0,ok,,
+CACD_2018,data/raw/CACD_2018/wayback/prova_discursiva__a8c66264.pdf,wayback,prova,CespeLegacyParser,12,ok,,
+CACD_2019,data/raw/CACD_2019/clipping/prova_objetiva__440bb95f.pdf,clipping,prova,CespeLegacyParser,0,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_direito__3f3bbb1e.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_economia__d2be8183.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_espanhol_frances__a4198939.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_geografia__88335edc.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_historia__65202b6c.pdf,cursocacd,prova,IadesParser,14,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_ingles__ed2dda00.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_pol_internacional__4f857e45.pdf,cursocacd,prova,IadesParser,14,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/discursiva_portugues__2f356599.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2019,data/raw/CACD_2019/cursocacd/gabarito__6db5359f.pdf,cursocacd,gabarito,,292,gabarito,"iades-blocos (292 pares, 297 grupos); modo=iades-blocos (292 pares)",
+CACD_2019,data/raw/CACD_2019/cursocacd/guia_estudos__6740734c.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2019,data/raw/CACD_2019/cursocacd/padrao_resposta__cb410f84.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2019,data/raw/CACD_2019/cursocacd/prova_objetiva_1__b3257ad2.pdf,cursocacd,prova,IadesParser,98,ok,,
+CACD_2019,data/raw/CACD_2019/cursocacd/prova_objetiva_2__bf883c10.pdf,cursocacd,prova,IadesParser,125,ok,,
+CACD_2019,data/raw/CACD_2019/mre/edital__f5ee8d31.pdf,mre,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_direito__5dbd2ad2.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_economia__5ee93fd4.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_espanhol_frances__3f7de1e7.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_geografia__f788e4af.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_historia__1474e3c1.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_ingles__cca40917.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_pol_internacional__848ee7ee.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/discursiva_portugues__f1e69744.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/gabarito__552cc6d3.pdf,cursocacd,gabarito,,293,gabarito,"iades-blocos (293 pares, 305 grupos); modo=iades-blocos (293 pares)",
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/guia_estudos__b4a140c7.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/padrao_resposta__54fffa16.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/prova_objetiva_1__64f2e6d8.pdf,cursocacd,prova,IadesParser,96,ok,,
+CACD_2020_2021,data/raw/CACD_2020_2021/cursocacd/prova_objetiva_2__b74dea8a.pdf,cursocacd,prova,IadesParser,105,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_direito__1256a794.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_economia__4032d7e9.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_espanhol_frances__03534fae.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_geografia__092f3fdd.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_historia__3a89a5d6.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_ingles__00c2757d.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_pol_internacional__ec9d9f9b.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/discursiva_portugues__9680a69e.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2022,data/raw/CACD_2022/cursocacd/gabarito__856f9651.pdf,cursocacd,gabarito,,292,gabarito,"iades-blocos (292 pares, 301 grupos); modo=iades-blocos (292 pares)",
+CACD_2022,data/raw/CACD_2022/cursocacd/guia_estudos__fedf8cb4.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2022,data/raw/CACD_2022/cursocacd/padrao_resposta__0f45a12b.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2022,data/raw/CACD_2022/cursocacd/prova_objetiva_1__52befe35.pdf,cursocacd,prova,IadesParser,92,ok,,
+CACD_2022,data/raw/CACD_2022/cursocacd/prova_objetiva_2__b6809e16.pdf,cursocacd,prova,IadesParser,108,ok,,
+CACD_2022,data/raw/CACD_2022/mre/edital__4a291b20.pdf,mre,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2022,data/raw/CACD_2022/qconcursos/prova_objetiva__765df523.pdf,qconcursos,prova,IadesParser,108,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_direito__3b540229.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_economia__9342d7ca.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_espanhol_frances__0f09aaf5.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_geografia__ec337185.pdf,cursocacd,prova,IadesParser,8,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_historia__f416fab4.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_ingles__e06914dc.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_pol_internacional__dcbffe15.pdf,cursocacd,prova,IadesParser,10,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/discursiva_portugues__1b99ca71.pdf,cursocacd,prova,CespeLegacyParser,0,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/gabarito__2c8b7c52.pdf,cursocacd,gabarito,,292,gabarito,"iades-blocos (292 pares, 303 grupos); modo=iades-blocos (292 pares)",
+CACD_2023,data/raw/CACD_2023/cursocacd/guia_estudos__db4917b2.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2023,data/raw/CACD_2023/cursocacd/padrao_resposta__ec55cbdd.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2023,data/raw/CACD_2023/cursocacd/prova_objetiva_1__3ef65757.pdf,cursocacd,prova,IadesParser,103,ok,,
+CACD_2023,data/raw/CACD_2023/cursocacd/prova_objetiva_2__18af7a81.pdf,cursocacd,prova,IadesParser,105,ok,,
+CACD_2023,data/raw/CACD_2023/mre/edital__049f42e4.pdf,mre,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/edital__0efc8f33.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/edital__16f1ac0e.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/gabarito_definitivo__156fabd2.pdf,cebraspe,gabarito,,24,gabarito,matriz multi-caderno k=4 (24 questoes),
+CACD_2024,data/raw/CACD_2024/cebraspe/gabarito_definitivo__d43e94f7.pdf,cebraspe,gabarito,,26,gabarito,matriz multi-caderno k=4 (26 questoes),
+CACD_2024,data/raw/CACD_2024/cebraspe/gabarito_justificativa__9f2d57f6.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__05fb96e2.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__214c9f3b.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__369e5d0f.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__47ae5134.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__62f08438.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__a7c8e922.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__ac66202b.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/padrao_resposta__ede952c1.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__14f267b4.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__30b6043e.pdf,cebraspe,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__34ade32c.pdf,cebraspe,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__6bb197c3.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__7eeca014.pdf,cebraspe,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__988d6df2.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__ac62acfb.pdf,cebraspe,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_discursiva__fe623f90.pdf,cebraspe,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_objetiva__16ef5089.pdf,cebraspe,prova,CebraspeModernParser,4,ok,,
+CACD_2024,data/raw/CACD_2024/cebraspe/prova_objetiva__92fee4e3.pdf,cebraspe,prova,CebraspeModernParser,4,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_direito__fae4a98e.pdf,cursocacd,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_economia__dfd7bd05.pdf,cursocacd,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_espanhol_frances__dc8d8b38.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_geografia__14d708f5.pdf,cursocacd,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_historia__8b1c879a.pdf,cursocacd,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_ingles__5cf15ea9.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_pol_internacional__5002db3d.pdf,cursocacd,prova,CebraspeModernParser,12,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/discursiva_portugues__d764f126.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2024,data/raw/CACD_2024/cursocacd/gabarito__b6d2e732.pdf,cursocacd,gabarito,,50,gabarito,matriz multi-caderno k=4 (50 questoes),
+CACD_2024,data/raw/CACD_2024/cursocacd/guia_estudos__0756552a.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cursocacd/padrao_resposta__f541d693.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2024,data/raw/CACD_2024/cursocacd/prova_objetiva_1__e201176a.pdf,cursocacd,prova,CebraspeModernParser,4,ok,,
+CACD_2024,data/raw/CACD_2024/cursocacd/prova_objetiva_2__5525844a.pdf,cursocacd,prova,CebraspeModernParser,4,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/edital__0f607c1c.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/edital__5a4e3303.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_definitivo__c40aba2f.pdf,cebraspe,gabarito,,111,gabarito,10 itens anulados (X); modo=tabela (111 pares),
+CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_definitivo__d1cb7645.pdf,cebraspe,gabarito,,113,gabarito,8 itens anulados (X); modo=tabela (113 pares),
+CACD_2025,data/raw/CACD_2025/cebraspe/gabarito_justificativa__d8d942eb.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__31d2d8be.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__43d72d22.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__4e3fefa7.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__6bce0a05.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__7ec583de.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__84f192ba.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__aedc1655.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/padrao_resposta__eeb31e38.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__02658b99.pdf,cebraspe,prova,CebraspeModernParser,9,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__34f0fe78.pdf,cebraspe,prova,CebraspeModernParser,6,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__3e3a4996.pdf,cebraspe,prova,CebraspeModernParser,5,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__469adbd7.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__74998386.pdf,cebraspe,prova,CebraspeModernParser,6,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__8ea234b1.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__a20c4c38.pdf,cebraspe,prova,CebraspeModernParser,8,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_discursiva__c4cd691f.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_objetiva__17a38df1.pdf,cebraspe,prova,CebraspeModernParser,120,ok,,
+CACD_2025,data/raw/CACD_2025/cebraspe/prova_objetiva__f42667ec.pdf,cebraspe,prova,CebraspeModernParser,120,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_direito__42f0eaba.pdf,cursocacd,prova,CebraspeModernParser,6,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_economia__b4317195.pdf,cursocacd,prova,CebraspeModernParser,6,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_espanhol_frances__99785c6a.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_geografia__7772b423.pdf,cursocacd,prova,CebraspeModernParser,8,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_historia__2f0fc3e5.pdf,cursocacd,prova,CebraspeModernParser,9,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_ingles__a4a6733e.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_pol_internacional__429a82b2.pdf,cursocacd,prova,CebraspeModernParser,5,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/discursiva_portugues__b65da8a3.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2025,data/raw/CACD_2025/cursocacd/gabarito__13a7fcda.pdf,cursocacd,gabarito,,28,gabarito,conflito C/E no numero 220: E vs C; modo=C/E (28 pares),
+CACD_2025,data/raw/CACD_2025/cursocacd/guia_estudos__ded9859e.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cursocacd/padrao_resposta__ceaf0c4d.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2025,data/raw/CACD_2025/cursocacd/prova_objetiva_1__909169c0.pdf,cursocacd,prova,CebraspeModernParser,120,ok,,
+CACD_2025,data/raw/CACD_2025/cursocacd/prova_objetiva_2__2b135ea4.pdf,cursocacd,prova,CebraspeModernParser,120,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/edital__5496df8a.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/edital__bc3bf4b6.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/edital_retificacao__9f766389.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/gabarito_definitivo__6380322e.pdf,cebraspe,gabarito,,110,gabarito,11 itens anulados (X); modo=tabela (110 pares),
+CACD_2026,data/raw/CACD_2026/cebraspe/gabarito_definitivo__89c364da.pdf,cebraspe,gabarito,,116,gabarito,5 itens anulados (X); modo=tabela (116 pares),
+CACD_2026,data/raw/CACD_2026/cebraspe/gabarito_justificativa__c3cc430b.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__1cecb3c5.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__39280296.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__3a092777.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__5ea5a2b8.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__75c69d1f.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__d3967d54.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__d6e35254.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/padrao_resposta__e4db3a3b.pdf,cebraspe,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__17c8da89.pdf,cebraspe,prova,CebraspeModernParser,5,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__1bf535ea.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__501adbae.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__7341f0b7.pdf,cebraspe,prova,CebraspeModernParser,5,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__8291a695.pdf,cebraspe,prova,CebraspeModernParser,2,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__8e855300.pdf,cebraspe,prova,CebraspeModernParser,5,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__b035dd6a.pdf,cebraspe,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_discursiva__dcf8ab53.pdf,cebraspe,prova,CebraspeModernParser,6,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__66ea1db4.pdf,cebraspe,prova,CebraspeModernParser,117,ok,,
+CACD_2026,data/raw/CACD_2026/cebraspe/prova_objetiva__c604e903.pdf,cebraspe,prova,CebraspeModernParser,116,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_direito__c1ed9512.pdf,cursocacd,prova,CebraspeModernParser,5,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_economia__7b3de9c0.pdf,cursocacd,prova,CebraspeModernParser,6,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_espanhol_frances__e76d7d36.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_geografia__c8abda8e.pdf,cursocacd,prova,CebraspeModernParser,2,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_historia__1e59e288.pdf,cursocacd,prova,CebraspeModernParser,5,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_ingles__a6b9020f.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_pol_internacional__16a73e63.pdf,cursocacd,prova,CebraspeModernParser,5,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/discursiva_portugues__16c78d13.pdf,cursocacd,prova,,0,skip_nao_exame,,nao parece caderno de prova
+CACD_2026,data/raw/CACD_2026/cursocacd/gabarito__412000e5.pdf,cursocacd,gabarito,,27,gabarito,modo=C/E (27 pares),
+CACD_2026,data/raw/CACD_2026/cursocacd/padrao_resposta__d86a0150.pdf,cursocacd,outro,,0,skipped,,edital/resultado/padrao/guia
+CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_1__97ad52d5.pdf,cursocacd,prova,CebraspeModernParser,117,ok,,
+CACD_2026,data/raw/CACD_2026/cursocacd/prova_objetiva_2__85f06cc7.pdf,cursocacd,prova,CebraspeModernParser,116,ok,,

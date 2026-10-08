@@ -1,0 +1,7 @@
+file,ok,erros,status,detalhe
+data\raw\CACD_2003\cursocacd\prova2003.json,119,0,ok,
+data\raw\CACD_2004\cursocacd\prova 2004.json,150,0,ok,
+data\raw\CACD_2005\cursocacd\prova 2005.json,126,0,ok,
+data\raw\CACD_2006\cursocacd\prova 2006 - 1.txt,90,0,ok,
+data\raw\CACD_2006\cursocacd\prova 2006-2.json,77,0,ok,
+data\raw\CACD_2007\cursocacd\prova 2007 - 1.json,78,0,ok,"reparado automaticamente (Expecting ',' delimiter: line 10 column 322 (char 535))"

@@ -14,5 +14,9 @@ Thumbs.db
 # ferramentas locais
 .playwright-mcp/
 
+# Testes / ML
+.pytest_cache/
+mlruns/
+
 # PDFs extraidos e temporarios intermediarios nao estruturados
 *.tmp

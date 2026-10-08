@@ -18,7 +18,11 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from parser.answer_merger import extract_answer_key, merge_answers  # noqa: E402
+from parser.answer_merger import (  # noqa: E402
+    extract_answer_key,
+    extract_answer_keys,
+    merge_answers,
+)
 from parser.document_loader import (  # noqa: E402
     load_catalog_index,
     load_manifest,
@@ -68,6 +72,8 @@ def classify(
     stem = pdf.stem.lower()
     if doc_type in SKIP_DOCTYPES:
         return "outro", stype
+    if "justificativa" in stem or "padrao" in stem:
+        return "outro", stype
     if "gabarito" in stem:
         return "gabarito", stype
     if doc_type in PROVA_DOCTYPES:
@@ -116,13 +122,17 @@ def main() -> None:
                     {"status": "skipped", "reason": "edital/resultado/padrao/guia"}
                 )
             elif role == "gabarito":
-                doc = load_pdf(pdf, ROOT)
-                key, warns = extract_answer_key(doc)
-                answer_keys.append((rel, key))
+                doc = load_pdf(pdf, ROOT, with_words=True)
+                mats, warns = extract_answer_keys(doc)
+                multi = len(mats) > 1
+                for ci, key in enumerate(mats):
+                    name = f"{rel}#c{ci}" if multi else rel
+                    answer_keys.append((name, key))
+                total = len(mats[0]) if mats else 0
                 row.update(
                     {
                         "status": "gabarito",
-                        "questions_found": len(key),
+                        "questions_found": total,
                         "issues": "; ".join(warns)[:200],
                     }
                 )
@@ -158,7 +168,12 @@ def main() -> None:
     all_questions: list = []
     for exam in exams:
         prefix = f"data/raw/{exam.contest_id}".replace("\\", "/")
-        keys = [(name, key) for name, key in answer_keys if name.startswith(prefix)]
+        # para o merge, usar so caderno 0 (provisorio) ou chaves de caderno unico
+        keys = [
+            (name, key)
+            for name, key in answer_keys
+            if name.startswith(prefix) and ("#c" not in name or name.endswith("#c0"))
+        ]
         # ordenação inteligente: definitivo primeiro no final? queremos definitivo vencer -> vai pro fim
         # calcular range das questões do exame
         nums_exam = []
@@ -175,7 +190,7 @@ def main() -> None:
         keys_sorted = sorted(
             keys,
             key=lambda kv: (
-                "definitivo" not in kv[0].lower(),  # definitivo fica no fim
+                "definitivo" in kv[0].lower(),  # definitivo fica no FIM (vence)
                 -(
                     1
                     if nums_exam
@@ -266,15 +281,21 @@ def main() -> None:
     df.to_parquet(OUT_Q, index=False)
     pd.DataFrame(report_rows).to_csv(OUT_REPORT, index=False, encoding="utf-8")
 
-    # salvar answer_keys
+    # salvar answer_keys (com caderno quando multi-caderno)
     try:
         OUT_KEYS.parent.mkdir(parents=True, exist_ok=True)
-        keys_df = pd.DataFrame(
-            [{"source_file": name, "answers": key} for name, key in answer_keys]
-        )
-        # serializar dicts para formato compatível com parquet
-        if not keys_df.empty:
-            keys_df = keys_df.assign(answers=lambda x: x["answers"].apply(str))
+        rows = []
+        for name, key in answer_keys:
+            base, _, cad = name.partition("#c")
+            rows.append(
+                {
+                    "source_file": base,
+                    "caderno": int(cad) if cad else 0,
+                    "n_answers": len(key),
+                    "answers": str(key),
+                }
+            )
+        keys_df = pd.DataFrame(rows)
         keys_df.to_parquet(OUT_KEYS, index=False)
     except Exception as e:
         print("warn: não salvou answer_keys:", e)

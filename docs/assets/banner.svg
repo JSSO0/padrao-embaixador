@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="CACD Forecast AI — previsao de distribuicao tematica das provas do CACD">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1A2F"/>
+      <stop offset="1" stop-color="#123A5F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2A4A6B" stroke-width="1" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  <rect width="1280" height="400" fill="url(#glow)" x="820" y="-60"/>
+
+  <!-- globo (diplomacia) -->
+  <g transform="translate(1010 205)" opacity="0.95">
+    <circle r="118" fill="none" stroke="#2E5C86" stroke-width="2"/>
+    <ellipse rx="118" ry="44" fill="none" stroke="#2E5C86" stroke-width="1.5"/>
+    <ellipse rx="44" ry="118" fill="none" stroke="#2E5C86" stroke-width="1.5"/>
+    <ellipse rx="88" ry="118" fill="none" stroke="#2E5C86" stroke-width="1" stroke-opacity="0.7"/>
+    <ellipse rx="118" ry="88" fill="none" stroke="#2E5C86" stroke-width="1" stroke-opacity="0.7"/>
+    <circle r="118" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="6 10" opacity="0.8"/>
+  </g>
+
+  <!-- curva de previsao -->
+  <g transform="translate(700 120)">
+    <polyline points="0,180 70,150 140,158 210,112 280,120 350,74 420,58 470,40"
+      fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#FBBF24">
+      <circle cx="0" cy="180" r="6"/>
+      <circle cx="140" cy="158" r="6"/>
+      <circle cx="280" cy="120" r="6"/>
+      <circle cx="420" cy="58" r="6"/>
+    </g>
+    <circle cx="470" cy="40" r="9" fill="#0A1A2F" stroke="#FBBF24" stroke-width="4"/>
+    <line x1="0" y1="200" x2="470" y2="200" stroke="#2E5C86" stroke-width="2"/>
+  </g>
+
+  <!-- texto -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" fill="#E6F1FB">
+    <text x="72" y="150" font-size="62" font-weight="700" letter-spacing="0.5">CACD <tspan fill="#38BDF8">Forecast</tspan> AI</text>
+    <text x="74" y="205" font-size="24" fill="#9DB4CC">Prever a distribuição temática da próxima prova — com rigor, não com achismo.</text>
+    <g font-size="19" fill="#7FA0C0">
+      <text x="74" y="300">24 edições · 2003–2026 · 453 documentos</text>
+      <text x="74" y="330">backtesting temporal · baselines · NLP · ML</text>
+    </g>
+  </g>
+
+  <!-- barra de destaque -->
+  <rect x="72" y="356" width="220" height="6" rx="3" fill="url(#accent)"/>
+</svg>

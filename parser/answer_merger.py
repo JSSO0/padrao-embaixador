@@ -445,6 +445,103 @@ def parse_row_grid(text: str) -> tuple[dict, list[str]]:
     return {}, warns
 
 
+RE_QWORD = re.compile(r"^quest[ãa]o$", re.IGNORECASE)
+RE_MAT_LETTER = re.compile(r"^[CEX#]$", re.IGNORECASE)
+RE_MAT_NUM = re.compile(r"^\d{1,3}$")
+
+
+def _words_to_rows(
+    words: list[tuple[float, float, str]], ytol: float = 3.0
+) -> list[tuple[float, list[tuple[float, str]]]]:
+    """Agrupa palavras em linhas por proximidade de y (mesma linha da tabela)."""
+    ws = sorted(words, key=lambda w: (w[1], w[0]))
+    rows: list[tuple[float, list[tuple[float, str]]]] = []
+    for x, y, t in ws:
+        if rows and abs(y - rows[-1][0]) <= ytol:
+            rows[-1][1].append((x, t))
+        else:
+            rows.append((y, [(x, t)]))
+    return [(y, sorted(cells, key=lambda c: c[0])) for y, cells in rows]
+
+
+def parse_cebraspe_matrix(
+    words_per_page: list[list[tuple[float, float, str]]],
+) -> tuple[list[dict], list[str]]:
+    """Gabarito Cebraspe multi-caderno (2003-2018, 2024).
+
+    Layout: linha de cabecalhos 'Questao N' (N questoes), seguida de uma linha
+    com N*k letras (k cadernos). Como as letras estao ordenadas por x e cada
+    questao ocupa k colunas consecutivas, a questao i recebe as letras
+    letters[i*k:(i+1)*k]; o caderno c e o c-esimo dentro desse grupo.
+
+    Retorna (lista_de_cadernos, avisos); cada caderno e dict {num: 'C'|'E'}.
+    'X'/'#' (anulada) nao entram no dict.
+    """
+    warns: list[str] = []
+    cadernos: list[dict] | None = None
+    for page in words_per_page:
+        if not page:
+            continue
+        rows = _words_to_rows(page)
+        for ri, (_y, cells) in enumerate(rows):
+            q_headers: list[tuple[float, int]] = []
+            for ci, (x, t) in enumerate(cells):
+                if RE_QWORD.match(t):
+                    # numero imediatamente a direita
+                    for x2, t2 in cells[ci + 1 :]:
+                        if RE_MAT_NUM.match(t2):
+                            q_headers.append((x, int(t2)))
+                            break
+            if len(q_headers) < 3:
+                continue
+            # a linha de respostas deve ser a IMEDIATAMENTE seguinte e conter
+            # SO letras (a matriz Cebraspe nao tem linha de numeros de item;
+            # o IADES tem, e por isso e' rejeitado aqui)
+            if ri + 1 >= len(rows):
+                continue
+            cells2 = rows[ri + 1][1]
+            if not cells2:
+                continue
+            letters = [(x, t.upper()) for x, t in cells2]
+            if not all(RE_MAT_LETTER.match(t) for _x, t in letters):
+                continue
+            if len(letters) < len(q_headers):
+                continue
+            n_q = len(q_headers)
+            if len(letters) % n_q != 0:
+                continue
+            k = len(letters) // n_q
+            if k < 1 or k > 6:
+                continue
+            if cadernos is None:
+                cadernos = [dict() for _ in range(k)]
+            if len(cadernos) != k:
+                continue
+            for i, (_x, qnum) in enumerate(q_headers):
+                for c in range(k):
+                    letter = letters[i * k + c][1]
+                    if letter in ("C", "E"):
+                        cadernos[c][qnum] = letter
+    if not cadernos or len(cadernos[0]) < 20:
+        return [], warns
+    warns.append(f"matriz multi-caderno k={len(cadernos)} ({len(cadernos[0])} questoes)")
+    return cadernos, warns
+
+
+def extract_answer_keys(doc) -> tuple[list[dict], list[str]]:
+    """Como extract_answer_key, mas devolve TODOS os cadernos (matriz).
+
+    Caderno 0 = primeira coluna. Se nao for matriz, devolve [chave unica].
+    """
+    words = getattr(doc, "words_per_page", None)
+    if words:
+        mats, warns = parse_cebraspe_matrix(words)
+        if mats and len(mats[0]) >= 20:
+            return mats, warns
+    key, warns = extract_answer_key(doc)
+    return ([key] if key else []), warns
+
+
 def merge_answers(
     questions: list, answer_keys: list[tuple[str, dict[int, str]]]
 ) -> list[str]:

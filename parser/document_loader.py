@@ -36,6 +36,8 @@ class LoadedDoc:
     linear_text: str = ""  # texto linear (get_text simple) p/ comparacao
     n_pages: int = 0
     blocks_per_page: list[list[tuple[float, float, str]]] = field(default_factory=list)
+    # palavras (x0, y0, texto) por pagina — so quando with_words=True (gabaritos)
+    words_per_page: list[list[tuple[float, float, str]]] = field(default_factory=list)
 
 
 def load_manifest() -> dict[str, dict]:
@@ -107,7 +109,7 @@ def year_for(pdf_path: Path, root: Path) -> int:
     )
 
 
-def load_pdf(pdf_path: Path, root: Path) -> LoadedDoc:
+def load_pdf(pdf_path: Path, root: Path, with_words: bool = False) -> LoadedDoc:
     pdf_path = pdf_path.resolve()
     root = root.resolve()
     doc = LoadedDoc(
@@ -141,6 +143,14 @@ def load_pdf(pdf_path: Path, root: Path) -> LoadedDoc:
                 page_blocks.append((round(x0, 1), round(y0, 1), text))
         doc.blocks_per_page.append(page_blocks)
         linear_parts.append(page.get_text("text"))
+        if with_words:
+            page_words = []
+            for w in page.get_text("words"):
+                x0, y0, _x1, _y1, text = w[0], w[1], w[2], w[3], w[4]
+                text = text.strip()
+                if text:
+                    page_words.append((round(x0, 1), round(y0, 1), text))
+            doc.words_per_page.append(page_words)
         doc.text += "\n".join(b[2] for b in page_blocks) + "\n"
     pdf.close()
     doc.linear_text = "\n".join(linear_parts)
