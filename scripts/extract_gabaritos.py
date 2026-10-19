@@ -193,6 +193,130 @@ def parse_pdf(pdf: Path) -> dict[tuple[int, int], tuple[str, str]]:
     return out
 
 
+def rows_of2(page):
+    """Como rows_of, mas preserva x0 e x1 de cada span (para o pareamento por
+    intervalo de coluna das grades TPS com celulas mescladas)."""
+    spans = []
+    for b in page.get_text("dict")["blocks"]:
+        for l in b.get("lines", []):
+            for s in l["spans"]:
+                t = unicodedata.normalize("NFC", s["text"].strip())
+                if t:
+                    spans.append((s["bbox"][1], s["bbox"][0], s["bbox"][2], t))
+    spans.sort(key=lambda r: (r[0], r[1]))
+    rows = []
+    for y, x0, x1, t in spans:
+        if rows and abs(rows[-1][0] - y) <= 3.0:
+            rows[-1][1].append((x0, x1, t))
+        else:
+            rows.append([y, [(x0, x1, t)]])
+    return [sorted(c) for _, c in rows]
+
+
+def _tok_centers(x0: float, x1: float, toks: list[str]):
+    """Centros dos tokens de uma celula mesclada (distribuicao uniforme)."""
+    k = len(toks)
+    w = (x1 - x0) / k if k else 0.0
+    return [x0 + (jd + 0.5) * w for jd in range(k)]
+
+
+def parse_tps(pdf: Path) -> dict[tuple[int, int], tuple[str, str]]:
+    """Era TPS (2003-2008): grade TRANSPOSTA — a linha de cabecalho lista as
+    QUESTOES (30-48 colunas, celulas mescladas tipo '1 2 3') e as linhas
+    seguintes trazem as respostas de cada ITEM (rotulo 1/2/3/4 na propria
+    linha ou em linha lateral separada). As letras de celulas mescladas sao
+    distribuidas pelas colunas por INTERVALO de x. O item de multipla escolha
+    (rotulo '+' ou letras A-D) nao tem chave no dataset (itn=null) e eh
+    ignorado.
+    """
+    out: dict[tuple[int, int], tuple[str, str]] = {}
+    with pymupdf.open(pdf) as doc:
+        for page in doc:
+            rows = rows_of2(page)
+            i, n = 0, len(rows)
+            while i < n:
+                cells = rows[i]
+                # cabecalho do bloco: >= 10 tokens numericos (admite 1 rotulo
+                # textual tipo 'QUESTOES' na linha)
+                qcols: list[tuple[float, int]] = []
+                num_toks = 0
+                non_num_cells = 0
+                for x0, x1, t in cells:
+                    toks = t.split()
+                    if not toks or not all(re.fullmatch(r"\d{1,3}", tk) for tk in toks):
+                        non_num_cells += 1
+                        continue
+                    centers = _tok_centers(x0, x1, toks)
+                    for cx, tk in zip(centers, toks):
+                        v = int(tk)
+                        if 1 <= v <= 100:
+                            qcols.append((cx, v))
+                            num_toks += 1
+                header_ok = num_toks >= 10 and non_num_cells <= 1
+                if not header_ok or len(qcols) < 10:
+                    i += 1
+                    continue
+                qcols.sort()
+                # linhas seguintes com >= 8 letras = itens do bloco
+                j = i + 1
+                counter = 0
+                while j < n:
+                    rcells = rows[j]
+                    label = None
+                    if rcells and re.fullmatch(r"[1-4]", rcells[0][2]):
+                        label = int(rcells[0][2])
+                    let_toks: list[tuple[float, str]] = []
+                    is_mc = False
+                    for x0, x1, t in rcells:
+                        toks = t.split()
+                        centers = _tok_centers(x0, x1, toks) if toks else []
+                        for cx, tk in zip(centers, toks):
+                            u = tk.upper()
+                            if re.fullmatch(r"[A-BD]", u):
+                                is_mc = True  # multipla escolha (linha '+')
+                            if RE_ANS.match(u):
+                                let_toks.append((cx, u))
+                    if len(let_toks) < 8 and not is_mc:
+                        if any(
+                            re.fullmatch(r"\d{1,3}", tk) and len(rcells) >= 6
+                            for _, _, t in rcells
+                            for tk in t.split()
+                        ):
+                            break  # novo bloco (nova etapa/caderno)
+                        j += 1
+                        continue
+                    if is_mc:
+                        # linha '+' (multipla escolha): armazena com itn=0 — o
+                        # dataset guarda esses itens com itn=null; o apply os
+                        # casa por qn nas linhas que tem alternatives
+                        for cx, u in let_toks:
+                            best, bd = None, 1e9
+                            for hx, hn in qcols:
+                                d = abs(hx - cx)
+                                if d < bd:
+                                    best, bd = hn, d
+                            if best is not None and bd <= 14.0:
+                                out.setdefault((best, 0), (u, "TPS"))
+                        j += 1
+                        continue
+                    counter += 1
+                    itn = label if label else counter
+                    if itn > 5:
+                        j += 1
+                        continue
+                    for cx, u in let_toks:
+                        best, bd = None, 1e9
+                        for hx, hn in qcols:
+                            d = abs(hx - cx)
+                            if d < bd:
+                                best, bd = hn, d
+                        if best is not None and bd <= 14.0:
+                            out.setdefault((best, itn), (u, "TPS"))
+                    j += 1
+                i = max(j, i + 1)
+    return out
+
+
 def year_folder(year: int) -> Path | None:
     for cand in (RAW / f"CACD_{year}", RAW / f"CACD_{year}_{year + 1}"):
         if cand.exists():
@@ -221,6 +345,10 @@ def collect_year(year: int) -> dict[tuple[int, int], tuple[str, str]]:
     merged: dict[tuple[int, int], tuple[str, str]] = {}
     for pdf in sorted(pdfs, key=rank):
         g = parse_pdf(pdf)
+        if year <= 2008:
+            # era TPS: os gabaritos transpostos (grade questoes x itens)
+            for k, v in parse_tps(pdf).items():
+                g.setdefault(k, v)
         print(f"     {pdf.parent.name}/{pdf.name}: {len(g)} respostas")
         for k, v in g.items():
             merged.setdefault(k, v)
@@ -262,13 +390,45 @@ def main() -> None:
     m = df.stage.eq("primeira_fase") & df.extraction_method.isin(["manual", "rules"])
     filled = anul = override = 0
     for idx, row in df[m].iterrows():
-        y = str(int(row["year"]))
+        contest = str(row["contest_id"])
+        # CACD_2003 = o TPS aplicado em out/2003 (pre-selecao do concurso
+        # 2004); as linhas tem year=2004 mas o gabarito certo e o de 2003
+        y = "2003" if contest == "CACD_2003" else str(int(row["year"]))
         qn = row["question_number"]
         if pd.isna(qn):
             continue
         qn_i = int(float(qn))
-        itn_i = 1 if pd.isna(row["item_number"]) else int(float(row["item_number"]))
-        letter = (all_g.get(y) or {}).get(f"{qn_i}:{itn_i}")
+        if contest == "CACD_2004":
+            # 2004: 30 questoes x 5 itens; linhas achatadas (itn=qn) apontam o
+            # item continuo; linhas agrupadas mapeiam item = (qn-1)*5 + itn
+            if pd.isna(row["item_number"]):
+                continue
+            itn_v = int(float(row["item_number"]))
+            if itn_v == qn_i:
+                item = qn_i
+            elif 1 <= itn_v <= 5:
+                item = (qn_i - 1) * 5 + itn_v
+            else:
+                continue
+            letter = (all_g.get(y) or {}).get(f"{item}:1")
+        else:
+            if pd.isna(row["item_number"]):
+                # itens de multipla escolha da era TPS: itn=null + alternatives;
+                # o gabarito deles fica na chave (qn, 0)
+                if (
+                    y in ("2003", "2005", "2006", "2007", "2008")
+                    and pd.notna(row["alternatives"])
+                    and str(row["alternatives"]).strip()
+                    not in ("", "nan", "None", "[]")
+                ):
+                    letter = (all_g.get(y) or {}).get(f"{qn_i}:0")
+                    if not letter:
+                        continue
+                else:
+                    continue  # sem numeracao de item nao ha chave confiavel
+            else:
+                itn_i = int(float(row["item_number"]))
+                letter = (all_g.get(y) or {}).get(f"{qn_i}:{itn_i}")
         if not letter:
             continue
         letter = letter.upper()

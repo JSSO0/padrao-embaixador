@@ -9,12 +9,12 @@ Legenda: **M** = transcrição manual (JSONL padronizado, prioridade máxima) ·
 
 | Ano | 1ª fase (itens) | 1ª fase (questões) | Cobertura 1ª fase | Origem | 2aF itens | Gab. |
 |---|---|---|---|---|---|---|
-| 2003 | 117 | 26 | parcial (faixa 1-30, falta 11-14) | M | — | 0% |
-| 2004 | 150 | 150 | completa (1-150) | M | — | 0% |
-| 2005 | 126 | 42 | parcial (1-49, lacunas 9-11, 15-17, 43) | M | — | 0% |
-| 2006 | 112 | 36 | completa (1-36) | M+R | 87 | 0% |
-| 2007 | 125 | 38 | parcial (1-38) | M+R | 15 | 0% |
-| 2008 | 209 | 65 | completa (1-65) | M | 6 | 0% |
+| 2003 | 117 | 26 | parcial (faixa 1-30, falta 11-14) | M | — | **97%** |
+| 2004 | 150 | 150 | completa (1-150) | M | — | **99%** |
+| 2005 | 126 | 42 | parcial (1-49, lacunas 9-11, 15-17, 43) | M | - | **86%** |
+| 2006 | 112 | 36 | completa (1-36) | M+R | 87 | **80%** |
+| 2007 | 125 | 38 | parcial (1-38) | M+R | 15 | **87%** |
+| 2008 | 209 | 65 | completa (1-65) | M | 6 | **90%** |
 | 2009 | 221 | **80** | completa (1-80) | M | 11 | **94%** |
 | 2010 | 228 | 78 | quase completa (falta 38-39) | M | 10 | **95%** |
 | 2011 | 122 | 65 | completa (1-65) | M(1-28)+R(29-65) | 8 | **92%** |
@@ -65,25 +65,40 @@ Os % de gabarito consideram todas as linhas do ano (incl. 2ª fase); na 1ª fase
 - Gabaritos 2025/2026: 240/240 itens (formato "Item/Gabarito" dos PDFs cebraspe + cursocacd).
 - Seções por disciplina em maiúsculas, capa, cabeçalhos de página e rodapés filtrados.
 
-## Gabaritos (16/10/2026)
+## Gabaritos (19/10/2026)
 
 `scripts/extract_gabaritos.py` extrai os gabaritos oficiais dos PDFs (`data/processed/gabaritos.json`) e sobrescreve as respostas das linhas de 1ª fase (manual e rules):
-- Cinco formatos suportados: grade estreita "Questão N + 4 letras" (2014-2018, 2024), grade larga cursocacd com mojibake "QUESTǟO" (2019-2023, `#`/X = anulada), pares Item/Gabarito (2024-2026 cebraspe), grade de 30 itens x 30 letras (2004, ☼=anulada) e tabela "Questão | item 1..4" (2009-2013, com A-D = múltipla escolha).
+- Formatos suportados: grade estreita "Questão N + 4 letras" (2014-2018, 2024), grade larga cursocacd com mojibake "QUESTǟO" (2019-2023, `#`/X = anulada), pares Item/Gabarito (2024-2026 cebraspe), grade de 30 itens x 30 letras (2004, ☼=anulada), tabela "Questão | item 1..4" (2009-2013, A-D = múltipla escolha) e grade TRANSPOSTA da era TPS (2003-2008: colunas=questões, linhas=itens; pareamento por INTERVALO de coluna x, robusto a células mescladas; os gabaritos vêm dos zips do archive.org já baixados em data/raw/*/archive/).
 - Células anuladas (X/#/☼) ficam com `answer` null + nota.
 - **Importante**: as respostas resgatadas das regras antigas (2019-2023) estavam rotacionadas em 1 posição dentro da questão — o gabarito oficial corrigiu 564 respostas.
-- Cobertura 1ª fase (ausências = itens anulados): 2009 217/221 · 2010 226/228 · 2011 82/85 · 2012 155/164 · 2013 121/128 · 2014 122/124 · 2015 285/292 · 2016 285/292 · 2017 281/292 · 2018 283/292 · 2019 285/292 · 2020-2021 288/292 · 2022-2023 291/292 · 2024 243/260 · 2025 224/240 · 2026 226/240.
-- **2005-2008**: os gabaritos disponíveis são do TPS (pré-seleção, grade transposta linha=item × coluna=questão) — não correspondem à prova objetiva do dataset; o parser os ignora (`re.search(r"\bTPS\b|PRÉ-SELEÇÃO")` + rejeição de linhas com >6 letras).
-- **2004**: gabarito extraído (150 itens) mas NÃO aplicado — o manual de 2004 tem estrutura quebrada (qn duplicados, dois esquemas de itn); as 27 respostas aplicadas por engano foram desfeitas (`scripts/fix_2004.py`).
-- **2003**: o gabarito disponível não casou com nenhum formato conhecido (a investigar).
+- Cobertura 1ª fase: **4.827/5.024 (96,1%)** — 2003 114/117 · 2004 148/150 · **2005 117/126 · 2006 89/90 · 2007 110/110 · 2008 206/209** · 2009 217/221 · 2010 226/228 · 2011 82/85 · 2012 155/164 · 2013 121/128 · 2014 122/124 · 2015 285/292 · 2016 285/292 · 2017 281/292 · 2018 283/292 · 2019 285/292 · 2020-2021 288/292 · 2022-2023 291/292 · 2024 243/260 · 2025 224/240 · 2026 226/240.
+- **2005-2008**: o TPS ERA a prova objetiva da época ("QUESTÕES OBJETIVAS DO TPS (1.ª FASE)") — os gabaritos oficiais dos zips do archive.org foram aplicados. Não preenchidos: itens anulados, os itens de múltipla escolha cuja letra não saiu na extração de texto (PyMuPDF perde glifos dessas fontes quebradas) e as linhas itn=null sem alternatives.
+- **Itens de múltipla escolha da era TPS**: armazenados no cache com a chave (qn, 0) e aplicados nas linhas com `itn=null` + `alternatives` preenchido.
+- **2004**: 30 questões × 5 itens; o manual tem linhas duplicadas (esquema agrupado qn+itn e linhas achatadas itn=qn) — o apply mapeia item = (qn-1)*5+itn ou item=qn respectivamente.
+- **CACD_2003**: as linhas têm `year=2004` no parquet (o TPS de out/2003 era a pré-seleção do concurso 2004); o apply usa o gabarito de 2003 para elas via exceção por contest_id.
 
 ## Próximos passos sugeridos (prioridade)
 
-1. **2004**: o manual tem estrutura quebrada (qn duplicados: q1-24 com itn 1-5 e q4-150 com itn=qn) — re-transcrever do PDF (`prova 2004.json`) e então aplicar o gabarito já extraído (150 itens em `gabaritos.json`).
-2. **2003**: o gabarito disponível (`cursocacd/gabarito__326d9ed0.pdf`) não casou com nenhum formato — investigar o layout.
-3. **2005-2008**: sem gabarito de prova objetiva disponível (só o do TPS) — baixar o gabarito correto de wayback/qconcursos.
-4. **Completar manuais**: 2014 (falta prova 2, qn 32-73) e 2011 (falta qn 29-65) — PDFs disponíveis; hoje cobertos só por regras (texto dos itens truncado). O gabarito desses anos já está aplicado nas linhas de regras.
-5. **2013**: corrigir numeração ruidosa das regras (qn 173-228 são itens, não questões).
-6. **2024**: resolver o vínculo de textos-base de algumas questões (question_text de LI com texto de outra disciplina).
-7. **2025-2026**: revisar o item 235/2025 (grupo de "completar frase" da CF88: o enunciado do comando ficou no item 234 e o item 236 absorveu a 1ª linha da instrução seguinte).
-8. **2003-2010**: pequenas lacunas de itens (2003 11-14; 2005 9-11/15-17/43; 2010 38-39) — transcrever dos PDFs.
-9. **2ª fase (discursivas)**: cobertura ainda irregular (4-87 itens/ano) — extrair das PDFs de discursiva.
+1. **Questões faltantes (13)**: localizadas nos PDFs do archive.org já extraídos em data/raw/*/archive/ (2003: Primeira_Fase_Objetiva .pdf; 2005: CESPE-2005-IRBR-Diplomata.pdf; 2010: IRBR_PARTE_I_2010_CAD_A_manha.pdf). Rascunhos automáticos salvos como questoes_faltantes.md em cada pasta archive — a extração de texto do PyMuPDF perde os glifos dos marcadores de item e parte das letras dessas fontes quebradas, então os rascunhos estão incompletos (2003: 2 de 5 itens por questão; 2005: só o comando) e NÃO foram importados. Fechamento exige OCR da página ou revisão manual.
+2. **Completar manuais**: 2014 (falta prova 2, qn 32-73) e 2011 (falta qn 29-65) — PDFs disponíveis; hoje cobertos só por regras (texto dos itens truncado). O gabarito desses anos já está aplicado nas linhas de regras.
+3. **2013**: corrigir numeração ruidosa das regras (qn 173-228 são itens, não questões).
+4. **2024**: resolver o vínculo de textos-base de algumas questões (question_text de LI com texto de outra disciplina).
+5. **2025-2026**: revisar o item 235/2025 (grupo de "completar frase" da CF88: o enunciado do comando ficou no item 234 e o item 236 absorveu a 1ª linha da instrução seguinte).
+6. **2003-2010**: pequenas lacunas de itens (2003 11-14; 2005 9-11/15-17/43; 2010 38-39) — transcrever dos PDFs.
+
+
+## 2ª fase — discursivas (19/10/2026)
+
+`scripts/extract_discursivas.py` extrai as questões discursivas dos PDFs Cebraspe (`prova_discursiva__*.pdf`, texto limpo) e casa com o **padrão de resposta oficial** (`padrao_resposta__*.pdf`) no campo `answer`:
+- Cabeçalhos reconhecidos: `-- PROVA ESCRITA DE <DISCIPLINA> --` (com ou sem travessões) e os blocos `QUESTÃO N` (qualquer capitalização).
+- **2024-2026: 20 questões por ano, todas com o padrão de resposta** (questões por disciplina: LP, LI, HB, GEO, PI, Economia, Direito, Espanhol/Francês).
+- **2017: 20 questões extraídas, 1 com padrão** (apenas 2 arquivos de padrão existem para 2017: Direito Q1 da 3ª fase e Inglês Summary da 2ª) — os demais padrões de 2017 não foram baixados.
+- **2018: 0 questões** — os dois PDFs disponíveis (LP e LI) são de redação/exercícios, sem marcadores QUESTÃO N; as demais disciplinas de 2018 não estão no pacote cebraspe (estão na família discursiva_<materia> do repositório secundário).
+- **2019-2023 e 2003-2016**: provas discursivas por disciplina baixadas (161 PDFs) mas com encoding quebrado — exigem OCR/tratamento específico.
+- Estado no parquet: **193 itens de 2ª fase (60 com padrão de resposta)**. A 3ª fase (226 linhas, 2006-2018) segue como extraída pelas regras antigas.
+
+## Próximos passos (2ª fase)
+
+1. **2017**: os padrões restantes não estão baixados (só 2 arquivos: Direito Q1 e Inglês Summary).
+2. **2018**: os PDFs de prova são de redação/exercícios (sem marcadores QUESTÃO N); as 8 disciplinas da 3ª fase têm padrão de resposta baixado mas as questões estão na família discursiva_<materia> (encoding quebrado).
+3. **2019-2023**: 3ª fase extraída parcialmente (12+12+16+8 = 48 questões de ~160 possíveis) — as demais linhas foram perdidas pela extração de texto (fonte quebrada) → OCR.
