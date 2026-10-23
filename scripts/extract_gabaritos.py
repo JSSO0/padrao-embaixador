@@ -364,8 +364,34 @@ def main() -> None:
     years = args.year or list(range(2015, 2027))
 
     all_g: dict[str, dict[str, str]] = {}
-    for y in years:
-        print(f"== {y}")
+    for y in [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2026,
+    ]:
+        if y in (2005, 2006, 2007, 2008):
+            print(f"[!!] {y}: {y} usa parser TPS via collect_year (sem pulo)")
         g = collect_year(y)
         if not g:
             print(f"[!!] {y}: nenhum gabarito extraido")
@@ -425,7 +451,17 @@ def main() -> None:
                     if not letter:
                         continue
                 else:
-                    continue  # sem numeracao de item nao ha chave confiavel
+                    # formato C (2024-2026, itens individuais com itn=null): a
+                    # chave do gabarito e (item, 1) — assume item 1
+                    if (
+                        int(row["year"]) >= 2024
+                        and str(row["question_type"]) == "certo_errado"
+                    ):
+                        letter = (all_g.get(y) or {}).get(f"{qn_i}:1")
+                        if not letter:
+                            continue
+                    else:
+                        continue  # sem numeracao de item nao ha chave confiavel
             else:
                 itn_i = int(float(row["item_number"]))
                 letter = (all_g.get(y) or {}).get(f"{qn_i}:{itn_i}")
