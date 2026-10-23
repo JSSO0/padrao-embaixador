@@ -10,8 +10,10 @@ data\raw\CACD_2007\cursocacd\cacd_2007_primeira_fase_prova_objetiva_2.jsonl,32,0
 data\raw\CACD_2007\cursocacd\prova 2007 - 1.json,78,0,ok,"reparado automaticamente (Expecting ',' delimiter: line 10 column 322 (char 535))"
 data\raw\CACD_2008\cursocacd\cacd_2008_primeira_fase_prova_objetiva_2.jsonl,97,0,ok,
 data\raw\CACD_2008\cursocacd\questoes_caderno_terra_2008 1.txt,112,0,ok,
+data\raw\CACD_2008\discursivas_zip_2008.jsonl,18,0,ok,
 data\raw\CACD_2009\cursocacd\cacd_2009_primeira_fase_prova_objetiva_1.jsonl,120,0,ok,
 data\raw\CACD_2009\cursocacd\cacd_2009_primeira_fase_prova_objetiva_2.jsonl,101,0,ok,
+data\raw\CACD_2009\discursivas_zip_2009.jsonl,11,0,ok,
 data\raw\CACD_2010\cursocacd\cacd_2010_primeira_fase_prova_objetiva_1.jsonl,115,0,ok,
 data\raw\CACD_2010\cursocacd\cacd_2010_primeira_fase_prova_objetiva_2.jsonl,113,0,ok,
 data\raw\CACD_2011\cursocacd\cacd_2011_primeira_fase_prova_objetiva_1.jsonl,85,0,ok,
