@@ -460,6 +460,18 @@ def main() -> None:
                         letter = (all_g.get(y) or {}).get(f"{qn_i}:1")
                         if not letter:
                             continue
+                    # multipla escolha 2009-2013: a tabela do gabarito tem 1
+                    # letra (A-D) por questao => chave (qn, 1); a linha com
+                    # alternatives e o proprio item MC
+                    elif (
+                        2009 <= int(row["year"]) <= 2013
+                        and pd.notna(row["alternatives"])
+                        and str(row["alternatives"]).strip()
+                        not in ("", "nan", "None", "[]")
+                    ):
+                        letter = (all_g.get(y) or {}).get(f"{qn_i}:1")
+                        if not letter:
+                            continue
                     else:
                         continue  # sem numeracao de item nao ha chave confiavel
             else:

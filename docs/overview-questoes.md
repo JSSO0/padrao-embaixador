@@ -71,11 +71,14 @@ Os % de gabarito consideram todas as linhas do ano (incl. 2ª fase); na 1ª fase
 - Formatos suportados: grade estreita "Questão N + 4 letras" (2014-2018, 2024), grade larga cursocacd com mojibake "QUESTǟO" (2019-2023, `#`/X = anulada), pares Item/Gabarito (2024-2026 cebraspe), grade de 30 itens x 30 letras (2004, ☼=anulada), tabela "Questão | item 1..4" (2009-2013, A-D = múltipla escolha) e grade TRANSPOSTA da era TPS (2003-2008: colunas=questões, linhas=itens; pareamento por INTERVALO de coluna x, robusto a células mescladas; os gabaritos vêm dos zips do archive.org já baixados em data/raw/*/archive/).
 - Células anuladas (X/#/☼) ficam com `answer` null + nota.
 - **Importante**: as respostas resgatadas das regras antigas (2019-2023) estavam rotacionadas em 1 posição dentro da questão — o gabarito oficial corrigiu 564 respostas.
-- Cobertura 1ª fase: **4.827/5.024 (96,1%)** — 2003 114/117 · 2004 148/150 · **2005 117/126 · 2006 89/90 · 2007 110/110 · 2008 206/209** · 2009 217/221 · 2010 226/228 · 2011 82/85 · 2012 155/164 · 2013 121/128 · 2014 122/124 · 2015 285/292 · 2016 285/292 · 2017 281/292 · 2018 283/292 · 2019 285/292 · 2020-2021 288/292 · 2022-2023 291/292 · 2024 243/260 · 2025 224/240 · 2026 226/240.
+- Cobertura 1ª fase: **4.815/5.020 (95,9%)** — 2003 114/117 · 2004 148/150 · **2005 117/126 · 2006 89/112 · 2007 110/110 · 2008 206/209** · 2009 217/221 · 2010 226/228 · 2011 82/85 · 2012 155/164 · 2013 121/128 · 2014 122/124 · 2015 285/292 · 2016 285/292 · 2017 281/292 · 2018 283/292 · 2019 285/292 · 2020-2021 288/292 · 2022-2023 291/292 · 2024 243/260 · 2025 224/240 · 2026 226/240.
 - **2005-2008**: o TPS ERA a prova objetiva da época ("QUESTÕES OBJETIVAS DO TPS (1.ª FASE)") — os gabaritos oficiais dos zips do archive.org foram aplicados. Não preenchidos: itens anulados, os itens de múltipla escolha cuja letra não saiu na extração de texto (PyMuPDF perde glifos dessas fontes quebradas) e as linhas itn=null sem alternatives.
 - **Itens de múltipla escolha da era TPS**: armazenados no cache com a chave (qn, 0) e aplicados nas linhas com `itn=null` + `alternatives` preenchido.
 - **2004**: 30 questões × 5 itens; o manual tem linhas duplicadas (esquema agrupado qn+itn e linhas achatadas itn=qn) — o apply mapeia item = (qn-1)*5+itn ou item=qn respectivamente.
 - **CACD_2003**: as linhas têm `year=2004` no parquet (o TPS de out/2003 era a pré-seleção do concurso 2004); o apply usa o gabarito de 2003 para elas via exceção por contest_id.
+- **Múltipla escolha 2009-2013**: a tabela do gabarito tem 1 letra (A-D) por questão — aplicadas nas linhas `itn=null` + `alternatives` via chave (qn, 1).
+- **2013**: 10 linhas de rules ruidas removidas (cabecalhos "PROVA ESCRITA DE NOÇÕES DE ECONOMIA" contados como questões, qn 173-228).
+- **OCR**: tesseract não instalado na máquina — pendente para as ~19 letras de gabarito não extraídas e as 13 questões de transcrição (rascunhos em data/raw/*/archive/questoes_faltantes.md).
 
 ## Próximos passos sugeridos (prioridade)
 
