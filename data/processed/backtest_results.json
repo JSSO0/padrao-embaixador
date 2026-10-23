@@ -1,0 +1,974 @@
+[
+ {
+  "fold": 2017,
+  "teste": 2018,
+  "k": 7,
+  "baseline": "frequência",
+  "precision@k": 0.7143,
+  "recall@k": 0.625,
+  "f1@k": 0.6667,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Direito",
+   "Economia"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2017,
+  "teste": 2018,
+  "k": 7,
+  "baseline": "recência",
+  "precision@k": 1.0,
+  "recall@k": 0.875,
+  "f1@k": 0.9333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2017,
+  "teste": 2018,
+  "k": 7,
+  "baseline": "markov",
+  "precision@k": 1.0,
+  "recall@k": 0.875,
+  "f1@k": 0.9333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2017,
+  "teste": 2018,
+  "k": 7,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.7143,
+  "recall@k": 0.625,
+  "f1@k": 0.6667,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Direito",
+   "Economia",
+   "História Mundial"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2018,
+  "teste": 2019,
+  "k": 7,
+  "baseline": "frequência",
+  "precision@k": 0.5714,
+  "recall@k": 0.5714,
+  "f1@k": 0.5714,
+  "ndcg@k": 0.9021,
+  "map@k": 0.8367,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Direito",
+   "Economia"
+  ],
+  "real": [
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2018,
+  "teste": 2019,
+  "k": 7,
+  "baseline": "recência",
+  "precision@k": 0.8571,
+  "recall@k": 0.8571,
+  "f1@k": 0.8571,
+  "ndcg@k": 0.7251,
+  "map@k": 0.6296,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2018,
+  "teste": 2019,
+  "k": 7,
+  "baseline": "markov",
+  "precision@k": 0.8571,
+  "recall@k": 0.8571,
+  "f1@k": 0.8571,
+  "ndcg@k": 0.7251,
+  "map@k": 0.6296,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2018,
+  "teste": 2019,
+  "k": 7,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.5714,
+  "recall@k": 0.5714,
+  "f1@k": 0.5714,
+  "ndcg@k": 0.8937,
+  "map@k": 0.8129,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Direito",
+   "Economia",
+   "História Mundial"
+  ],
+  "real": [
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2019,
+  "teste": 2020,
+  "k": 7,
+  "baseline": "frequência",
+  "precision@k": 0.7143,
+  "recall@k": 0.625,
+  "f1@k": 0.6667,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Economia",
+   "História Mundial"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2019,
+  "teste": 2020,
+  "k": 7,
+  "baseline": "recência",
+  "precision@k": 1.0,
+  "recall@k": 0.875,
+  "f1@k": 0.9333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2019,
+  "teste": 2020,
+  "k": 7,
+  "baseline": "markov",
+  "precision@k": 1.0,
+  "recall@k": 0.875,
+  "f1@k": 0.9333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2019,
+  "teste": 2020,
+  "k": 7,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.7143,
+  "recall@k": 0.625,
+  "f1@k": 0.6667,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Economia",
+   "História Mundial",
+   "Língua Inglesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2021,
+  "teste": 2022,
+  "k": 7,
+  "baseline": "frequência",
+  "precision@k": 0.7143,
+  "recall@k": 0.625,
+  "f1@k": 0.6667,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Economia",
+   "História Mundial"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2021,
+  "teste": 2022,
+  "k": 7,
+  "baseline": "recência",
+  "precision@k": 1.0,
+  "recall@k": 0.875,
+  "f1@k": 0.9333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2021,
+  "teste": 2022,
+  "k": 7,
+  "baseline": "markov",
+  "precision@k": 1.0,
+  "recall@k": 0.875,
+  "f1@k": 0.9333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2021,
+  "teste": 2022,
+  "k": 7,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.7143,
+  "recall@k": 0.625,
+  "f1@k": 0.6667,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Economia",
+   "História Mundial",
+   "Língua Inglesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2022,
+  "teste": 2023,
+  "k": 7,
+  "baseline": "frequência",
+  "precision@k": 0.7143,
+  "recall@k": 0.5556,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Economia",
+   "História Mundial"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional",
+   "Realização"
+  ]
+ },
+ {
+  "fold": 2022,
+  "teste": 2023,
+  "k": 7,
+  "baseline": "recência",
+  "precision@k": 1.0,
+  "recall@k": 0.7778,
+  "f1@k": 0.875,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional",
+   "Realização"
+  ]
+ },
+ {
+  "fold": 2022,
+  "teste": 2023,
+  "k": 7,
+  "baseline": "markov",
+  "precision@k": 1.0,
+  "recall@k": 0.7778,
+  "f1@k": 0.875,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional",
+   "Realização"
+  ]
+ },
+ {
+  "fold": 2022,
+  "teste": 2023,
+  "k": 7,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.7143,
+  "recall@k": 0.5556,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Economia",
+   "História Mundial",
+   "Língua Inglesa"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional",
+   "Realização"
+  ]
+ },
+ {
+  "fold": 2023,
+  "teste": 2024,
+  "k": 8,
+  "baseline": "frequência",
+  "precision@k": 0.625,
+  "recall@k": 0.625,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Economia",
+   "História Mundial",
+   "Direito"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2023,
+  "teste": 2024,
+  "k": 8,
+  "baseline": "recência",
+  "precision@k": 0.875,
+  "recall@k": 0.875,
+  "f1@k": 0.875,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2023,
+  "teste": 2024,
+  "k": 8,
+  "baseline": "markov",
+  "precision@k": 1.0,
+  "recall@k": 1.0,
+  "f1@k": 1.0,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2023,
+  "teste": 2024,
+  "k": 8,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.625,
+  "recall@k": 0.625,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Economia",
+   "História Mundial",
+   "Língua Inglesa",
+   "Direito"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2024,
+  "teste": 2025,
+  "k": 8,
+  "baseline": "frequência",
+  "precision@k": 0.625,
+  "recall@k": 0.625,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Economia",
+   "História Mundial",
+   "Direito"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2024,
+  "teste": 2025,
+  "k": 8,
+  "baseline": "recência",
+  "precision@k": 1.0,
+  "recall@k": 1.0,
+  "f1@k": 1.0,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2024,
+  "teste": 2025,
+  "k": 8,
+  "baseline": "markov",
+  "precision@k": 0.875,
+  "recall@k": 0.875,
+  "f1@k": 0.875,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2024,
+  "teste": 2025,
+  "k": 8,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.625,
+  "recall@k": 0.625,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Economia",
+   "História Mundial",
+   "Língua Inglesa",
+   "Direito"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2025,
+  "teste": 2026,
+  "k": 8,
+  "baseline": "frequência",
+  "precision@k": 0.625,
+  "recall@k": 0.625,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Política Internacional",
+   "Economia",
+   "História Mundial",
+   "Direito"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2025,
+  "teste": 2026,
+  "k": 8,
+  "baseline": "recência",
+  "precision@k": 1.0,
+  "recall@k": 1.0,
+  "f1@k": 1.0,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2025,
+  "teste": 2026,
+  "k": 8,
+  "baseline": "markov",
+  "precision@k": 1.0,
+  "recall@k": 1.0,
+  "f1@k": 1.0,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ },
+ {
+  "fold": 2025,
+  "teste": 2026,
+  "k": 8,
+  "baseline": "recência_ponderada",
+  "precision@k": 0.625,
+  "recall@k": 0.625,
+  "f1@k": 0.625,
+  "ndcg@k": 1.0,
+  "map@k": 1.0,
+  "previsto": [
+   "Língua Portuguesa",
+   "Geografia",
+   "Política Internacional",
+   "História do Brasil",
+   "Economia",
+   "História Mundial",
+   "Língua Inglesa",
+   "Direito"
+  ],
+  "real": [
+   "Direito",
+   "Economia",
+   "Geografia",
+   "História Mundial",
+   "História do Brasil",
+   "Língua Inglesa",
+   "Língua Portuguesa",
+   "Política Internacional"
+  ]
+ }
+]
