@@ -26,32 +26,17 @@ vão cair na próxima edição — melhor do que um chute estatístico simples.*
 | Marco | Entrega | Status | Critério de "pronto" |
 |---|---|---|---|
 | **M0 — Corpus** | PDFs catalogados, baixados e convertidos em texto | ✅ concluído | 463 arquivos com SHA-256 no manifest; texto extraído de todas as edições |
-| **M1 — Dataset da 1ª fase** | `questions.parquet` com questões, gabarito e disciplina | 🔄 ~90% | ≥ 97% com gabarito (ou "anulado" documentado) **e** validação manual de 50 itens com ≥ 97% de fidelidade |
-| **M2 — Taxonomia de temas** | Cada questão com um tema (`topic`) | 🔄 v1 | < 15% dos itens no tema "geral" + 50 itens conferidos à mão com ≥ 90% de concordância |
-| **M3 — Backtest honesto** | Baselines estatísticos avaliados por tema, 9 folds | 🔄 rodando, **precisa correção** (ver §4) | Tabela de baselines por tema sem vazamento; relatório por fold |
-| **M4 — Modelo que supera o baseline** | NLP/ML (TF-IDF preditivo, embeddings, XGBoost) | ⬜ não iniciado | Precision@K por tema > melhor baseline, com intervalo de confiança |
-| **M5 — Reprodutibilidade** | `verify_manifest.py` + testes pytest + pipeline de 1 comando | ⬜ não iniciado | "Clone e confira" funciona; ≥ 5 testes nos parsers |
-| **M6 — Produto** | Dashboard e simulados | ⬜ futuro | Só começa depois de M4 |
-| *Paralelo* — Discursivas | 2ª e 3ª fase extraídas | 🔄 parcial | Não bloqueia M1–M4 |
+| **M1 — Dados confiáveis** | `questions.parquet` da 1ª fase sem lixo e com gabarito documentado | 🔄 88% de fidelidade na amostra de 50 | Nova amostra com ≥ 97% de fidelidade; nenhuma linha `rules` sem justificativa |
+| **M2 — Temas** | Cada item com um tema, a partir de uma taxonomia versionada | 🔄 60 temas, 243 itens sem tema | 0 itens sem tema, classificação sem vazamento, ≥ 90% de concordância manual |
+| **M3 — Avaliação honesta** | Um protocolo único de backtest por tema | 🔄 3 scripts, 1 com vazamento (ver §4) | Baselines + aleatório + oráculo no mesmo script, com intervalo de confiança |
+| **M4 — Modelos** | Regressão logística e XGBoost contra o baseline | ⬜ não iniciado | Tabela final modelos × baselines com IC — ganhe ou perca |
+| **M5 — Reprodutibilidade** | Manifest, testes, comando único, CI | ⬜ não iniciado | Clone, rode e confira; ≥ 8 testes passando |
+| **M6 — Fechamento** | Relatório final e versão `v1.0` | ⬜ | Pergunta de pesquisa respondida, com limitações |
 
-Ordem: **M1 → M2 → M3 → M4**. M5 pode andar em paralelo. M6 e discursivas esperam.
+Ordem: **M1 → M2 → M3 → M4 → M6**, com o M5 em paralelo. Discursivas, dashboard e simulados
+ficam fora da v1.0.
 
-### O que falta em cada marco aberto
-
-**M1 — Dataset**
-- [ ] Validação manual das 50 questões (`data/processed/qa_sample/qa_validacao_manual.md`)
-- [ ] Gabaritos faltantes 2005–2013 (~180 itens sem resposta; parte é anulada)
-- [ ] 2004: manual duplicado (`itn = qn`) · 2013: 10 linhas com numeração ruidosa · 2024: textos-base trocados · 2025: item 235
-
-**M2 — Taxonomia**
-- [ ] Reduzir "geral" de 22% para < 15%
-- [ ] Mover a taxonomia para um arquivo versionado (`data/metadata/taxonomia.yaml`)
-- [ ] Conferir 50 classificações à mão
-
-**M3 — Backtest**
-- [ ] Corrigir o vazamento do TF-IDF (ver §4)
-- [ ] Reportar só o nível **tema** como métrica principal (o nível disciplina está saturado)
-- [ ] Gerar relatório por fold: previsto × o que caiu
+**Tarefas, critérios de aceite e ordem das sessões: [`ROADMAP.md`](ROADMAP.md).**
 
 ---
 
@@ -61,9 +46,9 @@ Ordem: **M1 → M2 → M3 → M4**. M5 pode andar em paralelo. M6 e discursivas 
 |---|---|---|
 | Corpus | 23 edições (2003–2026), 463 arquivos rastreáveis | `data/raw/download_manifest.csv` |
 | Questões da 1ª fase | **5.038 itens**, transcrição 100% | `data/processed/questions.parquet` |
-| Gabarito | **96,4%** (4.858 / 5.038) | `python pipeline/overview.py` · `docs/relatorios/overview-questoes.md` |
+| Gabarito | **96,5%** dos itens | `python pipeline/overview.py` · `docs/relatorios/overview-questoes.md` |
 | Disciplinas | 8 grupos canônicos, 98,6% classificados | coluna `discipline` |
-| Temas | ~45 temas, 22% ainda em "geral" | coluna `topic` |
+| Temas | 60 temas; 243 itens (4,8%) ainda sem tema | coluna `topic` |
 | Discursivas | 189 itens 2ª fase + 315 linhas 3ª fase | `questions.parquet` (`stage`) |
 | Backtest | 9 folds × 5 métodos rodando | `evaluation/`, `data/resultados/` |
 
@@ -108,6 +93,7 @@ Ordem: **M1 → M2 → M3 → M4**. M5 pode andar em paralelo. M6 e discursivas 
 | Quero… | Onde |
 |---|---|
 | Ver objetivo, marcos e ganhos | **este arquivo** |
+| Ver o que falta até o fim | `docs/ROADMAP.md` |
 | Rodar o pipeline de dados (ordem é crítica) | `pipeline/README.md` |
 | Rodar o backtest | `evaluation/` → resultados em `data/resultados/` |
 | Ver números por ano | `docs/relatorios/overview-questoes.md` |
@@ -127,7 +113,7 @@ Ordem: **M1 → M2 → M3 → M4**. M5 pode andar em paralelo. M6 e discursivas 
 | Etapas 9 e 11, roadmap "M2/M3", T024, T026 | M3 |
 | Etapas 8 e 10, T023, T025 | M4 |
 | `verify_manifest.py` (roadmap "M4"), T033 | M5 |
-| Etapa 12, roadmap "M6" | M6 |
+| Etapa 12, roadmap "M6" (dashboard) | fora da v1.0 |
 | Etapa 2 (dados administrativos) | backlog — só entra se o M4 precisar de "regime de banca" como feature |
 | `plano-discursivas.md`, roadmap "M5", T015 | Paralelo — Discursivas |
 | Posts (roadmap "M3/M4 post", T040, `conteudo/`) | fora dos marcos |

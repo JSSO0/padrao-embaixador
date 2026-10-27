@@ -3,143 +3,177 @@
 </p>
 
 <p align="center">
-  <img alt="status" src="https://img.shields.io/badge/status-pesquisa%20experimental-orange">
+  <img alt="status" src="https://img.shields.io/badge/status-pesquisa%20em%20andamento-orange">
   <img alt="python" src="https://img.shields.io/badge/python-3.12%2B-blue">
-  <img alt="licença" src="https://img.shields.io/badge/licen%C3%A7a-MIT-green">
+  <img alt="licença" src="https://img.shields.io/badge/c%C3%B3digo-MIT-green">
   <img alt="dados" src="https://img.shields.io/badge/dados-CC%20BY%204.0-lightgrey">
-  <img alt="PRs" src="https://img.shields.io/badge/PRs-bem--vindos-brightgreen">
 </p>
 
 # CACD Forecast AI
 
-Sistema experimental que mede, com **backtesting temporal rigoroso**, até que ponto o
-histórico das provas do **Concurso de Admissão à Carreira de Diplomata (CACD)** permite
-prever a **distribuição temática** da próxima edição.
+**Dá para prever os temas da próxima prova do CACD olhando só para as provas anteriores?**
 
-> **EN — TL;DR.** A research project on whether ~24 editions (2003–2026) of the Brazilian
-> diplomat entrance exam are enough to predict the *topic distribution* of the next exam —
-> not the literal question. Temporal backtesting, anti-leakage, statistical baselines first,
-> then NLP/ML. The hard part, as always, is the data.
+Este projeto responde a essa pergunta com dados. Ele reúne as provas objetivas do
+**Concurso de Admissão à Carreira de Diplomata** de 2003 a 2026, classifica cada item por tema e
+testa, ano a ano, se um modelo treinado só com o passado acerta os temas da edição seguinte
+melhor do que uma regra estatística simples.
+
+> **EN — TL;DR.** Can 23 editions (2003–2026) of the Brazilian diplomat entrance exam predict
+> the *topics* of the next one? We build the dataset, run a leakage-free temporal backtest, and
+> compare ML models against simple statistical baselines. A "no" is a valid answer.
 
 ---
 
-## O que é — e o que **não** é
+## O que é e o que não é
 
 | É | Não é |
 |---|---|
-| Um estudo científico com backtesting temporal (treino 2006–X, teste X+1) | Adivinhação da questão literal |
-| Comparação honesta de baselines estatísticos, NLP e ML | "Guru" que promete tema garantido |
-| Probabilidade estimada, sempre com incerteza | Certeza sobre a próxima prova |
+| Uma pesquisa com backtesting temporal: treina até o ano X, testa em X+1 | Adivinhação da questão literal |
+| Uma comparação honesta entre baselines simples e modelos de ML | Promessa de tema garantido |
+| Um dataset aberto e rastreável das provas objetivas do CACD | Material oficial do MRE, do IRBr ou das bancas |
 
-Pergunta central: *dado todo o histórico até o ano X, quais temas teriam sido previstos
-para X+1 — e o que realmente caiu?*
+## Situação atual
 
-## Como funciona
-
-1. **Dados** — catalogação de fontes, download dos PDFs, extração de texto e segmentação
-   em questões (enunciado, alternativas, gabarito, disciplina), com proveniência completa.
-2. **NLP** — embeddings multilíngues, similaridade e clustering para descobrir temas e
-   recorrências reais entre edições.
-3. **Modelos** — features estatísticas e 4 baselines primeiro; depois ML tabular
-   (XGBoost/LightGBM), modelos de decisão probabilística (Laya) e ensemble.
-4. **Backtesting** — folds expansivos 2017→2025, métricas de ranking (Precision@K, NDCG@K)
-   por disciplina, relatório de previsões vs. prova real.
-
-## Status
-
-Objetivo, marcos, ganhos e glossário: **[docs/MAPA-DO-PROJETO.md](docs/MAPA-DO-PROJETO.md)**.
-
-| Marco | Status |
+| | |
 |---|---|
-| M0 — Corpus (catalogar, baixar, extrair texto) | ✅ |
-| M1 — Dataset da 1ª fase (5.038 itens, 96,4% com gabarito) | 🔄 falta validação manual |
-| M2 — Taxonomia de temas (~45 temas, 22% "geral") | 🔄 |
-| M3 — Backtest honesto por tema (baseline Markov 0,79) | 🔄 corrigir vazamento do TF-IDF |
-| M4 — Modelo que supera o baseline | ⬜ |
-| M5 — Reprodutibilidade (manifest + testes) | ⬜ |
-| M6 — Dashboard e simulados | ⬜ futuro |
+| **Dataset** | 5.038 itens da 1ª fase, 23 edições, 96,5% com gabarito oficial |
+| **Qualidade** | 88% de fidelidade numa revisão manual de 50 questões (meta: 97%) |
+| **Temas** | 60 temas em 8 disciplinas |
+| **Melhor baseline** | Markov por tema: Precision@K = **0,79** |
+| **Modelo que supera o baseline** | Ainda nenhum — é o próximo grande marco |
 
-### Qualidade do dataset por período
+### Marcos
 
-| Período | Banca / formato | Situação |
+| Marco | Objetivo | Status |
 |---|---|---|
-| 2019–2023 | IADES (certo/errado) | ✅ usável |
-| 2024–2026 | Cebraspe (atual) | ✅ usável (2024 com textos-base a revisar) |
-| 2003–2018 | CESPE / formatos antigos | ✅ transcrito; gabaritos 2005–2013 incompletos |
+| M0 — Corpus | Baixar e extrair o texto de todas as provas | ✅ |
+| M1 — Dados confiáveis | Dataset da 1ª fase sem lixo e com gabarito documentado | 🔄 |
+| M2 — Temas | Cada item com um tema, em uma taxonomia versionada | 🔄 |
+| M3 — Avaliação honesta | Um protocolo único de backtest, sem vazamento | 🔄 |
+| M4 — Modelos | Regressão logística e XGBoost contra o baseline | ⬜ |
+| M5 — Reprodutibilidade | Manifest, testes, comando único, CI | ⬜ |
+| M6 — Fechamento | Relatório final e versão `v1.0` | ⬜ |
 
-> Transparência: a maior dificuldade do projeto **não** é modelar — é **levantar os dados**.
-> Bancas diferentes, provas em duas colunas, gabaritos com múltiplos cadernos e provas
-> escaneadas tornam a extração a parte mais árdua. Isso está documentado, não escondido.
-
-## Estrutura do repositório
-
-```
-├── data/
-│   ├── raw/             # PDFs originais + manifest com SHA-256
-│   ├── metadata/        # catálogos de fontes e proveniência
-│   ├── processed/       # datasets (questions.parquet) e amostras de QA
-│   └── resultados/      # saídas do backtest
-├── scraper/             # download dos PDFs (M0)
-├── parser/              # extração de texto e segmentação por banca (M0–M1)
-├── pipeline/            # scripts de produção, em ordem — ver pipeline/README.md
-├── evaluation/          # baselines, métricas @K e backtesting temporal (M3)
-├── ferramentas/
-│   ├── extracoes_pontuais/  # OCR e resgates feitos uma vez
-│   └── diagnostico/         # inspeção e depuração
-├── tests/               # pytest (M5)
-└── docs/
-    ├── MAPA-DO-PROJETO.md   # fonte única: objetivo, marcos, ganhos
-    ├── referencia/          # requisitos, specs técnicas, formatos dos PDFs
-    ├── relatorios/          # relatórios de corpus e cobertura
-    └── historico/           # planos e contexto de sessões antigas
-```
-
-## Dados e proveniência
-
-Prioridade de fonte: **MRE/IrBr > Cebraspe > Wayback (oficial arquivado) > repositórios secundários**.
-
-- **Oficial vivo:** 2017–2018, 2024–2026 (Cebraspe)
-- **Oficial arquivado:** 2013–2016 (Wayback, domínio legado)
-- **Secundária:** 2003–2012 e 2019–2023 (banca IADES)
-
-Cada questão do dataset carrega `source_type` e `source_url`. URL só é registrada após
-verificação; ausências são `NOT_FOUND` explícitos. Os **PDFs originais ficam no repositório**
-(`data/raw/`), para que qualquer pessoa possa conferir as fontes e reproduzir a extração —
-cada arquivo é rastreável à sua URL de origem em `data/raw/download_manifest.csv`.
-
-## Como reproduzir
-
-```bash
-pip install -r requirements.txt
-python scraper/download.py --dry-run   # lista os jobs de download
-python scraper/download.py             # baixa (retomável, com SHA-256)
-python parser/extract_text.py          # extrai texto + métricas de qualidade
-python parser/build_dataset.py         # gera questions.parquet + extraction_report
-```
-
-Pipeline completo (importação manual, gabaritos, taxonomia e backtest), na ordem certa:
-[`pipeline/README.md`](pipeline/README.md).
-
-## Princípios do projeto
-
-- **Backtesting temporal obrigatório** — janela expansiva (treino 2006–X, teste X+1); nunca split aleatório.
-- **Anti-leakage** — taxonomia, TF-IDF e embeddings re-fitados por fold; eventos filtrados por data < prova.
-- **Métricas de ranking** — Precision@K, Recall@K, F1@K, MAP@K, NDCG@K (por disciplina também).
-- **Baselines antes de IA** — nenhum modelo "inteligente" sem comparar com os 4 baselines estatísticos.
-- **Transparência** — todo score é probabilidade estimada; conteúdo de LLM sempre marcado `GERADA POR IA`.
-- **Proveniência total** — cada dado rastreável à fonte; provas de cursinho nunca tratadas como oficiais.
-
-## Aviso
-
-Projeto de **pesquisa e estudo**, sem qualquer vínculo com o Ministério das Relações
-Exteriores, o Instituto Rio Branco, o Cebraspe ou o IADES. Não há garantia de acurácia.
-Use por sua conta e risco.
-
-## Licença
-
-- **Código:** MIT — ver [`LICENSE`](LICENSE).
-- **Dados derivados e documentação:** CC BY 4.0 — ver [`LICENSE-DATA.md`](LICENSE-DATA.md).
+Detalhes: **[status e ganhos](docs/MAPA-DO-PROJETO.md)** · **[roadmap até o fim](docs/ROADMAP.md)**
 
 ---
 
-<p align="center"><sub>Feito com café, PyMuPDF e uma quantidade suspeita de paciência com PDFs.</sub></p>
+## Como funciona
+
+```
+ PDFs oficiais ──► texto ──► questões + gabarito ──► tema de cada item ──► backtest por ano
+   (scraper)      (parser)      (parser, pipeline)       (pipeline)          (evaluation)
+```
+
+1. **Coleta** — cada PDF é catalogado com a URL de origem e o hash SHA-256.
+2. **Extração** — o texto sai do PDF (PyMuPDF; OCR com Tesseract nos escaneados) e é segmentado
+   em questões e itens por um parser específico de cada banca (CESPE, IADES, Cebraspe).
+3. **Gabarito** — as respostas oficiais são lidas dos gabaritos definitivos; itens anulados ficam sem resposta.
+4. **Temas** — cada item recebe uma disciplina (8) e um tema (60).
+5. **Backtest** — para cada ano X de 2017 a 2025, os métodos veem só as provas até X e apostam
+   nos K temas de X+1. A métrica principal é **Precision@K por tema**.
+
+## Stack
+
+| Camada | Ferramentas |
+|---|---|
+| Linguagem | Python 3.12+ |
+| Dados | pandas, pyarrow (Parquet) |
+| PDFs e OCR | PyMuPDF, Tesseract 5 + `pytesseract`, Pillow |
+| Validação de esquema | pydantic, pandera |
+| NLP e métricas | scikit-learn (TF-IDF, métricas) |
+| Gráficos | matplotlib |
+| Coleta | requests |
+| Planejado (M4) | XGBoost / LightGBM, sentence-transformers |
+
+## Estrutura
+
+```
+├── data/
+│   ├── raw/                  # PDFs originais + download_manifest.csv (URL, SHA-256)
+│   ├── metadata/             # catálogos de fontes
+│   ├── processed/            # questions.parquet, gabaritos, amostras de QA
+│   └── resultados/           # saídas do backtest
+├── scraper/                  # download dos PDFs
+├── parser/                   # extração de texto e parsers por banca
+├── pipeline/                 # scripts de produção, em ordem (ver pipeline/README.md)
+├── evaluation/               # baselines, métricas @K e backtest
+├── ferramentas/
+│   ├── extracoes_pontuais/   # OCR e resgates feitos uma única vez
+│   └── diagnostico/          # inspeção e depuração
+├── tests/                    # pytest
+└── docs/
+    ├── MAPA-DO-PROJETO.md    # objetivo, marcos, ganhos, glossário
+    ├── ROADMAP.md            # tarefas até o fim do projeto
+    ├── referencia/           # requisitos, specs técnicas, formatos dos PDFs
+    ├── relatorios/           # relatórios de corpus e cobertura
+    └── historico/            # planos e anotações de sessões antigas
+```
+
+## O dataset
+
+`data/processed/questions.parquet` — uma linha por item.
+
+| Coluna | Significado |
+|---|---|
+| `contest_id` | Edição, ex.: `CACD_2017` |
+| `stage` | `primeira_fase` (objetiva), `segunda_fase`, `terceira_fase` (discursivas) |
+| `question_number` / `item_number` | Número da questão e do item dentro dela |
+| `question_text` / `item_text` | Enunciado e texto do item |
+| `answer` | Gabarito oficial (`C`/`E` ou letra); vazio se anulado |
+| `discipline_canon` | Uma das 8 disciplinas |
+| `topic` | Tema — o que o projeto tenta prever |
+| `extraction_method` | `manual` (transcrito/revisado) ou `rules` (extraído automaticamente) |
+| `source_type` / `source_file` | Origem do dado, rastreável ao PDF |
+
+Mais termos no [glossário](docs/MAPA-DO-PROJETO.md#5-glossário-nomes-usados-no-código).
+
+### Proveniência
+
+Prioridade de fonte: **MRE/IRBr > Cebraspe > Wayback (oficial arquivado) > repositórios secundários**.
+
+| Período | Banca | Fonte |
+|---|---|---|
+| 2003–2012 | CESPE | secundária |
+| 2013–2016 | CESPE | oficial arquivada (Wayback) |
+| 2017–2018 | Cebraspe | oficial |
+| 2019–2023 | IADES | secundária |
+| 2024–2026 | Cebraspe | oficial |
+
+Os PDFs originais ficam no repositório (`data/raw/`) para que qualquer pessoa confira as fontes.
+
+## Como rodar
+
+```bash
+pip install -r requirements.txt
+
+# reconstruir o dataset a partir dos PDFs
+python scraper/download.py          # baixa (retomável, confere SHA-256)
+python parser/extract_text.py       # PDF → texto
+python parser/build_dataset.py      # texto → questions.parquet
+
+# backtest
+python evaluation/backtest_temas.py # baselines por tema → data/resultados/
+python evaluation/grafico.py        # gráfico → docs/assets/precision_at_k.png
+```
+
+O pipeline completo (importação manual, gabaritos, taxonomia) tem uma **ordem obrigatória**:
+veja [`pipeline/README.md`](pipeline/README.md).
+
+## Princípios
+
+- **Sem vazamento** — nada da prova X+1 entra no treino, nas features ou na definição dos temas.
+- **Baseline antes de IA** — nenhum modelo vale se não superar frequência, recência e Markov.
+- **Incerteza explícita** — todo resultado vem com intervalo de confiança; nada é certeza.
+- **Rastreabilidade** — cada item aponta para o PDF e a URL de origem.
+- **Resultado negativo também é resultado** — se o histórico não prever, isso será publicado.
+
+## Aviso
+
+Projeto de **pesquisa e estudo**, sem vínculo com o Ministério das Relações Exteriores, o Instituto
+Rio Branco, o Cebraspe ou o IADES. Não há garantia de acurácia.
+
+## Licença
+
+- **Código:** MIT — [`LICENSE`](LICENSE)
+- **Dados derivados e documentação:** CC BY 4.0 — [`LICENSE-DATA.md`](LICENSE-DATA.md)
