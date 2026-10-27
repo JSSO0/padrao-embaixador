@@ -71,14 +71,21 @@ RE_TIPO = re.compile(r"(?:prova\s+tipo|caderno)\s*\S{0,3}\s*([A-Da-d])\b", re.I)
 
 
 def rows_of(page):
-    """Agrupa spans em linhas visuais por y (tolerancia 3pt), ordenadas por x."""
+    """Agrupa spans em linhas visuais por y (tolerancia 3pt), ordenadas por x.
+    Descarta spans duplicados (mesmo y/x/texto repetidos no text layer)."""
     spans = []
+    seen = set()
     for b in page.get_text("dict")["blocks"]:
         for l in b.get("lines", []):
             for s in l["spans"]:
                 t = unicodedata.normalize("NFC", s["text"].strip())
-                if t:
-                    spans.append((s["bbox"][1], s["bbox"][0], t))
+                if not t:
+                    continue
+                key = (round(s["bbox"][1], 1), round(s["bbox"][0], 1), t)
+                if key in seen:
+                    continue  # span duplicado
+                seen.add(key)
+                spans.append((s["bbox"][1], s["bbox"][0], t))
     spans.sort()
     rows = []
     for y, x, t in spans:
@@ -175,7 +182,12 @@ def parse_pdf(pdf: Path) -> dict[tuple[int, int], tuple[str, str]]:
                     me = RE_HEADER.fullmatch(first) or re.fullmatch(r"(\d{1,3})", first)
                     if me:
                         qn = int(me.group(1))
-                        lets = [t for _, t in cells[1:] if RE_ANS.match(t)]
+                        # colapsa letras duplicadas na mesma coluna (span duplo)
+                        by_x: dict[float, str] = {}
+                        for x, t in cells[1:]:
+                            if RE_ANS.match(t):
+                                by_x.setdefault(round(x, 1), t.upper())
+                        lets = [v for _, v in sorted(by_x.items())]
                         # questoes reais tem <= 5 itens; linhas com mais letras
                         # sao grade transposta do TPS (linha = item, coluna =
                         # questao) e seriam armazenadas invertidas
@@ -447,12 +459,14 @@ def main() -> None:
             if pd.isna(row["item_number"]):
                 # linhas com itn=null: tenta chaves alternativas do gabarito
                 # na ordem: (qn, 0) [MC era TPS], depois (qn, 1) [MC tabela,
-                # formato C 2024+]. Só aplica se o item tem alternatives
-                # (multipla escolha) ou se o ano e >= 2024 (itens individuais).
+                # formato E 2009-2013 / formato C 2024+]. Só aplica se o item
+                # tem alternatives (multipla escolha), se e multiple_choice ou
+                # se o ano e >= 2024 (itens individuais).
                 has_alts = pd.notna(row["alternatives"]) and str(
                     row["alternatives"]
                 ).strip() not in ("", "nan", "None", "[]")
-                if has_alts:
+                is_mc = str(row["question_type"]) == "multiple_choice"
+                if has_alts or is_mc:
                     # tenta (qn, 0) primeiro (era TPS), depois (qn, 1) (tabela)
                     letter = (all_g.get(y) or {}).get(f"{qn_i}:0") or (
                         all_g.get(y) or {}
