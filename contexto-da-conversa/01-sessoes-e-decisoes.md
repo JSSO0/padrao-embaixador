@@ -39,6 +39,7 @@ parseia o texto linear do PDF oficial (ordem nativa = ordem de leitura):
 | Multiplos-escolha sem chave | grid '+' não tinha chave (qn, itn) no dataset (itn=null) | cache `(qn, 0)` + apply nas linhas `itn=null` + `alternatives` |
 | **2025/2026 sem gabarito após re-import** | fallback `itn=null → 1` foi removido; formato C usa chave (item, 1) | aplicar `itn=1` para year>=2024 question_type=certo_errado |
 | **Cache regravado sem 2003-2014** | `main()` usava default `range(2015, 2027)` quando `--year` omitido | loop explícito 2003-2026 no `main()` |
+| Import zera answer | import_manual recria parquet | rodar gabaritos APÓS todo import |
 
 ### Fatos importantes descobertos
 - **TPS (Teste de Pré-Seleção) ERA a prova objetiva de 2003-2008** — o próprio
@@ -51,6 +52,29 @@ parseia o texto linear do PDF oficial (ordem nativa = ordem de leitura):
   da 1ª fase** — a cadeia de gabaritos precisa rodar APÓS todo import
 - **PyMuPDF perde glifos** dos PDFs CESPE 2003-2010 (fontes com encoding
   quebrado): letras de gabarito, marcadores de item e enunciados inteiros
+
+### 2ª e 3ª fase — discursivas (`scripts/extract_discursivas.py`)
+- Era Cebraspe: `-- PROVA ESCRITA DE X --` (travessões opcionais) + blocos
+  `QUESTÃO N` (qualquer capitalização) + padrão de resposta oficial no `answer`
+- Padrões antigos (2017/2018): `PROVA DISCURSIVA|ESCRITA – SEGUNDA/TERCEIRA
+  FASE` + `<DISCIPLINA> – QUESTÃO N` (subject quebrando linha) ou
+  `<DISCIPLINA> – REDAÇÃO/RESUMO/SUMMARY` → qn 1
+- Provas por disciplina (2019-2023): arquivos `discursiva_<materia>__*.pdf`,
+  ~4 questões cada, extraídas como terceira fase; subject pelo nome do
+  arquivo (cuidado com `__` duplo no regex)
+- 2024-2026: **20 questões/ano, todas com padrão de resposta**
+- 2017: 20 questões, só 1 com padrão (só 2 arquivos de padrão baixados)
+- 2018: 0 questões (LP/LI são redação sem marcadores; resto em
+  `discursiva_<materia>` com encoding quebrado)
+
+### Transcrição das 13 questões faltantes
+- Localizadas nos PDFs dos zips archive.org (extraídos para
+  `data/raw/*/archive/`)
+- Rascunhos automáticos salvos como `questoes_faltantes.md` em cada pasta
+  archive (RENOMEADOS de .jsonl para .md para o import NÃO pegá-los)
+- **Não importados**: 2003 saiu com 2 de 5 itens por questão; 2005 só o
+  comando; 2010 q38-39 estão em outro PDF (PARTE_I não tem marcadores)
+- Fechamento exige **OCR** ou revisão manual
 
 ### 2ª e 3ª fase — discursivas (`scripts/extract_discursivas.py`)
 - Era Cebraspe: `-- PROVA ESCRITA DE X --` (travessões opcionais) + blocos
@@ -106,3 +130,17 @@ parseia o texto linear do PDF oficial (ordem nativa = ordem de leitura):
 - Estado pós-reparo: **1ª fase 5.020 itens, 4.677 (93,2%) com gabarito**
   (o pico anterior era 4.827/96,1% — a diferença de ~150 linhas são as
   rules 2009-2013 com itn=null que o guard atual não cobre)
+
+## Sessão 6 — 27/10/2026: validação manual (etapa 6)
+- 50 questões aleatórias extraídas para `data/processed/qa_sample/qa_validacao_manual.md`
+- Formato: checklist com enunciado, itens, gabarito, disciplina, fonte
+- 96,4% da 1ª fase com gabarito restaurado
+
+## Sessão 7 — 27/10/2026: 2010 q38-39 via OCR
+- PARTE_I 2010 usa **encoding de glifos corrompido** (cipher) — o texto
+  nativo parece um cipher (`HBLOISHMCTUI` = `PORTUGUÊS` com o mapa da fonte
+  trocado)
+- Solução: renderizar as 14 páginas a 250dpi + OCR lang=por
+- Extraídas q38 (múltipla escolha, 5 alternativas A-E) e q39 (C/E, 4 itens
+  — as caixas `()` da prova viram split dos itens)
+- 1ª fase 2003-2026: transcrição 100% completa
