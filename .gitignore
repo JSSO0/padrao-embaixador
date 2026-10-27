@@ -13,6 +13,7 @@ Thumbs.db
 
 # ferramentas locais
 .playwright-mcp/
+.ruff_cache/
 
 # Testes / ML
 .pytest_cache/

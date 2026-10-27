@@ -1,4 +1,4 @@
-"""Modelos de dominio da etapa 5 (Pydantic v2). Spec: docs/spec-etapa5.md"""
+"""Modelos de dominio da etapa 5 (Pydantic v2). Spec: docs/referencia/spec-etapa5.md"""
 
 from __future__ import annotations
 

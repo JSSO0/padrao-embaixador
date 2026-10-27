@@ -11,8 +11,8 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 
 # carrega os 3 resultados
-temas = json.load(open(ROOT / "data/processed/backtest_temas.json", encoding="utf-8"))
-tfidf = json.load(open(ROOT / "data/processed/backtest_tfidf.json", encoding="utf-8"))
+temas = json.load(open(ROOT / "data/resultados/backtest_temas.json", encoding="utf-8"))
+tfidf = json.load(open(ROOT / "data/resultados/backtest_tfidf.json", encoding="utf-8"))
 
 df_temas = pd.DataFrame(temas)
 df_tfidf = pd.DataFrame(tfidf)

@@ -120,6 +120,6 @@ if __name__ == "__main__":
     print(f"  (ex: 'Guerra do Paraguai' dentro de 'Império') seguem o mesmo padrão.")
     print(f"  Também não prova que a questão literal pode ser prevista.")
 
-    out = ROOT / "data/processed/backtest_temas.json"
+    out = ROOT / "data/resultados/backtest_temas.json"
     out.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n[ok] {out}")

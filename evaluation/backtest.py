@@ -138,7 +138,7 @@ if __name__ == "__main__":
     hist = load_disciplines(parquet)
     print("histórico por ano:", {y: len(d) for y, d in sorted(hist.items())})
     results = run_backtest(parquet, ROOT / "evaluation")
-    out = ROOT / "data/processed/backtest_results.json"
+    out = ROOT / "data/resultados/backtest_results.json"
     import json
 
     out.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")

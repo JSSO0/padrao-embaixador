@@ -150,7 +150,7 @@ def main() -> None:
         )
         print(f"  fold {x}: TF-IDF P@{k}={p:.2f}")
 
-    out = ROOT / "data/processed/backtest_tfidf.json"
+    out = ROOT / "data/resultados/backtest_tfidf.json"
     with out.open("w", encoding="utf-8") as fh:
         json.dump(results, fh, ensure_ascii=False, indent=1)
     print(f"[ok] {out.name}: {len(results)} registros")

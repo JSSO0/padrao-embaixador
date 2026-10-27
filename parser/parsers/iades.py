@@ -1,6 +1,6 @@
 """Parser IADES 2019-2023 (formato certo/errado, itens reiniciam por questao).
 
-Decodificado por inspecao real (docs/inspecao-formatos.md):
+Decodificado por inspecao real (docs/referencia/inspecao-formatos.md):
   - "QUESTAO N" delimita questoes; numerao dos itens REINICIA em 1 por questao
   - numeros soltos em sequencia com passo 3 (1,4,7,10...) = NUMEROS DE LINHA
     na margem do caderno (noise) — aparecem em clusters no topo de pagina

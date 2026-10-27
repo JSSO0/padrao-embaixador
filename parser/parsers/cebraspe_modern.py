@@ -5,7 +5,7 @@ Formato:
   - itens certo/errado com numero inline no inicio da linha ("151 Autores
     associados...") ou numero solto na linha; numeracao continua entre cadernos
   - comandos ("julgue os itens seguintes") e estímulos aparecem entre itens
-Regras puras, sem IA. QA: docs/spec-etapa5.md
+Regras puras, sem IA. QA: docs/referencia/spec-etapa5.md
 """
 
 from __future__ import annotations

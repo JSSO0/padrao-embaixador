@@ -7,7 +7,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 results = json.load(
-    (ROOT / "data/processed/backtest_results.json").open(encoding="utf-8")
+    (ROOT / "data/resultados/backtest_results.json").open(encoding="utf-8")
 )
 df = pd.DataFrame(results)
 
@@ -40,7 +40,7 @@ print(f"  disciplinas do CACD é estável — o que NÃO significa que a questã
 print(f"  literal pode ser prevista, nem que temas específicos dentro de uma")
 print(f"  disciplina seguem o mesmo padrão.")
 
-out = ROOT / "data/processed/backtest_summary.md"
+out = ROOT / "data/resultados/backtest_summary.md"
 with out.open("w", encoding="utf-8") as fh:
     fh.write("# Backtesting Temporal — Resultados\n\n")
     fh.write("## Médias por baseline\n\n```\n")

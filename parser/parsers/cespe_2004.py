@@ -1,6 +1,6 @@
 """Parser CESPE 2004-2006 (julgue-o-item com marcador "N ?" tipo bullet).
 
-Decodificado por inspecao (docs/inspecao-formatos.md + blocos com x/y):
+Decodificado por inspecao (docs/referencia/inspecao-formatos.md + blocos com x/y):
   - itens marcados como "1 ? A expressao ..." (numero + simbolo CESPE que
     aparece como "?" no texto extraido)
   - 150 itens globais (1..150), texto-base por bloco "Texto I - itens de 1 a 15"

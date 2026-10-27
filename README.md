@@ -47,29 +47,25 @@ para X+1 — e o que realmente caiu?*
 
 ## Status
 
-| Etapa | Status | Artefato |
-|---|---|---|
-| 1. Catalogar fontes | ✅ | [`docs/etapa1-relatorio-catalogacao.md`](docs/etapa1-relatorio-catalogacao.md) |
-| 2. Dados administrativos por edital | ⏳ | `data/metadata/contest_registry.csv` |
-| 3. Baixar PDFs | ✅ | `scraper/download.py` + `data/raw/download_manifest.csv` |
-| 4. Extrair texto | ✅ | `parser/extract_text.py` → `data/processed/text/` |
-| 5. Segmentar questões + dataset | 🔄 | `parser/` → `data/processed/questions.parquet` |
-| 6. Validação manual de amostra | ⏳ | `data/processed/qa_sample/` |
-| 7. Taxonomia temática | ⏳ | `data/metadata/taxonomy.md` |
-| 8. Embeddings + clustering | ⏳ | `nlp/` |
-| 9. Features + 4 baselines | ⏳ | `features/`, `models/baseline/` |
-| 10. ML + Laya + ensemble | ⏳ | `models/` |
-| 11. Backtesting + avaliação | ⏳ | `evaluation/` |
-| 12. Dashboard + simulados | ⏳ | `api/`, `frontend/` |
+Objetivo, marcos, ganhos e glossário: **[docs/MAPA-DO-PROJETO.md](docs/MAPA-DO-PROJETO.md)**.
+
+| Marco | Status |
+|---|---|
+| M0 — Corpus (catalogar, baixar, extrair texto) | ✅ |
+| M1 — Dataset da 1ª fase (5.038 itens, 96,4% com gabarito) | 🔄 falta validação manual |
+| M2 — Taxonomia de temas (~45 temas, 22% "geral") | 🔄 |
+| M3 — Backtest honesto por tema (baseline Markov 0,79) | 🔄 corrigir vazamento do TF-IDF |
+| M4 — Modelo que supera o baseline | ⬜ |
+| M5 — Reprodutibilidade (manifest + testes) | ⬜ |
+| M6 — Dashboard e simulados | ⬜ futuro |
 
 ### Qualidade do dataset por período
 
 | Período | Banca / formato | Situação |
 |---|---|---|
-| 2019–2023 | IADES (certo/errado) | ✅ usável (~90% de gabarito casado) |
-| 2025–2026 | Cebraspe (atual) | ✅ usável (100%) |
-| 2024 | Cebraspe (transição) | ⚠️ parcial |
-| 2003–2018 | CESPE / formatos antigos | ❌ em correção (provas em 2 colunas, gabaritos multi-caderno) |
+| 2019–2023 | IADES (certo/errado) | ✅ usável |
+| 2024–2026 | Cebraspe (atual) | ✅ usável (2024 com textos-base a revisar) |
+| 2003–2018 | CESPE / formatos antigos | ✅ transcrito; gabaritos 2005–2013 incompletos |
 
 > Transparência: a maior dificuldade do projeto **não** é modelar — é **levantar os dados**.
 > Bancas diferentes, provas em duas colunas, gabaritos com múltiplos cadernos e provas
@@ -79,18 +75,23 @@ para X+1 — e o que realmente caiu?*
 
 ```
 ├── data/
+│   ├── raw/             # PDFs originais + manifest com SHA-256
 │   ├── metadata/        # catálogos de fontes e proveniência
-│   ├── raw/             # PDFs baixados, por edição e família de fonte
-│   ├── processed/       # datasets, métricas e amostras de QA
-│   └── embeddings/      # vetores de questões
-├── scraper/             # download dos PDFs catalogados
-├── parser/              # extração de texto e segmentação de questões
-├── nlp/                 # embeddings, similaridade, clustering
-├── features/            # features estatísticas por tema
-├── models/              # baselines, xgboost, laya, ensemble
-├── evaluation/          # métricas @K e backtesting temporal
-├── tests/               # pytest
-└── docs/                # relatórios, planejamento e assets
+│   ├── processed/       # datasets (questions.parquet) e amostras de QA
+│   └── resultados/      # saídas do backtest
+├── scraper/             # download dos PDFs (M0)
+├── parser/              # extração de texto e segmentação por banca (M0–M1)
+├── pipeline/            # scripts de produção, em ordem — ver pipeline/README.md
+├── evaluation/          # baselines, métricas @K e backtesting temporal (M3)
+├── ferramentas/
+│   ├── extracoes_pontuais/  # OCR e resgates feitos uma vez
+│   └── diagnostico/         # inspeção e depuração
+├── tests/               # pytest (M5)
+└── docs/
+    ├── MAPA-DO-PROJETO.md   # fonte única: objetivo, marcos, ganhos
+    ├── referencia/          # requisitos, specs técnicas, formatos dos PDFs
+    ├── relatorios/          # relatórios de corpus e cobertura
+    └── historico/           # planos e contexto de sessões antigas
 ```
 
 ## Dados e proveniência
@@ -114,8 +115,10 @@ python scraper/download.py --dry-run   # lista os jobs de download
 python scraper/download.py             # baixa (retomável, com SHA-256)
 python parser/extract_text.py          # extrai texto + métricas de qualidade
 python parser/build_dataset.py         # gera questions.parquet + extraction_report
-python parser/qa.py --n 5              # amostra para revisão manual
 ```
+
+Pipeline completo (importação manual, gabaritos, taxonomia e backtest), na ordem certa:
+[`pipeline/README.md`](pipeline/README.md).
 
 ## Princípios do projeto
 
@@ -125,15 +128,6 @@ python parser/qa.py --n 5              # amostra para revisão manual
 - **Baselines antes de IA** — nenhum modelo "inteligente" sem comparar com os 4 baselines estatísticos.
 - **Transparência** — todo score é probabilidade estimada; conteúdo de LLM sempre marcado `GERADA POR IA`.
 - **Proveniência total** — cada dado rastreável à fonte; provas de cursinho nunca tratadas como oficiais.
-
-## Roadmap
-
-- [x] Catalogação de fontes e download do corpus
-- [x] Extração de texto e parser base (Cebraspe/IADES)
-- [ ] Fechar Etapa 5: objetivas 2003–2018 + 2024, discursivas, caderno do gabarito
-- [ ] Etapa 2: dados administrativos por edição
-- [ ] Taxonomia temática + baselines + primeiro backtest
-- [ ] ML/NLP, dashboard e simulados
 
 ## Aviso
 
