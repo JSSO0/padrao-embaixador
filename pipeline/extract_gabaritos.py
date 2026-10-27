@@ -17,8 +17,8 @@ Aplicacao (--apply): sobrescreve answer dos manuais de 1a fase com o
 gabarito definitivo (autoridade maxima); X/# -> answer null + nota.
 
 Uso:
-    python pipeline/extract_gabaritos.py --apply    # extrai tudo e aplica
-    python pipeline/extract_gabaritos.py --year 2015 --debug
+    python pipeline/extract_gabaritos.py            # default: TODOS os anos
+    python pipeline/extract_gabaritos.py --year 2015 --debug   # run parcial
 """
 
 from __future__ import annotations
@@ -36,6 +36,34 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 PARQUET = ROOT / "data" / "processed" / "questions.parquet"
 CACHE = ROOT / "data" / "processed" / "gabaritos.json"
+
+# Edicoes com gabarito processavel (2021 nao teve prova aplicada). Rodar sem
+# --year processa TODOS: um run completo nunca pode deixar o cache incompleto.
+ALL_YEARS = [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+]
 
 RE_HEADER = re.compile(r"Quest\S{0,2}O\s*(\d{1,3})", re.I)
 RE_ANS = re.compile(r"^[A-Ea-eXx#$☼]$")
@@ -361,40 +389,18 @@ def main() -> None:
     ap.add_argument("--debug", action="store_true")
     ap.add_argument("--no-apply", action="store_true")
     args = ap.parse_args()
-    years = args.year or list(range(2015, 2027))
+    years = args.year or ALL_YEARS
 
+    # O cache preserva os anos que NAO fazem parte deste run: um run parcial
+    # (com --year) nunca pode regravar gabaritos.json sem os demais anos —
+    # era isso que apagava as respostas de 2003-2014 (incidente de 23/10).
     all_g: dict[str, dict[str, str]] = {}
-    for y in [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026,
-        2026,
-    ]:
-        if y in (2005, 2006, 2007, 2008):
-            print(f"[!!] {y}: {y} usa parser TPS via collect_year (sem pulo)")
+    if CACHE.exists():
+        all_g = json.loads(CACHE.read_text(encoding="utf-8"))
+    for y in years:
         g = collect_year(y)
         if not g:
-            print(f"[!!] {y}: nenhum gabarito extraido")
+            print(f"[!!] {y}: nenhum gabarito extraido (cache mantem o anterior)")
             continue
         xs = sum(1 for v, _ in g.values() if v.upper() in ("X", "#"))
         qs = sorted({qn for qn, _ in g})
@@ -476,7 +482,11 @@ def main() -> None:
             if has:
                 override += 1
                 df.at[idx, "answer"] = None
-                df.at[idx, "notes"] = "item anulado no gabarito definitivo"
+                df.at[idx, "notes"] = "anulado"
+            else:
+                # anulada que ja nasceu sem resposta: registra o motivo (M1.5)
+                if pd.isna(cur_note := row.get("notes")) or not str(cur_note).strip():
+                    df.at[idx, "notes"] = "anulado"
             continue
         if has:
             if str(cur).strip().upper() != letter:

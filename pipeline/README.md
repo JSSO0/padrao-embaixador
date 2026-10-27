@@ -19,7 +19,7 @@ Scripts usados uma única vez (OCR de um ano, resgate de uma questão) ficam em
 | 6 | Converter transcrições `.md` legadas | `python pipeline/convert_md_transcripts.py` | M1 |
 | 7 | Importar transcrições manuais (**sempre antes do gabarito**: zera `answer` dos manuais) | `python parser/import_manual.py` | M1 |
 | 8 | Remover linhas `rules` substituídas por `manual` | `python pipeline/clean_dup_rules.py` | M1 |
-| 9 | Aplicar gabaritos (**sempre com todos os anos**, ver abaixo) | `python pipeline/extract_gabaritos.py --year 2003 … --year 2026` | M1 |
+| 9 | Aplicar gabaritos | `python pipeline/extract_gabaritos.py` | M1 |
 | 10 | Canonizar disciplinas (8 grupos) | `python pipeline/canon_disc.py` | M1 |
 | 11 | Taxonomia inicial (`topic`) | `python pipeline/build_taxonomy.py` | M2 |
 | 12 | Refinar taxonomia (subtemas) | `python pipeline/refine_taxonomy.py` | M2 |
@@ -30,19 +30,16 @@ Scripts usados uma única vez (OCR de um ano, resgate de uma questão) ficam em
 
 Saídas do backtest vão para `data/resultados/`; o gráfico vai para `docs/assets/`.
 
-### Comando completo do passo 9
+### Passo 9 — detalhes
 
 ```bash
-python pipeline/extract_gabaritos.py --year 2003 --year 2004 --year 2005 \
-  --year 2006 --year 2007 --year 2008 --year 2009 --year 2010 --year 2011 \
-  --year 2012 --year 2013 --year 2014 --year 2015 --year 2016 --year 2017 \
-  --year 2018 --year 2019 --year 2020 --year 2022 --year 2023 --year 2024 \
-  --year 2025 --year 2026
+python pipeline/extract_gabaritos.py            # default: todos os anos (2003-2026, exceto 2021)
+python pipeline/extract_gabaritos.py --year 2015 --debug   # run parcial (só o ano indicado)
 ```
 
-> ⚠️ **Bug conhecido:** sem `--year`, o script usa `range(2015, 2027)`
-> (`pipeline/extract_gabaritos.py:364`) e regrava o cache **sem 2003–2014**,
-> apagando respostas. Até corrigir, passe sempre todos os anos.
+> O default processa **todos os anos** e o cache (`data/processed/gabaritos.json`)
+> preserva os anos fora do run: nem um run completo nem um parcial deixam o
+> cache incompleto (correção do incidente de 23/10, task M1.1).
 
 ## Validação e QA
 
