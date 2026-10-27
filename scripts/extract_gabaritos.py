@@ -439,41 +439,29 @@ def main() -> None:
             letter = (all_g.get(y) or {}).get(f"{item}:1")
         else:
             if pd.isna(row["item_number"]):
-                # itens de multipla escolha da era TPS: itn=null + alternatives;
-                # o gabarito deles fica na chave (qn, 0)
-                if (
-                    y in ("2003", "2005", "2006", "2007", "2008")
-                    and pd.notna(row["alternatives"])
-                    and str(row["alternatives"]).strip()
-                    not in ("", "nan", "None", "[]")
+                # linhas com itn=null: tenta chaves alternativas do gabarito
+                # na ordem: (qn, 0) [MC era TPS], depois (qn, 1) [MC tabela,
+                # formato C 2024+]. Só aplica se o item tem alternatives
+                # (multipla escolha) ou se o ano e >= 2024 (itens individuais).
+                has_alts = pd.notna(row["alternatives"]) and str(
+                    row["alternatives"]
+                ).strip() not in ("", "nan", "None", "[]")
+                if has_alts:
+                    # tenta (qn, 0) primeiro (era TPS), depois (qn, 1) (tabela)
+                    letter = (all_g.get(y) or {}).get(f"{qn_i}:0") or (
+                        all_g.get(y) or {}
+                    ).get(f"{qn_i}:1")
+                    if not letter:
+                        continue
+                elif (
+                    int(row["year"]) >= 2024
+                    and str(row["question_type"]) == "certo_errado"
                 ):
-                    letter = (all_g.get(y) or {}).get(f"{qn_i}:0")
+                    letter = (all_g.get(y) or {}).get(f"{qn_i}:1")
                     if not letter:
                         continue
                 else:
-                    # formato C (2024-2026, itens individuais com itn=null): a
-                    # chave do gabarito e (item, 1) — assume item 1
-                    if (
-                        int(row["year"]) >= 2024
-                        and str(row["question_type"]) == "certo_errado"
-                    ):
-                        letter = (all_g.get(y) or {}).get(f"{qn_i}:1")
-                        if not letter:
-                            continue
-                    # multipla escolha 2009-2013: a tabela do gabarito tem 1
-                    # letra (A-D) por questao => chave (qn, 1); a linha com
-                    # alternatives e o proprio item MC
-                    elif (
-                        2009 <= int(row["year"]) <= 2013
-                        and pd.notna(row["alternatives"])
-                        and str(row["alternatives"]).strip()
-                        not in ("", "nan", "None", "[]")
-                    ):
-                        letter = (all_g.get(y) or {}).get(f"{qn_i}:1")
-                        if not letter:
-                            continue
-                    else:
-                        continue  # sem numeracao de item nao ha chave confiavel
+                    continue  # sem numeracao de item nao ha chave confiavel
             else:
                 itn_i = int(float(row["item_number"]))
                 letter = (all_g.get(y) or {}).get(f"{qn_i}:{itn_i}")
