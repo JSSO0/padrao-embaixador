@@ -1,0 +1,90 @@
+[
+ {
+  "fold": 2017,
+  "teste": 2018,
+  "k": 33,
+  "baseline": "tfidf",
+  "precision@k": 0.9259,
+  "recall@k": 0.7576,
+  "f1@k": 0.8333,
+  "ndcg@k": 1.0,
+  "map@k": 1.0
+ },
+ {
+  "fold": 2018,
+  "teste": 2019,
+  "k": 29,
+  "baseline": "tfidf",
+  "precision@k": 0.84,
+  "recall@k": 0.7241,
+  "f1@k": 0.7778,
+  "ndcg@k": 0.9032,
+  "map@k": 0.842
+ },
+ {
+  "fold": 2019,
+  "teste": 2020,
+  "k": 32,
+  "baseline": "tfidf",
+  "precision@k": 0.8276,
+  "recall@k": 0.75,
+  "f1@k": 0.7869,
+  "ndcg@k": 1.0,
+  "map@k": 1.0
+ },
+ {
+  "fold": 2021,
+  "teste": 2022,
+  "k": 30,
+  "baseline": "tfidf",
+  "precision@k": 0.8333,
+  "recall@k": 0.8333,
+  "f1@k": 0.8333,
+  "ndcg@k": 0.8373,
+  "map@k": 0.6837
+ },
+ {
+  "fold": 2022,
+  "teste": 2023,
+  "k": 34,
+  "baseline": "tfidf",
+  "precision@k": 0.875,
+  "recall@k": 0.8235,
+  "f1@k": 0.8485,
+  "ndcg@k": 1.0,
+  "map@k": 1.0
+ },
+ {
+  "fold": 2023,
+  "teste": 2024,
+  "k": 31,
+  "baseline": "tfidf",
+  "precision@k": 0.9643,
+  "recall@k": 0.871,
+  "f1@k": 0.9153,
+  "ndcg@k": 1.0,
+  "map@k": 1.0
+ },
+ {
+  "fold": 2024,
+  "teste": 2025,
+  "k": 35,
+  "baseline": "tfidf",
+  "precision@k": 0.9032,
+  "recall@k": 0.8,
+  "f1@k": 0.8485,
+  "ndcg@k": 0.9748,
+  "map@k": 0.9459
+ },
+ {
+  "fold": 2025,
+  "teste": 2026,
+  "k": 35,
+  "baseline": "tfidf",
+  "precision@k": 0.9394,
+  "recall@k": 0.8857,
+  "f1@k": 0.9118,
+  "ndcg@k": 0.9754,
+  "map@k": 0.9478
+ }
+]
