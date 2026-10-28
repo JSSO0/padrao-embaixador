@@ -1,5 +1,5 @@
 taxonomia:
-  version: 3
+  version: 5
   data_versao: '2026-10-28'
   metodo: regras-fixas-a-priori
   descricao: 'Temas por disciplina da 1a fase. Atribuicao por contagem de palavras-chave no enunciado+item;
@@ -161,6 +161,7 @@ taxonomia:
         - recursos discursivos
         - discursivos
         - sinônimo
+        - campo semântico
     Língua Inglesa:
       grammar_semantics:
         descricao: 'Gramática e semântica da língua: formas verbais, substituições, estrutura da frase.'
@@ -179,7 +180,6 @@ taxonomia:
         - text structure
         - textual
         - verb form
-        - word
       reading_comprehension:
         descricao: 'Compreensão de leitura: inferência e conteúdo do texto.'
         keywords:
@@ -311,6 +311,8 @@ taxonomia:
         - pragmatismo responsável
         - autonomia
         - riozinho
+        - rio branco
+        - barão do rio branco
       república_velha:
         descricao: 'Primeira República: coronelismo, café com leite, oligarquias.'
         keywords:
@@ -431,6 +433,7 @@ taxonomia:
         - proclamação do império alemão
         - unificação alemã
         - independência
+        - constitucionalismo
     Geografia:
       agricultura:
         descricao: Agricultura, estrutura fundiária e mundo rural.
@@ -518,6 +521,8 @@ taxonomia:
         - regionais
         - povoamento
         - industrialização
+        - zonas urbanas
+        - taxas de desemprego
     Política Internacional:
       direitos_humanos:
         descricao: Direitos humanos, refugiados e agenda humanitária.
@@ -645,6 +650,7 @@ taxonomia:
         - indústrias tradicionais
         - economia brasileira
         - indústrias tradicionais
+        - indústria brasileira
       macroeconomia:
         descricao: 'Macroeconomia: agregados, inflação, política monetária e fiscal.'
         keywords:
@@ -727,6 +733,9 @@ taxonomia:
         - costumes internacionais
         - costumes internacionais
         - costumes internacionais
+        - direito dos tratados
+        - cooperação jurídica
+        - costumes internacionais
       organização_do_estado:
         descricao: Organização do Estado brasileiro e poderes.
         keywords:
@@ -804,3 +813,8 @@ taxonomia:
   - versao: 4
     data: '2026-10-28'
     mudanca: 'M2.5: replaced/substituted movidos de grammar_semantics para vocabulary (itens de sinonimo/substituicao)'
+  - versao: 5
+    data: '2026-10-28'
+    mudanca: 'M2.5 (2a validacao: 38/50 = 76%): chaves discriminantes novas (direito dos tratados, campo
+      semantico, constitucionalismo, barao do rio branco, zonas urbanas, industria brasileira) e ''word''
+      removida de grammar_semantics.'

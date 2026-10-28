@@ -20,6 +20,8 @@ for b in blocos:
         continue
     cab = b.splitlines()[0].strip()
     m = re.match(r"(CACD_\d+) · Q(\d+)", cab)
+    if not m:
+        continue
     contest, qn = m.group(1), int(m.group(2))
     itn = re.search(r"· item (\d+)", cab)
     tema = re.search(r"Tema atribuído:\*\* `([^`]+)` \(([^)]+)\)", b)
