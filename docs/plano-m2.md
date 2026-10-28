@@ -68,8 +68,11 @@
 
 ### Fase D — Validação (1 sessão)
 
-- [ ] **D1 (M2.5)** 📏 Validar 50 classificações à mão (amostra nova, seed fixa, checklist igual ao do M1.9) — a revisão humana compara item ↔ tema e avalia se o tema é o "certo"
-  - *Aceite:* **≥ 90% de concordância**; divergências viram correção de regras do YAML e nova validação
+- [~] **D1 (M2.5)** 📏 Validar 50 classificações à mão (amostra nova, seed fixa, checklist igual ao do M1.9) 🔄 28/10/2026
+  - *1ª validação (seed 2028): 34/50 = 68% — abaixo do aceite.* Os 18 erros foram analisados (`ferramentas/diagnostico/diag_m25_keywords.py`) e geraram a **taxonomia v3/v4**: correção da disciplina de 2018 q43 (Text VI = Língua Inglesa), remoção de keywords genéricas (`sentence`, `paragraph`, `pronome`, `preposição`, `mercado`, `equilíbrio`, `ambiental` da geografia física) e novas chaves discriminantes (semântica, comércio_internacional, desenvolvimento, macroeconomia, urbanização, meio_ambiente, internacional_público, revoluções_liberais, vocabulary). `pipeline/ajusta_taxonomia_v3.py`
+  - *Re-verificação dos 18 casos: 16 agora classificam conforme o revisor; 2 divergências residuais por nuance de stem (2018 Q43 e 2024 Q39/2, grammar_semantics × vocabulary/RC).* Distribuição continua na faixa (max 7,83%).
+  - **Falta: 2ª validação manual** — amostra nova (seed 2029) em `data/processed/qa_sample/validacao_temas_m2.md`
+  - 🔄 28/10/2026 — **1ª rodada FALHOU: 33/50 = 66%** (72% contando os discutíveis) em `data/processed/qa_sample/validacao_temas_m2.md`. Fallback acerta 2/10; keyword acerta 31/40. Próximo: corrigir fallback, fronteira de palavra nas keywords, peso do item × texto-base, lacunas da taxonomia; corrigir disciplina da CACD_2018 Q43 (é inglês); validar com seed nova
 
 ---
 

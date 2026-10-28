@@ -27,7 +27,7 @@ vão cair na próxima edição — melhor do que um chute estatístico simples.*
 |---|---|---|---|
 | **M0 — Corpus** | PDFs catalogados, baixados e convertidos em texto | ✅ concluído | 463 arquivos com SHA-256 no manifest; texto extraído de todas as edições |
 | **M1 — Dados confiáveis** | `questions.parquet` da 1ª fase sem lixo e com gabarito documentado | ✅ concluído (28/10/2026) | Nova amostra com ≥ 97% de fidelidade: **PASS — 98% (49/50, seed 2027)**; 0 linhas `rules` sem justificativa; 0 duplicatas (`pipeline/qa_duplicidade.py`); 0 itens sem resposta sem motivo. Único problema da amostra (2013 Q13 item 3) corrigido |
-| **M2 — Temas** | Cada item com um tema, a partir de uma taxonomia versionada | 🔄 60 temas, 243 itens sem tema | 0 itens sem tema, classificação sem vazamento, ≥ 90% de concordância manual |
+| **M2 — Temas** | Cada item com um tema, a partir de uma taxonomia versionada | 🔄 taxonomia v2 (40 temas); validação manual 66% (33/50) — abaixo dos 90% | 0 itens sem tema, classificação sem vazamento, ≥ 90% de concordância manual |
 | **M3 — Avaliação honesta** | Um protocolo único de backtest por tema | 🔄 3 scripts, 1 com vazamento (ver §4) | Baselines + aleatório + oráculo no mesmo script, com intervalo de confiança |
 | **M4 — Modelos** | Regressão logística e XGBoost contra o baseline | ⬜ não iniciado | Tabela final modelos × baselines com IC — ganhe ou perca |
 | **M5 — Reprodutibilidade** | Manifest, testes, comando único, CI | ⬜ não iniciado | Clone, rode e confira; ≥ 8 testes passando |

@@ -1,5 +1,5 @@
 taxonomia:
-  version: 2
+  version: 3
   data_versao: '2026-10-28'
   metodo: regras-fixas-a-priori
   descricao: 'Temas por disciplina da 1a fase. Atribuicao por contagem de palavras-chave no enunciado+item;
@@ -77,8 +77,6 @@ taxonomia:
         - substantivo
         - adjetivo
         - advérbio
-        - pronome
-        - preposição
         - conjunção
         - artigo
         - prefixo
@@ -151,6 +149,18 @@ taxonomia:
         - significado
         - sinonimia
         - variação linguística
+        - recursos semânticos
+        - recursos discursivos
+        - discursivos
+        - sinônimo
+        - recursos semânticos
+        - recursos discursivos
+        - discursivos
+        - sinônimo
+        - recursos semânticos
+        - recursos discursivos
+        - discursivos
+        - sinônimo
     Língua Inglesa:
       grammar_semantics:
         descricao: 'Gramática e semântica da língua: formas verbais, substituições, estrutura da frase.'
@@ -163,13 +173,9 @@ taxonomia:
         - function of
         - grammatical
         - meaning of
-        - paragraph
         - pronoun
         - reference
-        - replaced
         - semantic
-        - sentence
-        - substituted
         - text structure
         - textual
         - verb form
@@ -210,6 +216,8 @@ taxonomia:
         - noun
         - verb
         - adjective
+        - replaced
+        - substituted
     História do Brasil:
       colônia:
         descricao: 'Brasil colonial: economia açucareira e do ouro, escravidão, administração metropolitana.'
@@ -411,6 +419,18 @@ taxonomia:
         - revolução mexicana
         - villa
         - zapata
+        - movimentos revolucionários
+        - proclamação do império alemão
+        - unificação alemã
+        - independência
+        - movimentos revolucionários
+        - proclamação do império alemão
+        - unificação alemã
+        - independência
+        - movimentos revolucionários
+        - proclamação do império alemão
+        - unificação alemã
+        - independência
     Geografia:
       agricultura:
         descricao: Agricultura, estrutura fundiária e mundo rural.
@@ -443,7 +463,6 @@ taxonomia:
         - vegetação
         - hidrografia
         - meio ambiente
-        - ambiental
         - biodiversidade
         - recursos hídricos
         - biomas
@@ -469,6 +488,9 @@ taxonomia:
         - biodiversidade
         - sustentável
         - desmatamento
+        - governança ambiental
+        - governança ambiental
+        - governança ambiental
       urbanização:
         descricao: Urbanização, metropolização e problemas urbanos.
         keywords:
@@ -487,6 +509,15 @@ taxonomia:
         - região nordeste
         - urbanização
         - êxodo rural
+        - regionais
+        - povoamento
+        - industrialização
+        - regionais
+        - povoamento
+        - industrialização
+        - regionais
+        - povoamento
+        - industrialização
     Política Internacional:
       direitos_humanos:
         descricao: Direitos humanos, refugiados e agenda humanitária.
@@ -593,6 +624,12 @@ taxonomia:
         - mercado internacional
         - tarifa
         - vantagem comparativa
+        - cambial
+        - fluxos externos
+        - cambial
+        - fluxos externos
+        - cambial
+        - fluxos externos
       desenvolvimento:
         descricao: Desenvolvimento econômico, pobreza e desigualdade.
         keywords:
@@ -602,6 +639,12 @@ taxonomia:
         - desigualdade
         - distribuição de renda
         - subdesenvolvimento
+        - economia brasileira
+        - indústrias tradicionais
+        - economia brasileira
+        - indústrias tradicionais
+        - economia brasileira
+        - indústrias tradicionais
       macroeconomia:
         descricao: 'Macroeconomia: agregados, inflação, política monetária e fiscal.'
         keywords:
@@ -628,6 +671,12 @@ taxonomia:
         - salário mínimo
         - tributação
         - tributo
+        - identidades macroeconômicas
+        - contas nacionais
+        - identidades macroeconômicas
+        - contas nacionais
+        - identidades macroeconômicas
+        - contas nacionais
       microeconomia:
         descricao: 'Microeconomia: oferta, demanda, estruturas de mercado e elasticidade.'
         keywords:
@@ -637,11 +686,9 @@ taxonomia:
         - monopólio
         - oligopólio
         - concorrência
-        - mercado
         - microeconômica
         - curva de demanda
         - curva de oferta
-        - equilíbrio
     Direito:
       constitucional:
         descricao: 'Direito constitucional: CF de 1988, controle de constitucionalidade e STF.'
@@ -677,6 +724,9 @@ taxonomia:
         - tratado de assunção
         - tratado internacional
         - tribunais internacionais
+        - costumes internacionais
+        - costumes internacionais
+        - costumes internacionais
       organização_do_estado:
         descricao: Organização do Estado brasileiro e poderes.
         keywords:
@@ -733,3 +783,24 @@ taxonomia:
       Direito/direito_administrativo: organização_do_estado (administração pública)
       Direito/mercosul_direito: internacional_público (bloco regional)
       Economia/economia_internacional: comércio_internacional (fluxos globais)
+  - versao: 3
+    data: '2026-10-28'
+    mudanca: 'M2.5 (1a validacao: 34/50 = 68%): afinamento de keywords (removidos termos genericos de
+      grammar_semantics e morfologia; novas chaves em semantica, comercio_internacional, desenvolvimento,
+      macroeconomia, urbanizacao, meio_ambiente, internacional_publico e revoluciones_liberais) e correcao
+      da disciplina de 2018 q43 (Text VI = Língua Inglesa).'
+  - versao: 3
+    data: '2026-10-28'
+    mudanca: 'M2.5 (1a validacao: 34/50 = 68%): afinamento de keywords (removidos termos genericos de
+      grammar_semantics e morfologia; novas chaves em semantica, comercio_internacional, desenvolvimento,
+      macroeconomia, urbanizacao, meio_ambiente, internacional_publico e revoluciones_liberais) e correcao
+      da disciplina de 2018 q43 (Text VI = Língua Inglesa).'
+  - versao: 3
+    data: '2026-10-28'
+    mudanca: 'M2.5 (1a validacao: 34/50 = 68%): afinamento de keywords (removidos termos genericos de
+      grammar_semantics e morfologia; novas chaves em semantica, comercio_internacional, desenvolvimento,
+      macroeconomia, urbanizacao, meio_ambiente, internacional_publico e revoluciones_liberais) e correcao
+      da disciplina de 2018 q43 (Text VI = Língua Inglesa).'
+  - versao: 4
+    data: '2026-10-28'
+    mudanca: 'M2.5: replaced/substituted movidos de grammar_semantics para vocabulary (itens de sinonimo/substituicao)'
