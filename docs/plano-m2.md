@@ -74,6 +74,7 @@
   - **Falta: 2ª validação manual** — amostra nova (seed 2029) em `data/processed/qa_sample/validacao_temas_m2.md`
   - 🔄 28/10/2026 — **1ª rodada FALHOU: 33/50 = 66%** (72% contando os discutíveis) em `data/processed/qa_sample/validacao_temas_m2.md`. Fallback acerta 2/10; keyword acerta 31/40. Próximo: corrigir fallback, fronteira de palavra nas keywords, peso do item × texto-base, lacunas da taxonomia; corrigir disciplina da CACD_2018 Q43 (é inglês); validar com seed nova
   - 🔄 28/10/2026 — **2ª rodada FALHOU: 32/50 = 64%** (seed 2029, taxonomia v4; 68% descontando 3 itens com disciplina errada). Fallback acerta 4/13; keyword acerta 28/37. Achado novo de dado (M1): fronteiras de disciplina deslocadas em 2019 Q29–34 (Direito → Geografia), 2016 Q65–66 (Direito → Economia), 2016 Q61 e 2016 Q12–14 (Português → Pol. Internacional). Próximo: varrer as fronteiras de disciplina de todas as provas; casar keywords no texto do item antes do texto-base; revisar os fallbacks de Pol. Internacional, Direito e Hist. do Brasil
+  - 🔄 28/10/2026 — **3ª rodada FALHOU: 36/50 = 72%** (seed 2030; 78% no cenário mais favorável). Fallback acerta 5/11; keyword acerta 31/39. Disciplinas: 2019 Q29–34, 2016 Q61/65–66 e 2018 Q43 corrigidas, mas **2016 Q12–14 e 2017 Q8–10 seguem como Pol. Internacional (são Português)**. Próximo: fechar as fronteiras Português → Pol. Internacional de 2016/2017; em inglês, classificar pelo item e não pelo comando; fallback de Português por sintaxe/figuras; fallbacks de Pol. Internacional e História Mundial
 
 ---
 
