@@ -21,14 +21,17 @@ Scripts usados uma única vez (OCR de um ano, resgate de uma questão) ficam em
 | 8 | Remover linhas `rules` substituídas por `manual` | `python pipeline/clean_dup_rules.py` | M1 |
 | 9 | Aplicar gabaritos | `python pipeline/extract_gabaritos.py` | M1 |
 | 10 | Canonizar disciplinas (8 grupos) | `python pipeline/canon_disc.py` | M1 |
-| 11 | Taxonomia inicial (`topic`) | `python pipeline/build_taxonomy.py` | M2 |
-| 12 | Refinar taxonomia (subtemas) | `python pipeline/refine_taxonomy.py` | M2 |
-| 13 | Reclassificar "geral" por TF-IDF | `python pipeline/refine_taxonomy_tfidf.py` | M2 |
-| 14 | Relatório por ano | `python pipeline/overview.py` | — |
-| 15 | Backtest (baselines por disciplina / por tema / TF-IDF) | `python evaluation/backtest.py` · `backtest_temas.py` · `backtest_tfidf.py` | M3 |
-| 16 | Relatório e gráfico do backtest | `python evaluation/report.py` · `python evaluation/grafico.py` | M3 |
+| 11 | Aplicar taxonomia do YAML | `python pipeline/build_taxonomy.py` | M2 |
+| 12 | Relatório por ano | `python pipeline/overview.py` | — |
+| 13 | Backtest (baselines por disciplina / por tema / TF-IDF) | `python evaluation/backtest.py` · `backtest_temas.py` · `backtest_tfidf.py` | M3 |
+| 14 | Relatório e gráfico do backtest | `python evaluation/report.py` · `python evaluation/grafico.py` | M3 |
 
 Saídas do backtest vão para `data/resultados/`; o gráfico vai para `docs/assets/`.
+
+> A taxonomia vem de `data/metadata/taxonomia.yaml` (regras fixas, a priori —
+> sem vazamento temporal). O antigo `refine_taxonomy_tfidf.py` (TF-IDF sobre
+> o corpus inteiro) foi removido do fluxo. Teste de não-vazamento:
+> `tests/test_taxonomia_nao_vazamento.py`.
 
 ### Passo 9 — detalhes
 

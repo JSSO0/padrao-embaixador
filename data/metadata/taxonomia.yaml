@@ -1,0 +1,735 @@
+taxonomia:
+  version: 2
+  data_versao: '2026-10-28'
+  metodo: regras-fixas-a-priori
+  descricao: 'Temas por disciplina da 1a fase. Atribuicao por contagem de palavras-chave no enunciado+item;
+    sem match, aplica-se o fallback da disciplina (tema mais amplo). Nenhuma etapa usa o corpus completo:
+    a classificacao de um item depende apenas do seu texto e deste arquivo (sem vazamento temporal).'
+  fallback:
+    Língua Portuguesa: interpretação_texto
+    Língua Inglesa: reading_comprehension
+    História do Brasil: império
+    História Mundial: guerras_mundiais
+    Geografia: geopolítica
+    Política Internacional: multilateralismo
+    Economia: microeconomia
+    Direito: constitucional
+    Cultura Geral: cultura
+  disciplinas:
+    Língua Portuguesa:
+      conectivos_e_Referenciação:
+        descricao: Conectivos, referenciação anafórica/catafórica, coesão e coerência.
+        keywords:
+        - conector
+        - conectivo
+        - referência
+        - anafórico
+        - catáforo
+        - elipse
+        - coerência
+        - coesão
+        - articulação
+        - conector
+        - conjunção
+      gramática:
+        descricao: 'Normas gramaticais: concordância, regência, crase, pontuação, ortografia, verbos.'
+        keywords:
+        - concordância
+        - regência
+        - crase
+        - pontuação
+        - ortografia
+        - emprego de
+        - colocação
+        - oração
+        - sintaxe
+        - fonética
+        - morfologia
+        - verbos
+        - tempos verbais
+        - modos verbais
+        - vozes verbais
+        - voz passiva
+        - voz ativa
+        - voz reflexiva
+        - sintático
+        - morfológico
+        - gramatical
+      interpretação_texto:
+        descricao: Compreensão e inferência sobre o conteúdo do texto.
+        keywords:
+        - interpretação
+        - sentido do texto
+        - ideias do texto
+        - compreensão
+        - infer
+        - deduz
+        - permite supor
+        - permite inferir
+        - depreende-se
+        - infere-se
+        - pode-se inferir
+      morfologia:
+        descricao: Classes de palavras e formação (prefixos, sufixos, radicais).
+        keywords:
+        - morfologia
+        - classe de palavras
+        - substantivo
+        - adjetivo
+        - advérbio
+        - pronome
+        - preposição
+        - conjunção
+        - artigo
+        - prefixo
+        - sufixo
+        - radical
+        - desinência
+        - aumento
+        - diminutivo
+      morfossintaxe:
+        descricao: 'Análise sintática: funções, orações, período composto.'
+        keywords:
+        - morfossintático
+        - morfossintático
+        - função sintática
+        - sujeito
+        - objeto direto
+        - objeto indireto
+        - predicado
+        - adjunto
+        - aposto
+        - vocativo
+        - oração subordinada
+        - oração coordenada
+        - período composto
+        - período simples
+      reescrita:
+        descricao: Reescrita de trechos mantendo sentido e correção.
+        keywords:
+        - equivalência de sentido
+        - mantendo
+        - reescreva
+        - reescrita
+        - reescritura
+        - sem alterar
+        - sem alterar o sentido
+        - substituição
+        - substituição de
+        - substituído por
+        - traduzir
+        - tradução
+        - transposição
+        - versão
+      semântica:
+        descricao: Significado, conotação, figuras de linguagem e relações de sentido.
+        keywords:
+        - ambiguidade
+        - antonimia
+        - antítese
+        - coloquial
+        - conotativo
+        - conotação
+        - denotativo
+        - denotação
+        - figura de linguagem
+        - hipérbole
+        - ironia
+        - linguagem conotativa
+        - linguagem denotativa
+        - linguagem formal
+        - linguagem informal
+        - metonímia
+        - metáfora
+        - norma culta
+        - norma padrão
+        - polissemia
+        - registro
+        - registro culto
+        - semântica
+        - sentido
+        - significado
+        - sinonimia
+        - variação linguística
+    Língua Inglesa:
+      grammar_semantics:
+        descricao: 'Gramática e semântica da língua: formas verbais, substituições, estrutura da frase.'
+        keywords:
+        - coherence
+        - cohesion
+        - connector
+        - discourse marker
+        - fragment
+        - function of
+        - grammatical
+        - meaning of
+        - paragraph
+        - pronoun
+        - reference
+        - replaced
+        - semantic
+        - sentence
+        - substituted
+        - text structure
+        - textual
+        - verb form
+        - word
+      reading_comprehension:
+        descricao: 'Compreensão de leitura: inferência e conteúdo do texto.'
+        keywords:
+        - according to
+        - based on the text
+        - comprehension
+        - discuss
+        - essay
+        - imply
+        - in the text
+        - inferred
+        - meaning
+        - reading
+        - redação
+        - resumo
+        - summary
+        - text refers
+        - text suggests
+        - the author
+        - tradução
+        - translate
+        - translation
+        - versão
+        - write
+      vocabulary:
+        descricao: 'Vocabulário: sinônimos, antônimos e significado de palavras e expressões.'
+        keywords:
+        - vocabulary
+        - word
+        - expression
+        - meaning
+        - synonym
+        - antonym
+        - noun
+        - verb
+        - adjective
+    História do Brasil:
+      colônia:
+        descricao: 'Brasil colonial: economia açucareira e do ouro, escravidão, administração metropolitana.'
+        keywords:
+        - colonização
+        - colônia
+        - ciclos econômicos
+        - açúcar
+        - ouro
+        - escravidão
+        - capitania
+        - palmares
+        - quilombo
+        - portugal
+        - metrópole
+        - engenho
+        - companhia
+        - jesuítas
+        - bandeirantes
+      era_militar:
+        descricao: 'Regime civil-militar (1964-1985): atos institucionais, repressão e abertura.'
+        keywords:
+        - '1964'
+        - '1985'
+        - AI-5
+        - UDN
+        - abertura
+        - anistia
+        - atos institucionais
+        - collor
+        - constituição de 1988
+        - diretas já
+        - ditadura
+        - golpe militar
+        - impeachment
+        - jânio quadros
+        - nova república
+        - partido comunista
+        - plano cruzado
+        - regime militar
+      era_vargas:
+        descricao: 'Era Vargas (1930-1945): Estado Novo, legislação e intervenção estatal.'
+        keywords:
+        - '1930'
+        - '1945'
+        - Estado desenvolvimentista
+        - ciclos econômicos
+        - constituição de 1934
+        - desenvolvimentismo
+        - estado novo
+        - getúlio
+        - guerra fiscal
+        - importação substituição
+        - industrialização
+        - inflação brasileira
+        - intervencionista
+        - plano cruzado
+        - vargas
+      império:
+        descricao: 'Brasil imperial: independência, reinados, monarquia e abolição.'
+        keywords:
+        - '1822'
+        - '1850'
+        - '1891'
+        - abolição
+        - balaiada
+        - cabanagem
+        - dom Pedro
+        - eliana
+        - farroupilha
+        - império
+        - independência
+        - leí áurea
+        - monarquia
+        - período regencial
+        - primeiro reinado
+        - regência
+        - reino unido
+        - sabinada
+        - segundo reinado
+      política_externa:
+        descricao: Política externa brasileira por período (pragmatismo responsável, autonomia etc.).
+        keywords:
+        - política externa
+        - relações exteriores
+        - política externa brasileira
+        - inserção internacional
+        - cancún
+        - brasil-argentina
+        - brasil-argentina
+        - pragmatismo responsável
+        - autonomia
+        - riozinho
+      república_velha:
+        descricao: 'Primeira República: coronelismo, café com leite, oligarquias.'
+        keywords:
+        - república velha
+        - coronelismo
+        - '1889'
+        - primeira república
+        - café
+        - oligarquia
+        - proclamação da república
+        - canudos
+        - contestado
+    História Mundial:
+      cultura:
+        descricao: 'Cultura e sociedade: aspectos estéticos e múltiplos aspectos culturais.'
+        keywords:
+        - padrões culturais
+        - estéticos
+        - modernismo
+        - vanguarda
+        - arte
+        - cinema
+        - literatura
+      descolonização:
+        descricao: Descolonização afro-asiática, Terceiro Mundo e não-alinhados.
+        keywords:
+        - descolonização
+        - terceiro mundo
+        - não-alinhados
+        - colonialismo
+        - Ásia
+        - áfrica colonial
+        - china
+        - império colonial
+        - imperialismo
+      guerra_fria:
+        descricao: 'Guerra Fria: bipolaridade, blocos e confrontos periféricos.'
+        keywords:
+        - '1917'
+        - Cortina de Ferro
+        - URSS
+        - bipolaridade
+        - bolchevique
+        - containment
+        - crise dos mísseis
+        - guerra do vietnã
+        - guerra fria
+        - lenin
+        - otan
+        - pacto de varsóvia
+        - revolução russa
+        - stalin
+        - união soviética
+      guerras_mundiais:
+        descricao: 'Primeira e Segunda Guerras Mundiais: causas, curso e consequências.'
+        keywords:
+        - primeira guerra
+        - segunda guerra
+        - guerra mundial
+        - nazismo
+        - fascismo
+        - holocausto
+        - '1914'
+        - '1939'
+        - '1945'
+        - tratado de versalhes
+        - liga das nações
+      revolução_industrial:
+        descricao: Revolução Industrial e consolidação do capitalismo industrial.
+        keywords:
+        - arkwright
+        - bastidor
+        - capitalismo
+        - global
+        - globalização
+        - industrialização
+        - inglaterra
+        - interdependência
+        - internet
+        - manufatura
+        - maquinofatura
+        - multinacional
+        - mundialização
+        - revolução industrial
+        - revolução tecnológica
+        - século XIX
+      revoluções_liberais:
+        descricao: Revoluções liberais, Iluminismo e fim do Antigo Regime.
+        keywords:
+        - antigo regime
+        - big stick
+        - burguesia
+        - destino manifesto
+        - doutrina monroe
+        - escola de copenhague
+        - iluminismo
+        - ilustração
+        - liberalismo
+        - mexicano
+        - napoleão
+        - obregón
+        - pan-americanismo
+        - realismo
+        - revolução americana
+        - revolução francesa
+        - revolução mexicana
+        - villa
+        - zapata
+    Geografia:
+      agricultura:
+        descricao: Agricultura, estrutura fundiária e mundo rural.
+        keywords:
+        - agricultura
+        - agrícola
+        - rural
+        - agronegócio
+        - reforma agrária
+        - campesinato
+        - modernização da agricultura
+      demografia:
+        descricao: 'População: dinâmicas demográficas e migrações.'
+        keywords:
+        - demografia
+        - população
+        - migração
+        - migratório
+        - densidade
+        - natalidade
+        - mortalidade
+        - transição demográfica
+        - crescimento populacional
+        - envelhecimento
+      geografia_física:
+        descricao: 'Meio físico: clima, relevo, vegetação e hidrografia.'
+        keywords:
+        - clima
+        - relevo
+        - vegetação
+        - hidrografia
+        - meio ambiente
+        - ambiental
+        - biodiversidade
+        - recursos hídricos
+        - biomas
+        - águas
+        - floresta
+      geopolítica:
+        descricao: 'Geopolítica: território, fronteiras, recursos estratégicos e potências.'
+        keywords:
+        - geopolítica
+        - território
+        - fronteira
+        - recursos estratégicos
+        - ordem mundial
+        - cenário geopolítico
+        - poder mundial
+        - oriente médio
+      meio_ambiente:
+        descricao: Meio ambiente e clima nas relações internacionais.
+        keywords:
+        - meio ambiente
+        - ambiental
+        - clima
+        - biodiversidade
+        - sustentável
+        - desmatamento
+      urbanização:
+        descricao: Urbanização, metropolização e problemas urbanos.
+        keywords:
+        - cidades
+        - conurbação
+        - crescimento urbano
+        - desenvolvimento regional
+        - divisão regional
+        - favela
+        - guerra fiscal
+        - industrialização brasileira
+        - metropolização
+        - metrópole
+        - política fiscal
+        - população urbana
+        - região nordeste
+        - urbanização
+        - êxodo rural
+    Política Internacional:
+      direitos_humanos:
+        descricao: Direitos humanos, refugiados e agenda humanitária.
+        keywords:
+        - direitos humanos
+        - apátridas
+        - refugiados
+        - migrantes
+        - humanitário
+        - intervenção humanitária
+      guerra_fria:
+        descricao: 'Guerra Fria: bipolaridade, blocos e confrontos periféricos.'
+        keywords:
+        - guerra fria
+        - bipolaridade
+        - otan
+        - pacto de varsóvia
+        - conflito leste-oeste
+        - URSS
+      integração_regional:
+        descricao: 'Integração regional: Mercosul, União Europeia, blocos econômicos.'
+        keywords:
+        - mercosul
+        - integração regional
+        - união europeia
+        - integração econômica
+        - regionalização
+        - bloco econômico
+        - tratado de assunção
+        - BASIC
+        - IBSA
+        - BRICS
+      meio_ambiente:
+        descricao: Meio ambiente e clima nas relações internacionais.
+        keywords:
+        - meio ambiente
+        - clima
+        - desenvolvimento sustentável
+        - ambiental
+        - mudança climática
+        - questão ambiental
+      multilateralismo:
+        descricao: Organizações e regimes multilaterais (ONU, OMC, FMI, Banco Mundial).
+        keywords:
+        - FMI
+        - OMC
+        - ONU
+        - assembleia geral
+        - banco mundial
+        - big stick
+        - conselho de segurança
+        - corte internacional
+        - destino manifesto
+        - doutrina monroe
+        - escola de copenhague
+        - fórum
+        - multilateral
+        - nações unidas
+        - organismo internacional
+        - pan-americanismo
+        - tribunal internacional
+      política_externa_brasileira:
+        descricao: Política externa brasileira e inserção internacional do país.
+        keywords:
+        - política externa brasileira
+        - inserção internacional do brasil
+        - diplomacia brasileira
+        - brasil no mundo
+        - política externa adotada
+        - relações do brasil
+      segurança_internacional:
+        descricao: 'Segurança internacional: conflitos, armas e desarmamento.'
+        keywords:
+        - armamentos estratégicos
+        - armas
+        - conflito
+        - construtivismo
+        - desarmamento
+        - escola de copenhague
+        - escola teórica
+        - guerra
+        - liberalismo
+        - nuclear
+        - perspectivas teóricas
+        - realismo
+        - securitização
+        - segurança
+        - teoria das relações
+        - uso da força
+    Economia:
+      comércio_internacional:
+        descricao: Comércio internacional, teoria do comércio e balanço de pagamentos.
+        keywords:
+        - balanço de pagamentos
+        - comércio internacional
+        - câmbio
+        - economia internacional
+        - exportação
+        - fluxo de capitais
+        - globalização do espaço
+        - globalização econômica
+        - hecksher-ohlin
+        - importação
+        - mercado internacional
+        - tarifa
+        - vantagem comparativa
+      desenvolvimento:
+        descricao: Desenvolvimento econômico, pobreza e desigualdade.
+        keywords:
+        - desenvolvimento econômico
+        - crescimento
+        - pobreza
+        - desigualdade
+        - distribuição de renda
+        - subdesenvolvimento
+      macroeconomia:
+        descricao: 'Macroeconomia: agregados, inflação, política monetária e fiscal.'
+        keywords:
+        - M1
+        - PIB
+        - banco central
+        - crescimento econômico
+        - demanda agregada
+        - demanda de moeda
+        - desemprego
+        - déficit público
+        - dívida pública
+        - imposto
+        - inflação
+        - juros
+        - meios de pagamento
+        - moeda
+        - monetária
+        - oferta de moeda
+        - orçamento
+        - política fiscal
+        - política monetária
+        - produto interno bruto
+        - salário mínimo
+        - tributação
+        - tributo
+      microeconomia:
+        descricao: 'Microeconomia: oferta, demanda, estruturas de mercado e elasticidade.'
+        keywords:
+        - demanda
+        - oferta
+        - elasticidade
+        - monopólio
+        - oligopólio
+        - concorrência
+        - mercado
+        - microeconômica
+        - curva de demanda
+        - curva de oferta
+        - equilíbrio
+    Direito:
+      constitucional:
+        descricao: 'Direito constitucional: CF de 1988, controle de constitucionalidade e STF.'
+        keywords:
+        - constituição
+        - CF
+        - constitucionalidade
+        - STF
+        - direitos fundamentais
+        - controle de constitucionalidade
+        - constitucional
+        - supremo tribunal federal
+        - poderes
+        - processo legislativo
+      internacional_público:
+        descricao: 'Direito internacional público: tratados, sujeitos e tribunais internacionais.'
+        keywords:
+        - Corte Internacional de Justiça
+        - Estado estrangeiro
+        - acreditantes
+        - brasil-argentina
+        - declaração do iguaçu
+        - direito internacional do meio ambiente
+        - direito internacional público
+        - direitos humanos
+        - extradição
+        - humanitário
+        - jus cogens
+        - mercosul
+        - preâmbulo dos tratados
+        - privilégios e imunidades
+        - soberania
+        - tratado de assunção
+        - tratado internacional
+        - tribunais internacionais
+      organização_do_estado:
+        descricao: Organização do Estado brasileiro e poderes.
+        keywords:
+        - administração pública
+        - ato administrativo
+        - congresso
+        - conselho da república
+        - direito administrativo brasileiro
+        - federal
+        - licitação
+        - organização do estado
+        - organização dos poderes
+        - poderes
+        - presidente
+        - servidor público
+        - supremo
+        - tribunal
+    Cultura Geral:
+      cultura:
+        descricao: 'Cultura e sociedade: aspectos estéticos e múltiplos aspectos culturais.'
+        keywords:
+        - cultura
+        - cultural
+        - estética
+        - arte
+        - cinema
+        - literatura
+  changelog:
+  - versao: 1
+    data: '2026-10-28'
+    mudanca: Taxonomia criada a partir das regras refinadas (60 temas + Cultura Geral)
+  - versao: 2
+    data: '2026-10-28'
+    mudanca: 'M2.4: temas com < 0,5% dos itens fundidos em temas semanticamente adjacentes. Resultado:
+      40 temas, max 7,36%, min 0,56%.'
+    merges:
+      Língua Portuguesa/estilo_registro: semântica (registro e uso da língua)
+      Língua Portuguesa/tradução: reescrita (versão/transposição)
+      Língua Inglesa/summary_essay: reading_comprehension (produção escrita)
+      Língua Inglesa/translation: reading_comprehension (compreensão para traduzir)
+      Língua Inglesa/textual_analysis: grammar_semantics (coesão/referência)
+      História do Brasil/período_regencial: império (fase do Primeiro Reinado)
+      História do Brasil/nova_república: era_militar (regime e transição)
+      História do Brasil/economia_brasileira: era_vargas (desenvolvimentismo)
+      História Mundial/revolução_russa: guerra_fria (socialismo/bipolaridade)
+      História Mundial/revolução_mexicana: revoluções_liberais (movimento revolucionário)
+      História Mundial/globalização: revolução_industrial (mundialização do capitalismo)
+      História Mundial/doutrinas_e_teorias: revoluções_liberais (doutrinas liberais)
+      Geografia/economia_regional: urbanização (desenvolvimento regional)
+      Política Internacional/doutrinas: multilateralismo (pan-americanismo)
+      Política Internacional/teorias_RI: segurança_internacional (securitização)
+      Economia/finanças_públicas: macroeconomia (política fiscal)
+      Economia/monetário: macroeconomia (moeda e política monetária)
+      Direito/direito_administrativo: organização_do_estado (administração pública)
+      Direito/mercosul_direito: internacional_público (bloco regional)
+      Economia/economia_internacional: comércio_internacional (fluxos globais)
