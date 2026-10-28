@@ -68,10 +68,10 @@ discursivas), depois transcrever o que falta, depois validar tudo com a nova amo
 
 ### Fase E — Integridade e validação final (1 sessão, só depois de A–D)
 
-- [ ] **E1 (M1.8)** 🔧 Teste de duplicidade: `contest + stage + discipline + qn + itn` único
-  - *Aceite:* `duplicated().sum() == 0`
-- [ ] **E2 (M1.9)** 📏 Nova amostra de 50 questões (outra seed) e revisão manual
-  - *Aceite:* **≥ 97% OK** → fecha o M1
+- [x] **E1 (M1.8)** 🔧 Teste de duplicidade: `contest + stage + discipline + qn + itn` único ✅ 28/10/2026
+  - *Aceite:* `duplicated().sum() == 0` — **PASS (`pipeline/qa_duplicidade.py`: 0 duplicatas em 5.938 linhas)**
+- [x] **E2 (M1.9)** 📏 Nova amostra de 50 questões (outra seed) e revisão manual ✅ 28/10/2026
+  - *Aceite:* **≥ 97% OK** — **PASS: 49/50 = 98%** (`data/processed/qa_sample/qa_validacao_manual_m1.md`, seed 2027). Texto de cada item conferido no PDF-fonte e gabarito conferido no definitivo oficial. Único problema: **CACD_2013 Q13 item 3** com texto divergente ("ter sido estrangulada" × "ser estrangulada" no PDF); gabarito correto. **Corrigido** em 28/10 (`pipeline/corrige_q13_2013.py`, JSONL + parquet)
 
 ---
 

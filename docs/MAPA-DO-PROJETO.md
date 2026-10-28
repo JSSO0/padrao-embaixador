@@ -26,7 +26,7 @@ vão cair na próxima edição — melhor do que um chute estatístico simples.*
 | Marco | Entrega | Status | Critério de "pronto" |
 |---|---|---|---|
 | **M0 — Corpus** | PDFs catalogados, baixados e convertidos em texto | ✅ concluído | 463 arquivos com SHA-256 no manifest; texto extraído de todas as edições |
-| **M1 — Dados confiáveis** | `questions.parquet` da 1ª fase sem lixo e com gabarito documentado | 🔄 88% de fidelidade na amostra de 50 | Nova amostra com ≥ 97% de fidelidade; nenhuma linha `rules` sem justificativa |
+| **M1 — Dados confiáveis** | `questions.parquet` da 1ª fase sem lixo e com gabarito documentado | ✅ concluído (28/10/2026) | Nova amostra com ≥ 97% de fidelidade: **PASS — 98% (49/50, seed 2027)**; 0 linhas `rules` sem justificativa; 0 duplicatas (`pipeline/qa_duplicidade.py`); 0 itens sem resposta sem motivo. Único problema da amostra (2013 Q13 item 3) corrigido |
 | **M2 — Temas** | Cada item com um tema, a partir de uma taxonomia versionada | 🔄 60 temas, 243 itens sem tema | 0 itens sem tema, classificação sem vazamento, ≥ 90% de concordância manual |
 | **M3 — Avaliação honesta** | Um protocolo único de backtest por tema | 🔄 3 scripts, 1 com vazamento (ver §4) | Baselines + aleatório + oráculo no mesmo script, com intervalo de confiança |
 | **M4 — Modelos** | Regressão logística e XGBoost contra o baseline | ⬜ não iniciado | Tabela final modelos × baselines com IC — ganhe ou perca |
@@ -45,10 +45,11 @@ ficam fora da v1.0.
 | Ganho | Número | Onde ver |
 |---|---|---|
 | Corpus | 23 edições (2003–2026), 463 arquivos rastreáveis | `data/raw/download_manifest.csv` |
-| Questões da 1ª fase | **5.038 itens**, transcrição 100% | `data/processed/questions.parquet` |
-| Gabarito | **96,5%** dos itens | `python pipeline/overview.py` · `docs/relatorios/overview-questoes.md` |
+| Questões da 1ª fase | **5.135 itens**, 100% `manual` (0 `rules`) | `data/processed/questions.parquet` |
+| Gabarito | **97,5%** dos itens; 0 itens sem resposta sem motivo | `python pipeline/overview.py` · `docs/relatorios/overview-questoes.md` |
+| Fidelidade (M1) | **98%** na amostra de 50 (49/50, seed 2027) — marco concluído | `data/processed/qa_sample/qa_validacao_manual_m1.md` |
 | Disciplinas | 8 grupos canônicos, 98,6% classificados | coluna `discipline` |
-| Temas | 60 temas; 243 itens (4,8%) ainda sem tema | coluna `topic` |
+| Temas | 60 temas; 82 itens (1,6%) ainda sem tema (M2) | coluna `topic` |
 | Discursivas | 189 itens 2ª fase + 315 linhas 3ª fase | `questions.parquet` (`stage`) |
 | Backtest | 9 folds × 5 métodos rodando | `evaluation/`, `data/resultados/` |
 
