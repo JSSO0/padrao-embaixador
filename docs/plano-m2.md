@@ -73,6 +73,7 @@
   - *Re-verificação dos 18 casos: 16 agora classificam conforme o revisor; 2 divergências residuais por nuance de stem (2018 Q43 e 2024 Q39/2, grammar_semantics × vocabulary/RC).* Distribuição continua na faixa (max 7,83%).
   - **Falta: 2ª validação manual** — amostra nova (seed 2029) em `data/processed/qa_sample/validacao_temas_m2.md`
   - 🔄 28/10/2026 — **1ª rodada FALHOU: 33/50 = 66%** (72% contando os discutíveis) em `data/processed/qa_sample/validacao_temas_m2.md`. Fallback acerta 2/10; keyword acerta 31/40. Próximo: corrigir fallback, fronteira de palavra nas keywords, peso do item × texto-base, lacunas da taxonomia; corrigir disciplina da CACD_2018 Q43 (é inglês); validar com seed nova
+  - 🔄 28/10/2026 — **2ª rodada FALHOU: 32/50 = 64%** (seed 2029, taxonomia v4; 68% descontando 3 itens com disciplina errada). Fallback acerta 4/13; keyword acerta 28/37. Achado novo de dado (M1): fronteiras de disciplina deslocadas em 2019 Q29–34 (Direito → Geografia), 2016 Q65–66 (Direito → Economia), 2016 Q61 e 2016 Q12–14 (Português → Pol. Internacional). Próximo: varrer as fronteiras de disciplina de todas as provas; casar keywords no texto do item antes do texto-base; revisar os fallbacks de Pol. Internacional, Direito e Hist. do Brasil
 
 ---
 

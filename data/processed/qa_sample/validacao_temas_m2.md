@@ -1,334 +1,322 @@
 # M2.5 — Validação manual da taxonomia (50 itens)
 
-Seed: 2029 · 50 itens de 5.135 da 1ª fase · taxonomia v3 (regras fixas) · gerado em 28/10/2026
+Seed: 2030 · 50 itens de 5.135 da 1ª fase · taxonomia v3 (regras fixas) · gerado em 28/10/2026
 
 Para cada item: leia o texto e julgue se o **tema atribuído** é o mais adequado
 dentro da disciplina. Marque: [x] OK · [x] Tema errado (indique o tema correto)
 
 ---
 
-## CACD_2022 · Q59 · item 3
-- **Disciplina:** História Mundial · **Ano:** 2022
-- **Tema atribuído:** `guerras_mundiais` (por keyword)
-- **Keyword(s) que casaram:** `guerras_mundiais`
-- **Enunciado (início):** Após a Conferência de Paz de Versailles, o esforço de restauração da ordem econômica que havia vigorado nos anos que precederam a Primeira Guerra Mundial revelou muitos aspectos importantes que explicaram, inclusive, a g
-- **Texto do item:** Os Estados Unidos da América haviam se tornado o maior produtor de bens industriais e o maior exportador de capitais, além de continuar sendo também o maior produtor de bens primários. Esse fato trouxe várias consequências importantes, com destaque para o peso
+## CACD_2015 · Q71 · item 2
+- **Disciplina:** Economia · **Ano:** 2015
+- **Tema atribuído:** `desenvolvimento` (por keyword)
+- **Keyword(s) que casaram:** `desenvolvimento`
+- **Enunciado (início):** A respeito da economia brasileira nos séculos XIX e XX, julgue (C ou E) os itens subsequentes.
+- **Texto do item:** Nos anos 50 do século XX, o governo de Getúlio Vargas apresentou uma política industrializante que mostrou sua força com três programas: o Plano Nacional de Reaparelhamento Econômico (PNRE), o Plano Nacional de Eletrificação e o projeto de criação da PETROBRAS
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2022 · Q39 · item 1
-- **Disciplina:** Língua Inglesa · **Ano:** 2022
-- **Tema atribuído:** `vocabulary` (por keyword)
-- **Keyword(s) que casaram:** `vocabulary`
-- **Enunciado (início):** I look about the room where I have been at work for almost a quarter century. Proofs of unread novels accumulate on the coffee table. I sit at a large table that was in the house when I bought it. Everything since Burr h
-- **Texto do item:** In the sentence “look about the room”, in line 1, about is used as adverb rather than a preposition.
+## CACD_2018 · Q55 · item 4
+- **Disciplina:** História Mundial · **Ano:** 2018
+- **Tema atribuído:** `revolução_industrial` (por keyword)
+- **Keyword(s) que casaram:** `revolução_industrial`
+- **Enunciado (início):** Em contraste com sistemas econômicos tradicionais, o capitalismo institucionaliza uma organização da atividade econômica na qual os atores são forçados a se orientar na direção de um futuro aberto e imprevisível. Tal fut
+- **Texto do item:** A adoção de políticas neoliberais por países como a Grã-Bretanha, desde a década de 70 do século passado, foi um dos desdobramentos da crise do fordismo. Paralelamente à diminuição do Estado, os trabalhadores viram sua capacidade de negociação reduzida devido 
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2011 · Q52 · item 3
-- **Disciplina:** História Mundial · **Ano:** 2011
-- **Tema atribuído:** `guerras_mundiais` (por keyword)
-- **Keyword(s) que casaram:** `guerras_mundiais`
-- **Enunciado (início):** A Primeira e a Segunda Guerras Mundiais foram objeto de interpretações historiográficas divergentes, que se estendem aos dias atuais. Acerca desse debate historiográfico, julgue (C ou E) os itens que se seguem.
-- **Texto do item:** A chamada linha Maginot, estratégia defensiva posta em prática pela França no período que antecedeu ao início da Primeira Guerra Mundial, embora contestada inclusive por alguns oficiais franceses, contribuiu para retardar a invasão do país pelas tropas alemãs 
+## CACD_2018 · Q29 · item 1
+- **Disciplina:** Direito · **Ano:** 2018
+- **Tema atribuído:** `constitucional` (por keyword)
+- **Keyword(s) que casaram:** `constitucional`
+- **Enunciado (início):** Com relação à classificação da Constituição, à competência dos entes federativos, ao ato jurídico e à personalidade jurídica, julgue (C ou E) os itens que se seguem.
+- **Texto do item:** A vigente Constituição brasileira é, no que se refere à estabilidade, semirrígida, pois, além de conter normas modificáveis por processo legislativo dificultoso e solene, possui também normas flexíveis, que podem ser alteradas por processo legislativo ordinári
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2011 · Q40
-- **Disciplina:** Língua Inglesa · **Ano:** 2011
-- **Tema atribuído:** `reading_comprehension` (por keyword)
-- **Keyword(s) que casaram:** `reading_comprehension`
-- **Enunciado (início):** This text refers to questions from 37 through 40.
-Remembrance of things past is often dearest to those who are bored or driven to despair by the world around them. To these the contemplation of times gone by brings surce
+## CACD_2023 · Q1 · item 1
+- **Disciplina:** Língua Portuguesa · **Ano:** 2023
+- **Tema atribuído:** `semântica` (por keyword)
+- **Keyword(s) que casaram:** `semântica`
+- **Enunciado (início):** Quem mais contribuiu para a difusão do mito do bom selvagem foi Américo Vespúcio. […] Em carta de 1502, diz o navegador que os índios “não têm fé nem lei alguma, vivem segundo a natureza, […] não possuem consigo bens pró
+- **Texto do item:** “Mais epicuristas que estoicos” (linhas 9 e 10) significa que os indígenas lhe pareceram mais simples, ligados à natureza, do que austeros.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2003 · Q3 · item 3
+- **Disciplina:** Língua Portuguesa · **Ano:** 2004
+- **Tema atribuído:** `conectivos_e_Referenciação` (por keyword)
+- **Keyword(s) que casaram:** `conectivos_e_Referenciação`
+- **Enunciado (início):** Julgue os itens seguintes, referentes à conceituação de poder expressa no texto II.
+- **Texto do item:** O bom entendimento do emprego do conectivo “nem” (l.5) sugere que esse vocábulo pode ser substituído, nesse contexto, por e não.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2022 · Q8 · item 4
+- **Disciplina:** Língua Portuguesa · **Ano:** 2022
+- **Tema atribuído:** `gramática` (por keyword)
+- **Keyword(s) que casaram:** `gramática`
+- **Enunciado (início):** Em relação aos aspectos linguísticos e aos sentidos do texto, julgue (C ou E) os itens a seguir.
+- **Texto do item:** A substituição do vocábulo “Onde” (linha 39) por Aonde, diferentemente do que se observa no texto, estaria de acordo com as normas de regência verbal.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2020_2021 · Q59 · item 3
+- **Disciplina:** História Mundial · **Ano:** 2020
+- **Tema atribuído:** `guerras_mundiais` (fallback)
+- **Enunciado (início):** Com relação à república de Weimar, julgue (C ou E) os itens a seguir.
+- **Texto do item:** No plano partidário, os social-democratas defenderam o regime parlamentar e aceitaram que fosse instituída uma presidência eletiva. Por outro lado, os liberais mostraram-se abertamente contrários à constituição de uma forma de governo dualista, pois considerav
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2020_2021 · Q15 · item 3
+- **Disciplina:** Política Internacional · **Ano:** 2020
+- **Tema atribuído:** `multilateralismo` (por keyword)
+- **Keyword(s) que casaram:** `multilateralismo`
+- **Enunciado (início):** As missões de paz representam uma das principais linhas de atuação diplomática do Brasil no campo da paz e da segurança internacional. Acerca da participação brasileira nessas missões, julgue (C ou E) os itens a seguir.
+- **Texto do item:** O Brasil participa da Missão Multidimensional Integrada das Nações Unidas para a Estabilização da República Centro-Africana (MINUSCA), ainda que a Resolução no 2.149/2014 do Conselho de Segurança das Nações Unidas tenha estabelecido que a atuação deveria ocorr
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2018 · Q48 · item 2
+- **Disciplina:** História do Brasil · **Ano:** 2018
+- **Tema atribuído:** `era_militar` (por keyword)
+- **Keyword(s) que casaram:** `era_militar`
+- **Enunciado (início):** Diversamente de 1930, 1945 e 1955, em 1964 as Forças Armadas não entregaram o poder a um civil. A partir do golpe até 1985, a história republicana assistiria, pela primeira vez, a um longo desfile de presidentes militare
+- **Texto do item:** Jânio Quadros implantou uma política econômica de austeridade, mas seu governo foi marcado por medidas polêmicas, como a edição de um decreto que proibia o uso de trajes de banho em concursos de beleza e desfiles.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2010 · Q7 · item 3
+- **Disciplina:** Língua Portuguesa · **Ano:** 2010
+- **Tema atribuído:** `interpretação_texto` (fallback)
+- **Enunciado (início):** Com relação ao poema apresentado, julgue C ou E.
+- **Texto do item:** O verso "naquele porte enfezado" (v.11) acrescenta circunstância de lugar ao fato expresso na terceira estrofe.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2026 · Q92
+- **Disciplina:** História Mundial · **Ano:** 2026
+- **Tema atribuído:** `guerras_mundiais` (fallback)
+- **Enunciado (início):** Ignorado por Otto von Bismarck nas três primeiras décadas do Império Alemão, o socialismo se tornou uma questão importante no governo de Guilherme II. A respeito das ditaduras e dos regimes fascistas da Europa na primeir
 - **Texto do item:** 
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2019 · Q31 · item 2
-- **Disciplina:** Geografia · **Ano:** 2019
-- **Tema atribuído:** `geopolítica` (fallback)
-- **Enunciado (início):** Segundo o entendimento do Direito Internacional do Mar e da jurisprudência do Tribunal Internacional do Direito do Mar (TIDM), tribunal este onde exerceu a jurisdição internacional o professor e juiz brasileiro Vicente M
-- **Texto do item:** Um Estado, ao assinar ou ratificar a Convenção das Nações Unidas sobre o Direito do Mar ou a ela aderir, ou em qualquer momento ulterior, pode escolher livremente, por meio de declaração escrita, um ou mais meios para a solução das controvérsias relativas à in
+## CACD_2016 · Q23 · item 1
+- **Disciplina:** Política Internacional · **Ano:** 2016
+- **Tema atribuído:** `multilateralismo` (fallback)
+- **Enunciado (início):** Nas décadas de 60 e 70 do século passado, o Brasil tomou a iniciativa de explorar o potencial hidrelétrico da bacia do rio Paraná, o que gerou repercussões na Argentina e no Paraguai. No que se refere a esse assunto, jul
+- **Texto do item:** O Tratado do Rio da Prata, assinado em 1979 por Brasil, Argentina, Paraguai e Uruguai, disciplinou o uso dos rios internacionais da região para a produção de energia elétrica e irrigação agrícola.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2023 · Q40 · item 3
+## CACD_2008 · Q9 · item 4
+- **Disciplina:** Língua Portuguesa · **Ano:** 2008
+- **Tema atribuído:** `interpretação_texto` (por keyword)
+- **Keyword(s) que casaram:** `interpretação_texto`
+- **Enunciado (início):** Texto para as questões de 9 a 14
+
+Origem das culturas
+O soldado e o marinheiro permutaram bofetadas, mais ou menos teóricas, numa esquina de minha rua por causa da namorada comum, que devia chamar-se Marlene. O duelo dur
+- **Texto do item:** O termo "o Rei da Criação" (l.21) refere-se a um ente divino.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2025 · Q87
+- **Disciplina:** História Mundial · **Ano:** 2025
+- **Tema atribuído:** `guerras_mundiais` (fallback)
+- **Enunciado (início):** Há uma diferença fundamental entre o nacionalismo e o movimento para a criação de um Estado-nação, que se expressou, por exemplo, na Alemanha, onde muitos daqueles que se viam como alemães não consideravam esse sentiment
+- **Texto do item:** 
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2019 · Q61 · item 4
+- **Disciplina:** História Mundial · **Ano:** 2019
+- **Tema atribuído:** `revoluções_liberais` (por keyword)
+- **Keyword(s) que casaram:** `revoluções_liberais`
+- **Enunciado (início):** Propor uma filiação, ou parentesco, entre a revolução hispânica e a revolução francesa é inevitável. A revolução francesa não apenas abalou o equilíbrio político europeu, mas foi também um fenômeno social, político e cul
+- **Texto do item:** No âmbito dos direitos individuais e de propriedade, a Constituição de Cádiz incorporava elementos das constituições francesas de 1791, 1793 e 1795.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2006 · Q13 · item 3
+- **Disciplina:** Língua Portuguesa · **Ano:** 2006
+- **Tema atribuído:** `gramática` (por keyword)
+- **Keyword(s) que casaram:** `gramática`
+- **Enunciado (início):** Julgue (C ou E) os itens abaixo, com base no padrão gramatical e estilístico da modalidade escrita da língua portuguesa culta.
+- **Texto do item:** Antes de mais nada, é preciso aproveitarmos a oportunidade para ressaltarmos as qualidades textuais do relatório, que inclusive contêm a indicação de planos futuros de aproveitamento comercial dos produtos.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2023 · Q31 · item 4
+- **Disciplina:** Direito · **Ano:** 2023
+- **Tema atribuído:** `constitucional` (por keyword)
+- **Keyword(s) que casaram:** `constitucional`
+- **Enunciado (início):** A cooperação jurídica internacional é elemento essencial na efetividade de atos judiciais para além das fronteiras dos Estados. O Código de Processo Civil de 2015 inovou ao sistematizar a cooperação jurídica internaciona
+- **Texto do item:** Entre os países-membros do Mercado Comum do Sul (MERCOSUL), o reconhecimento e a execução de sentenças estrangeiras desses países poderão tramitar por via de carta rogatória e por intermédio da Autoridade Central, facilitando os trâmites do processo.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2013 · Q63 · item 3
+- **Disciplina:** Economia · **Ano:** 2013
+- **Tema atribuído:** `comércio_internacional` (por keyword)
+- **Keyword(s) que casaram:** `comércio_internacional`
+- **Enunciado (início):** QUESTÃO 63
+Acerca das teorias de comércio internacional e do sistema multilateral de comércio, julgue (C ou E) os itens a seguir.
+- **Texto do item:** Não existem regras multilaterais aplicáveis a investimentos.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2022 · Q1 · item 4
+- **Disciplina:** Língua Portuguesa · **Ano:** 2022
+- **Tema atribuído:** `interpretação_texto` (fallback)
+- **Enunciado (início):** Arbitrária fortuna! Desprezível Mais que essas almas vis, que a ti se humilham, Prosterne-se a teus pés o Brasil todo; Eu, nem curvo o joelho. […] Não – reduzir-me a pó, roubar-me tudo, Porém nunca aviltar-me pode o fado
+- **Texto do item:** Nas duas últimas estrofes, o autor expressa sua visão de que o Brasil poderia ter sido rival econômico do Velho Continente, mas se tornou presa de aves de rapina.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2023 · Q26 · item 1
+- **Disciplina:** Geografia · **Ano:** 2023
+- **Tema atribuído:** `demografia` (por keyword)
+- **Keyword(s) que casaram:** `demografia`
+- **Enunciado (início):** Eu sou migrante, mas ninguém espera que eu arrisque minha vida num barco avariado ou a cruzar um deserto num caminhão para encontrar trabalho fora do meu país. A migração segura não pode limitar-se à elite global. Na per
+- **Texto do item:** A consolidação de grupos de migrantes em seus novos lugares de vida passa por ampla inserção no mercado de trabalho, pelo reconhecimento social, pela representação política e pelas possibilidades de esses sujeitos participarem da vida social dos países que os 
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2018 · Q46 · item 2
+- **Disciplina:** História do Brasil · **Ano:** 2018
+- **Tema atribuído:** `colônia` (por keyword)
+- **Keyword(s) que casaram:** `colônia`
+- **Enunciado (início):** Em novembro de 1807, temendo ser aprisionado pelas tropas de Napoleão Bonaparte, o príncipe regente de Portugal, D. João VI, deixou Lisboa acompanhado de sua família e de boa parte da nobreza da Corte, em direção ao Bras
+- **Texto do item:** A noção de brasilidade, ou seja, a consciência de ser brasileiro, esteve presente desde cedo na cultura política e na identidade da sociedade brasileira, tendo-se manifestado nas sedições nativistas da Inconfidência Mineira e da Conjuração Baiana, ambas de cun
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2017 · Q59 · item 1
+- **Disciplina:** História Mundial · **Ano:** 2017
+- **Tema atribuído:** `revoluções_liberais` (por keyword)
+- **Keyword(s) que casaram:** `revoluções_liberais`
+- **Enunciado (início):** Talvez o tema mais importante da história política da América espanhola das primeiras décadas pós-independência tenha sido a dificuldade de constituir Estados novos viáveis após a separação da Espanha. Frank Safford. Pol
+- **Texto do item:** As guerras de independência fortaleceram o poder estatal, dificultando a constituição de uma nova ordem social e política baseada no ideário liberal e igualitário.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2014 · Q27 · item 2
+- **Disciplina:** Geografia · **Ano:** 2014
+- **Tema atribuído:** `geopolítica` (fallback)
+- **Enunciado (início):** Se necessário for definir um paradigma para a geopolitica desde que se constituiu como disciplina, certamente este seria o do realismo, no campo das relações internacionais. A obra de Friedrich Ratzel, teorizando geograf
+- **Texto do item:** A relação do Estado com o solo reforça a concepção ratzeliana do espaço vital como o espaço fundamental à expansão de um complexo povo.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2023 · Q42 · item 4
 - **Disciplina:** Língua Inglesa · **Ano:** 2023
 - **Tema atribuído:** `reading_comprehension` (por keyword)
 - **Keyword(s) que casaram:** `reading_comprehension`
-- **Enunciado (início):** Debating Diplomacy
-In the first decade of the twenty-first century, diplomacy came to be widely debated not only by practitioners, policy experts, and academics but also in the popular press and among the general public.
-- **Texto do item:** “Under the aegis of” (line 18) is the same as to face strife.
+- **Enunciado (início):** No matter where I was posted, whether abroad or back in Ottawa, I usually managed to spend a brief summer vacation in France. There I dispensed with women altogether, caught up on my reading, and tried to write a book. I
+- **Texto do item:** The fragment “and returned to the wrack and low tide of my profession” (lines 38 and 39) states that the character is elated with his career.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2023 · Q61 · item 2
-- **Disciplina:** História Mundial · **Ano:** 2023
-- **Tema atribuído:** `revoluções_liberais` (por keyword)
-- **Keyword(s) que casaram:** `revoluções_liberais`
-- **Enunciado (início):** Com base no processo de unificação alemão e na dimensão de seu empreendimento colonial entre os anos de 1884 e 1899, julgue (C ou E) os itens a seguir.
-- **Texto do item:** Os recursos destinados a missionários foram cruciais para a colonização alemã no continente africano, o que se deu com a autorização para a formação de sociedades missionárias católicas na Alemanha após os conflitos ligados à chamada Kulturkampf, no início dos
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2010 · Q19
-- **Disciplina:** Direito · **Ano:** 2010
-- **Tema atribuído:** `constitucional` (fallback)
-- **Enunciado (início):** Assinale a opção que apresenta o mecanismo de solução pacífica de controvérsias internacionais a que corresponde a descrição abaixo.\n\nQuando as negociações diretas mostram-se ineficazes, é utilizado mecanismo que recor
-- **Texto do item:** 
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2016 · Q3 · item 2
-- **Disciplina:** Língua Portuguesa · **Ano:** 2016
-- **Tema atribuído:** `reescrita` (por keyword)
-- **Keyword(s) que casaram:** `reescrita`
-- **Enunciado (início):** Cada um dos itens subsequentes apresenta um trecho do texto I, seguido de uma proposta de reescrita desse trecho. Julgue cada item como certo (C), se sua reescrita mantiver as informações originais do trecho, ou como err
-- **Texto do item:** “‘Ah, o Brasil, que país!’, exclama uma personagem de La Vie Dangereuse. ‘Que país, esse Brasil!’, repetirão, com diferentes entonações, o melancólico capitão de longo curso, um agente da Terceira Internacional, a mulher de um diplomata reformado.” (R. 1 a 5) 
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2016 · Q65 · item 3
-- **Disciplina:** Economia · **Ano:** 2016
-- **Tema atribuído:** `microeconomia` (fallback)
-- **Enunciado (início):** A respeito das disposições da Convenção de Viena sobre o Direito dos Tratados, de 1969, julgue (C ou E) os itens seguintes.
-- **Texto do item:** Consta expressamente na referida convenção que as disposições sobre suspensão são inaplicáveis aos tratados que contêm obrigações erga omnes partes.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2023 · Q62 · item 1
-- **Disciplina:** História Mundial · **Ano:** 2023
-- **Tema atribuído:** `revolução_industrial` (por keyword)
-- **Keyword(s) que casaram:** `revolução_industrial`
-- **Enunciado (início):** A emergência das redes sociais e de outros meios de comunicação no interior de uma sociedade cada vez mais globalizada teve como consequência uma reorganização das relações de poder internacionais. Quanto às circunstânci
-- **Texto do item:** O século 21 assiste à formação de uma nova ecologia das mídias sociais, que reorganiza as relações diplomáticas em âmbito ontológico e epistemológico. Nesse sentido, houve uma transformação da própria natureza da atividade diplomática, que passou a ter de lida
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2019 · Q12 · item 3
-- **Disciplina:** Política Internacional · **Ano:** 2019
+## CACD_2024 · Q15 · item 3
+- **Disciplina:** Política Internacional · **Ano:** 2024
 - **Tema atribuído:** `multilateralismo` (fallback)
-- **Enunciado (início):** As relações diplomáticas entre Brasil e Rússia foram estabelecidas em 1828, culminando em diversos acordos bilaterais ao longo dos anos. Em 2002, as relações entre os dois países foram alçadas ao patamar de parceria estr
-- **Texto do item:** No cenário comercial, a Argentina é o principal parceiro da Rússia na América Latina.
+- **Enunciado (início):** Acerca das políticas de integração entre os países da América do Sul, julgue (C ou E) os próximos itens.
+- **Texto do item:** Entre as iniciativas que contribuíram para a construção de um espaço de integração sul-americano após a redemocratização do Estado brasileiro, incluem-se a realização da I Reunião dos Chefes de Estado e de Governo da América do Sul e a criação da União das Naç
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2022 · Q6 · item 1
-- **Disciplina:** Língua Portuguesa · **Ano:** 2022
-- **Tema atribuído:** `semântica` (por keyword)
-- **Keyword(s) que casaram:** `semântica`
-- **Enunciado (início):** Tendo em vista os aspectos linguísticos do texto, julgue (C ou E) os itens a seguir.
-- **Texto do item:** As expressões “mas o faziam em sentido elástico” (linha 8) e “atirar na lata de lixo do ‘passadismo’ manifestações variadas” (linhas 14 e 15) são exemplos da função referencial da linguagem, predominante nesse ensaio acerca da Semana de Arte Moderna.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2019 · Q9 · item 1
-- **Disciplina:** Língua Portuguesa · **Ano:** 2019
-- **Tema atribuído:** `morfologia` (por keyword)
-- **Keyword(s) que casaram:** `morfologia`
-- **Enunciado (início):** Considerando os aspectos linguísticos e estilísticos do texto, julgue (C ou E) os itens a seguir.
-- **Texto do item:** Stuart Hall, utilizando-se da metalinguagem, conceitua os termos “multicultural” e “multiculturalismo”, além de explicar possível sentido no emprego do sufixo ismo, por meio do recurso da citação.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2022 · Q68 · item 2
-- **Disciplina:** Economia · **Ano:** 2022
-- **Tema atribuído:** `macroeconomia` (por keyword)
-- **Keyword(s) que casaram:** `macroeconomia`
-- **Enunciado (início):** O Instituto Brasileiro de Geografia e Estatística (IBGE) detalha a metodologia para registro das transações internacionais no sistema de contas nacionais. Quanto a esse registro, julgue (C ou E) os itens a seguir.
-- **Texto do item:** Todos os serviços de transporte e de seguro relativos à importação, prestados por produtores residentes e não residentes e incluídos no valor CIF da importação por produtos, são globalmente deduzidos. Então, no Sistema de Contas Nacionais, o total da importaçã
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2023 · Q63 · item 4
-- **Disciplina:** História Mundial · **Ano:** 2023
-- **Tema atribuído:** `guerra_fria` (por keyword)
-- **Keyword(s) que casaram:** `guerra_fria`
-- **Enunciado (início):** No que concerne à Revolução Russa no contexto internacional, julgue (C ou E) os itens a seguir.
-- **Texto do item:** Durante a Primeira Guerra Mundial, a Alemanha, desejosa de firmar a paz com a Rússia, permitiu que Lênin, líder do grupo revolucionário Bolchevique, exilado na Suíça, atravessasse o país em um trem especialmente destinado a essa finalidade.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2014 · Q20 · item 3
-- **Disciplina:** Política Internacional · **Ano:** 2014
-- **Tema atribuído:** `multilateralismo` (fallback)
-- **Enunciado (início):** No que concerne às relações entre a África e o Brasil, julgue (Cou E) os seguintes itens.
-- **Texto do item:** As iniciativas de política externa que condicionaram a ampliação da importância da África para o Brasil incluem a criação da Comunidade dos Países de Língua Portuguesa, no governo de Fernando Henrique Cardoso.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2015 · Q8 · item 2
-- **Disciplina:** Língua Portuguesa · **Ano:** 2015
-- **Tema atribuído:** `semântica` (por keyword)
-- **Keyword(s) que casaram:** `semântica`
-- **Enunciado (início):** Sei que fazer o inconexo aclara as loucuras. Sou formado em desencontros. A sensatez me absurda. Os delírios verbais me terapeutam. Posso dar alegria ao esgoto (palavra aceita tudo). (E sei de Baudelaire que passou muito
-- **Texto do item:** O último verso do poema — “As antíteses congraçam” — resume o que a própria composição dos demais versos demonstra.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2004 · Q117 · item 117
-- **Disciplina:** Direito · **Ano:** 2004
-- **Tema atribuído:** `constitucional` (fallback)
-- **Enunciado (início):** Ante a situação hipotética descrita acima e considerando que a República da Gemênia não seja um país de língua portuguesa e adota o jus sanguinis como critério de atribuição da nacionalidade originária, julgue os itens a
-- **Texto do item:** Caso Helen, após a fixação de residência na República Federativa do Brasil, tenha optado pela nacionalidade brasileira, ela será considerada brasileira nata, sendo plenamente capaz para exercer por vontade própria atos da vida civil. Nessas circunstâncias, Hel
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2023 · Q23 · item 4
-- **Disciplina:** Geografia · **Ano:** 2023
-- **Tema atribuído:** `urbanização` (por keyword)
-- **Keyword(s) que casaram:** `urbanização`
-- **Enunciado (início):** Entende-se sistema urbano como um componente espacial do desenvolvimento social, o resultado de uma evolução histórica. A rede de cidades que o compõe, em sua forma, distribuição no território, inter-relações e interdepe
-- **Texto do item:** Desde a década de 1980, a rede urbana assumiu formas diferenciadas em sua totalidade ou em segmentos particulares, pois se operam mudanças no conteúdo e nos modos de uso do espaço, uma vez que a metropolização brasileira passou a repartir contingentes populaci
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2008 · Q28 · item 3
-- **Disciplina:** Geografia · **Ano:** 2008
-- **Tema atribuído:** `agricultura` (por keyword)
-- **Keyword(s) que casaram:** `agricultura`
-- **Enunciado (início):** QUESTÃO 28
-A análise da dinâmica da modernização da agricultura brasileira é importante para o entendimento da sociedade do Brasil contemporâneo. A esse respeito, julgue (C ou E) os itens subseqüentes.
-- **Texto do item:** O fato de as indústrias deixarem de se concentrar no sudeste do Brasil tem relação com o processo de modernização da agricultura brasileira.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2022 · Q67 · item 2
-- **Disciplina:** Economia · **Ano:** 2022
-- **Tema atribuído:** `macroeconomia` (por keyword)
-- **Keyword(s) que casaram:** `macroeconomia`
-- **Enunciado (início):** Uma das formas de se exercer política econômica é por meio da política fiscal e de suas funções e seus objetivos. A esse respeito, julgue (C ou E) os itens a seguir.
-- **Texto do item:** Por intermédio da política fiscal, pode-se dizer que o processo político surge como mecanismo substituto ao sistema de mercado, ao dispor em relação a alocações de bens públicos.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2012 · Q15 · item 2
-- **Disciplina:** Política Internacional · **Ano:** 2012
+## CACD_2024 · Q15 · item 2
+- **Disciplina:** Política Internacional · **Ano:** 2024
 - **Tema atribuído:** `integração_regional` (por keyword)
 - **Keyword(s) que casaram:** `integração_regional`
-- **Enunciado (início):** Julgue (C ou E) os itens a seguir, relativos ao MERCOSUL.
-- **Texto do item:** A Ata de Buenos Aires, assinada por Argentina, Brasil, Paraguai e Uruguai em 1990, fixou, para 1994, a formação de um mercado comum entre os quatro países.
+- **Enunciado (início):** Acerca das políticas de integração entre os países da América do Sul, julgue (C ou E) os próximos itens.
+- **Texto do item:** É competência do Parlamento do MERCOSUL, conforme seu protocolo constitutivo de dezembro de 2005, velar pela preservação dos regimes democráticos nos Estados-partes.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2012 · Q49 · item 2
-- **Disciplina:** História Mundial · **Ano:** 2012
-- **Tema atribuído:** `descolonização` (por keyword)
-- **Keyword(s) que casaram:** `descolonização`
-- **Enunciado (início):** Com relação ao colonialismo europeu no século XIX, julgue (C ou E) os itens que se seguem.
-- **Texto do item:** A Conferência de Berlim, realizada entre novembro de 1884 e fevereiro de 1885, consagrou o princípio da ocupação declarada de áreas em litígio, garantindo a soberania ao país que ocupava o território.
+## CACD_2018 · Q36 · item 4
+- **Disciplina:** Língua Inglesa · **Ano:** 2018
+- **Tema atribuído:** `reading_comprehension` (por keyword)
+- **Keyword(s) que casaram:** `reading_comprehension`
+- **Enunciado (início):** Decide whether the following statements are right (C) or wrong (E) according to text I.
+- **Texto do item:** The passage “the lure of quick fixes addressing multifaceted processes of change” (R. 29 and 30) could be replaced by the temptation of finding easy solutions for manifold processes of change and this would still keep the paragraph coherent. Espaço livre
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2004 · Q132 · item 132
-- **Disciplina:** Economia · **Ano:** 2004
-- **Tema atribuído:** `macroeconomia` (por keyword)
-- **Keyword(s) que casaram:** `macroeconomia`
-- **Enunciado (início):** Em relação aos conceitos básicos da macroeconomia e da economia monetária, julgue os itens que se seguem.
-- **Texto do item:** Taxas de juros mais elevadas aumentam o custo de oportunidade de detenção da moeda e, portanto, contribuem para se expandir a demanda de moeda.
+## CACD_2010 · Q72 · item 4
+- **Disciplina:** História Mundial · **Ano:** 2010
+- **Tema atribuído:** `guerra_fria` (por keyword)
+- **Keyword(s) que casaram:** `guerra_fria`
+- **Enunciado (início):** Com relação à evolução da Guerra Fria, julgue C ou E.
+- **Texto do item:** Mais do que em razão de disputas territoriais no subcontinente indiano, três guerras sucessivas (sino-indiana, em 1962, e indo-paquistanesas, em 1965 e 1971) evidenciaram a intensidade da Guerra Fria naquela região.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2025 · Q38
-- **Disciplina:** Língua Portuguesa · **Ano:** 2025
-- **Tema atribuído:** `semântica` (por keyword)
-- **Keyword(s) que casaram:** `semântica`
-- **Enunciado (início):** No segundo período, a forma verbal “pesam” é empregada no sentido denotativo, em coerência com o argumento desenvolvido em torno de um fato concreto: a morte de Antonio Candido, a quem o autor do texto presta uma homenag
-- **Texto do item:** 
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2014 · Q47 · item 3
-- **Disciplina:** História do Brasil · **Ano:** 2014
-- **Tema atribuído:** `império` (por keyword)
-- **Keyword(s) que casaram:** `império`
-- **Enunciado (início):** Quando o Brasil se tornou independente, em 1822, a elite política brasileira optou por uma monarquia representativa como forma de governo, de acordo com o modelo francês da época. A Constituição de 1824, outorgada por D.
-- **Texto do item:** A crise política dos primeiros tempos do Brasil independente teve sua expressão máxima na dissolução da Assembleia Constituinte, razão pela qual a Constituição de 1824, outorgada, afastava-se do contexto histórico da época ao não incorporar elementos da nova o
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2004 · Q24 · item 24
-- **Disciplina:** Língua Portuguesa · **Ano:** 2004
-- **Tema atribuído:** `morfossintaxe` (por keyword)
-- **Keyword(s) que casaram:** `morfossintaxe`
-- **Enunciado (início):** Com relações às idéias do texto III e a aspectos morfossintáticos, julgue os itens subseqüentes.
-- **Texto do item:** O texto é composto essencialmente por enunciados categóricos, como evidencia o emprego reiterado de formas verbais no presente do indicativo.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2025 · Q57
-- **Disciplina:** História do Brasil · **Ano:** 2025
-- **Tema atribuído:** `era_vargas` (por keyword)
-- **Keyword(s) que casaram:** `era_vargas`
-- **Enunciado (início):** A Ação Integralista Brasileira (AIB), movimento liderado por Plínio Salgado na década de 1930, incorporou elementos de discriminação contra judeus em sua ideologia, inspirada em parte no fascismo europeu da época.
-- **Texto do item:** 
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2008 · Q33 · item 3
-- **Disciplina:** Geografia · **Ano:** 2008
-- **Tema atribuído:** `urbanização` (por keyword)
-- **Keyword(s) que casaram:** `urbanização`
-- **Enunciado (início):** Todas as fontes devem ser aproveitadas, dentro de suas especificidades. (...) o Plano Nacional de Energia 2030 mostra exatamente isso: a existência de só uma ou duas fontes não significa uma solução. O Brasil necessita, 
-- **Texto do item:** Sendo o etanol uma fonte de energia limpa, sua produção e seu consumo não acarretam danos ambientais ou sociais.
+## CACD_2014 · Q25 · item 4
+- **Disciplina:** Política Internacional · **Ano:** 2014
+- **Tema atribuído:** `segurança_internacional` (por keyword)
+- **Keyword(s) que casaram:** `segurança_internacional`
+- **Enunciado (início):** É possível afirmar que Barak Obama representa os EUA em sua dimensão multicultural, multirracial e globalizada. Na política externa, o governo Obama apresentou algumas novidades. A respeito desse assunto, julgue (Cou E) 
+- **Texto do item:** A Índia, que não é signatária do Tratado de Não-Proliferação Nuclear (TNP), e os EUA assinaram um acordo em que foi reconhecido o status da Índia de Estado detentor de armas nucleares.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
@@ -345,209 +333,226 @@ A análise da dinâmica da modernização da agricultura brasileira é important
 
 ---
 
-## CACD_2015 · Q68 · item 2
-- **Disciplina:** Economia · **Ano:** 2015
-- **Tema atribuído:** `comércio_internacional` (por keyword)
-- **Keyword(s) que casaram:** `comércio_internacional`
-- **Enunciado (início):** balanço de pagamentos (em US$ bilhões) exportações120 importações110 donativos recebidos de ONGs sediadas no exterior2 investimentos para ampliação de empreendimento industrial18 reinvestimento de lucros de uma multinaci
-- **Texto do item:** Ocorrendo saldo negativo no balanço de pagamentos, ele poderá ser financiado mediante redução das reservas internacionais.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2015 · Q5 · item 3
-- **Disciplina:** Língua Portuguesa · **Ano:** 2015
-- **Tema atribuído:** `gramática` (por keyword)
-- **Keyword(s) que casaram:** `gramática`
-- **Enunciado (início):** Celso Cunha tinha, na minha geração literária, a posição que, na geração anterior à nossa, coube a Souza da Silveira. Ou seja: a do mestre que, conhecendo profundamente a língua portuguesa, nas suas minúcias e no seu con
-- **Texto do item:** O emprego da expressão explicativa “Ou seja” (R.3) no início de período revela que, em 1995, ano de publicação do texto, já estava em curso essa variante sintática — substituição da vírgula que deveria isolar essa expressão por ponto final —, a qual só recente
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2024 · Q34 · item 1
-- **Disciplina:** Língua Inglesa · **Ano:** 2024
+## CACD_2015 · Q41 · item 2
+- **Disciplina:** Língua Inglesa · **Ano:** 2015
 - **Tema atribuído:** `reading_comprehension` (fallback)
-- **Enunciado (início):** Text I Despite the tricky and life-threatening relationship between Paleolithic humans and the megafauna that comprised so much of their environment, twentieth-century scholars tended to claim cave art as evidence of an 
-- **Texto do item:** The text stresses the difference between the opinions of cave artists and of modern art scholars in terms of the concept of the artistic genius.
+- **Enunciado (início):** As far as Orlando’s physical features are concerned, decide whether the following statements are right (C) or wrong (E).
+- **Texto do item:** Orlando’s lips and cheeks had a sweet fragrance reminiscent of fresh fruit.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2024 · Q60 · item 2
-- **Disciplina:** Economia · **Ano:** 2024
-- **Tema atribuído:** `comércio_internacional` (por keyword)
-- **Keyword(s) que casaram:** `comércio_internacional`
-- **Enunciado (início):** Considerando conceitos relacionados ao balanço de pagamentos bem como a sua estrutura, julgue (C ou E) os itens que se seguem.
-- **Texto do item:** As transferências unilaterais líquidas não são consideradas parte da conta-corrente, visto que, por sua natureza, elas não são resultado da compra e venda de nenhuma mercadoria, serviço ou ativo.
+## CACD_2009 · Q4 · item 1
+- **Disciplina:** Língua Portuguesa · **Ano:** 2009
+- **Tema atribuído:** `interpretação_texto` (fallback)
+- **Enunciado (início):** Com base no texto, julgue (C ou E) os itens seguintes.
+- **Texto do item:** Em "Por viver muitos anos/dentro do mato" (v.1-2) e "ele enxergava/as coisas/Por igual" (v.7-9), a preposição "Por", nas duas ocorrências, introduz uma circunstância de modo nos períodos em que se insere.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2016 · Q12 · item 1
-- **Disciplina:** Política Internacional · **Ano:** 2016
-- **Tema atribuído:** `multilateralismo` (fallback)
-- **Enunciado (início):** Com relação às ideias desenvolvidas no texto IV, julgue (C ou E) os seguintes itens.
-- **Texto do item:** O autor do excerto valoriza a simplicidade do poema Juca Mulato, comparando-a à das sinfonias de Beethoven e à dos dramas musicais de Wagner, o que faria aumentar a receptividade dessas obras.
+## CACD_2013 · Q33
+- **Disciplina:** Língua Inglesa · **Ano:** 2013
+- **Tema atribuído:** `reading_comprehension` (por keyword)
+- **Keyword(s) que casaram:** `reading_comprehension`
+- **Enunciado (início):** This text refers to questions 33 and 34.
 
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2026 · Q69
-- **Disciplina:** História do Brasil · **Ano:** 2026
-- **Tema atribuído:** `império` (fallback)
-- **Enunciado (início):** O voto feminino no Brasil foi legalizado em 1927, por lei estadual no Rio Grande do Norte, estado que elegeu a primeira prefeita, ainda em 1928.
+The leaders of the G8 are convening in Northern
+Ireland for the 39th G8 Summit. The backdrop for this two-day
+meeting of the globe's preeminent economic powers is a world
+facing 
 - **Texto do item:** 
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2007 · Q15 · item 3
-- **Disciplina:** Língua Portuguesa · **Ano:** 2007
-- **Tema atribuído:** `gramática` (por keyword)
-- **Keyword(s) que casaram:** `gramática`
-- **Enunciado (início):** Texto para as questões de 15 a 17
-
-A maior contribuição da América Latina para a cultura ocidental vem da destruição sistemática dos conceitos de unidade e pureza: esses dois conceitos perdem o contorno exato do seu sign
-- **Texto do item:** O emprego de itálico em "paraíso" (l.12) realça o sentido objetivo desse vocábulo.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2007 · Q16 · item 3
-- **Disciplina:** Língua Portuguesa · **Ano:** 2007
-- **Tema atribuído:** `interpretação_texto` (fallback)
-- **Enunciado (início):** Com relação ao texto, julgue (C ou E) os seguintes itens.
-- **Texto do item:** No período "Sua geografia deve ser uma geografia de assimilação e de agressividade, de aprendizagem e de reação, de falsa obediência" (l.15-17), a palavra "geografia" deve ser entendida como estudo do espaço físico, pois se relaciona com a idéia de "lugar no m
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2009 · Q5 · item 2
-- **Disciplina:** Língua Portuguesa · **Ano:** 2009
-- **Tema atribuído:** `gramática` (por keyword)
-- **Keyword(s) que casaram:** `gramática`
-- **Enunciado (início):** Texto 3\npara as questões de 5 a 7\n\nA diferença na linguagem\n\n"Para os gramáticos, a arte da palavra quase se esgota na\narte da escrita, o que se vê ainda pelo uso que fazem dos\nacentos, muitos dos quais fazem algu
-- **Texto do item:** A palavra "acentos" (l.3) refere-se a sinais gráficos, ao passo que "acento" (l.7) designa qualidades como inflexão ou modulação.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2014 · Q34 · item 4
-- **Disciplina:** Língua Inglesa · **Ano:** 2014
-- **Tema atribuído:** `reading_comprehension` (fallback)
-- **Enunciado (início):** Book Review 2 –
-The China-Pakistan Axis: Asia’s New Geopolitics
-by Andrew Small
-The Beijing-Islamabad axis plays a central role in Asia’s geopolitics, from India’s rise to the prospects for a post-American Afghanistan, f
-- **Texto do item:** The book explains the military and political tensions between China and Pakistan on one side, and India and the USA on the other.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2014 · Q9 · item 2
-- **Disciplina:** Língua Portuguesa · **Ano:** 2014
-- **Tema atribuído:** `interpretação_texto` (fallback)
-- **Enunciado (início):** Texto I:\nQuanto a mim mesma, sem mentir nem ser verdadeira como naquele momento em que ontem de manhã estava sentada à mesa do café quanto a mim mesma, sempre conservei uma aspa à esquerda e outra à direita de mim. De a
-- **Texto do item:** A autora do texto estabelece forte oposição entre "ser" e "não-ser", optando pelo último, uma vez que "ser" poderia aproximá-la de uma forma aparente e mentirosa para a qual não se encontra preparada.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2016 · Q35 · item 1
-- **Disciplina:** Língua Inglesa · **Ano:** 2016
-- **Tema atribuído:** `vocabulary` (por keyword)
-- **Keyword(s) que casaram:** `vocabulary`
-- **Enunciado (início):** In text I, without altering the meaning of the sentence, the noun “realms” (R.35) could be replaced by (mark right — C — or wrong — E):
-- **Texto do item:** spheres.
-
-**Marque:** [ ] OK  [ ] Tema errado → correto: ______
-
----
-
-## CACD_2019 · Q62 · item 3
-- **Disciplina:** História Mundial · **Ano:** 2019
+## CACD_2022 · Q56 · item 2
+- **Disciplina:** História Mundial · **Ano:** 2022
 - **Tema atribuído:** `revoluções_liberais` (por keyword)
 - **Keyword(s) que casaram:** `revoluções_liberais`
-- **Enunciado (início):** No que se refere ao contexto da Revolução Mexicana, julgue (C ou E) os itens a seguir.
-- **Texto do item:** O líder camponês Emiliano Zapata apoiou significativamente a Revolução Mexicana comandando o Exército Libertador do Sul. A sua participação nas lutas revolucionárias encerrou-se com a chegada de Francisco Madero à presidência do país e com a concretização das 
+- **Enunciado (início):** No que concerne aos precedentes e às características do período de emergência da chamada Doutrina Monroe, julgue (C ou E) os itens a seguir.
+- **Texto do item:** A posse de James Monroe representou um momento de afastamento dos Estados Unidos da América (EUA) da política europeia, o que não o impediu de manifestar oposição a possíveis ingerências de Portugal e Espanha em suas ex-colônias. Essa postura ficou evidente co
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2022 · Q58 · item 4
+## CACD_2022 · Q62 · item 1
 - **Disciplina:** História Mundial · **Ano:** 2022
-- **Tema atribuído:** `guerras_mundiais` (por keyword)
-- **Keyword(s) que casaram:** `guerras_mundiais`
-- **Enunciado (início):** Pode-se afirmar, como os historiadores fartamente já o fizeram, que, no quarto de século que antecedeu a Primeira Guerra Mundial, os fundamentos do poder econômico e político da Grã-Bretanha já se encontravam em franca d
-- **Texto do item:** Nas letras, nomes como os de Charles Dickens, Rudyard Kipling e Herman Melville haviam se tornado amplamente difundidos com suas obras, sendo traduzidas e publicadas em todos os centros cultos do mundo.
+- **Tema atribuído:** `revoluções_liberais` (por keyword)
+- **Keyword(s) que casaram:** `revoluções_liberais`
+- **Enunciado (início):** A respeito da crise da monarquia espanhola e dos processos de independência na América, julgue (C ou E) os itens a seguir.
+- **Texto do item:** As chamadas Abdicações de Bayona constituem um momento decisivo de crise da monarquia espanhola. O estabelecimento da nova dinastia deflagrou reações contrárias à ocupação francesa tanto na Europa quanto na América. Os setores liberais organizaram-se na forma 
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2018 · Q35 · item 1
-- **Disciplina:** Língua Inglesa · **Ano:** 2018
+## CACD_2024 · Q5 · item 2
+- **Disciplina:** Língua Portuguesa · **Ano:** 2024
+- **Tema atribuído:** `interpretação_texto` (por keyword)
+- **Keyword(s) que casaram:** `interpretação_texto`
+- **Enunciado (início):** Texto IV Assim como aquela senhora hopi que conversava com a pedra, sua irmã, tem um monte de gente que fala com montanhas. No Equador, na Colômbia, em algumas dessas regiões dos Andes, você encontra lugares onde as mont
+- **Texto do item:** Aspectos antitéticos dos seres humanos são explorados na passagem do primeiro parágrafo, em que prevalece o uso da prosopopeia, ao segundo parágrafo, que remete ao Antropoceno.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2023 · Q69 · item 3
+- **Disciplina:** Economia · **Ano:** 2023
+- **Tema atribuído:** `comércio_internacional` (por keyword)
+- **Keyword(s) que casaram:** `comércio_internacional`
+- **Enunciado (início):** Os bancos digitais são uma tendência recente do mercado bancário mundial e brasileiro. Essa tendência acentuou-se com a pandemia da Covid-19, aumentando a adesão de clientes e instituições a esse formato. Considerando os
+- **Texto do item:** A categoria de banco digital reflete decisões operacionais e mercadológicas de cada banco, como o acesso exclusivamente remoto e a busca por redução de tarifas. Dessa forma, bancos tradicionais também podem se inserir nesse segmento.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2025 · Q116
+- **Disciplina:** Geografia · **Ano:** 2025
+- **Tema atribuído:** `demografia` (por keyword)
+- **Keyword(s) que casaram:** `demografia`
+- **Enunciado (início):** Nas metrópoles brasileiras, os setores secundário e terciário da economia englobam atividades geradoras de empregos e impulsionadoras de migrações, atraindo a população de menor renda para bairros próximos às áreas centr
+- **Texto do item:** 
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2016 · Q33 · item 3
+- **Disciplina:** Língua Inglesa · **Ano:** 2016
+- **Tema atribuído:** `grammar_semantics` (por keyword)
+- **Keyword(s) que casaram:** `grammar_semantics`
+- **Enunciado (início):** Considering the grammatical and semantic aspects of text I, decide whether the following items are right (C) or wrong (E).
+- **Texto do item:** The adjective “remarkable” (R.8) could be replaced by significant or uncanny in the context of the text.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2017 · Q8 · item 2
+- **Disciplina:** Política Internacional · **Ano:** 2017
+- **Tema atribuído:** `multilateralismo` (fallback)
+- **Enunciado (início):** Texto IV
+A classe dedicada ao comércio, marcada pela compra e venda de mercadorias ou na colocação de dinheiro, não representava, no Império, o padrão social dominante. Os comerciantes eram, em grande parte, estrangeiros
+- **Texto do item:** Conclui-se do texto que a maioria dos comerciantes, no Império, não era formada por brasileiros, bem como que o comércio mais lucrativo praticado na época estava associado à economia escravocrata.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2009 · Q51
+- **Disciplina:** Língua Inglesa · **Ano:** 2009
 - **Tema atribuído:** `reading_comprehension` (por keyword)
 - **Keyword(s) que casaram:** `reading_comprehension`
-- **Enunciado (início):** Text I
-With this report, our aim is to present initial reflections on diplomacy in the digital age. In the ongoing debate amongst international relations scholars, information and communication technology (ICT) experts, 
-- **Texto do item:** For the authors, the changes brought about by new communications technologies are affecting the essence of diplomacy as never before.
+- **Enunciado (início):** This text refers to questions 48 to 51.
+
+It's cold and early and Detlef Fendt repeats a morning ritual, heaving himself onto the side of his 28-year-old BMW motorbike and jumping with all his might on the kick-start. It 
+- **Texto do item:** 
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2018 · Q44 · item 2
-- **Disciplina:** História do Brasil · **Ano:** 2018
-- **Tema atribuído:** `colônia` (por keyword)
-- **Keyword(s) que casaram:** `colônia`
-- **Enunciado (início):** Tendo em vista que, como colônia de Portugal, o Brasil fazia parte do mercantilismo da Idade Moderna, que tinha no sistema colonial um dos fatores fundamentais do processo de acumulação primitiva da Europa nos séculos XV
-- **Texto do item:** Prevalecia a monocultura agroexportadora, principalmente de açúcar, com predomínio do latifúndio da terra e do trabalho escravo (indígenas e africanos) generalizado.
+## CACD_2025 · Q208
+- **Disciplina:** Economia · **Ano:** 2025
+- **Tema atribuído:** `microeconomia` (por keyword)
+- **Keyword(s) que casaram:** `microeconomia`
+- **Enunciado (início):** Uma das consequências da Primeira Guerra Mundial foi o avanço da indústria brasileira de processamento de alimentos, por causa da redução da oferta externa desses produtos.
+- **Texto do item:** 
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2016 · Q64 · item 2
+## CACD_2025 · Q15
+- **Disciplina:** Língua Portuguesa · **Ano:** 2025
+- **Tema atribuído:** `semântica` (por keyword)
+- **Keyword(s) que casaram:** `semântica`
+- **Enunciado (início):** Ora bem, faz hoje um ano que voltei definitivamente da Europa. O que me lembrou esta data foi, estando a beber café, o pregão de um vendedor de vassouras e espanadores: “Vai vassouras! vai espanadores!”. Costumo ouvi-lo 
+- **Texto do item:** 
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2015 · Q32 · item 4
+- **Disciplina:** Língua Inglesa · **Ano:** 2015
+- **Tema atribuído:** `grammar_semantics` (por keyword)
+- **Keyword(s) que casaram:** `grammar_semantics`
+- **Enunciado (início):** Most of the recent scholarly works on the evolution of diplomacy highlight the added complexity in which “states and other international actors communicate, negotiate and otherwise interact” in the 21st century. Diplomac
+- **Texto do item:** Discussions about inclusiveness and diversity in diplomatic circles have led to the expansion of the power of some countries.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2022 · Q56 · item 3
+- **Disciplina:** História Mundial · **Ano:** 2022
+- **Tema atribuído:** `revoluções_liberais` (por keyword)
+- **Keyword(s) que casaram:** `revoluções_liberais`
+- **Enunciado (início):** No que concerne aos precedentes e às características do período de emergência da chamada Doutrina Monroe, julgue (C ou E) os itens a seguir.
+- **Texto do item:** A mensagem veiculada no State of the Union de 1823 dispunha os princípios mais tarde interpretados como parâmetros da Doutrina Monroe. Entre eles, estavam impedir que o continente americano fosse objeto de novas iniciativas de colonização europeia, encarando t
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2016 · Q66 · item 2
 - **Disciplina:** Direito · **Ano:** 2016
-- **Tema atribuído:** `constitucional` (por keyword)
-- **Keyword(s) que casaram:** `constitucional`
-- **Enunciado (início):** Acerca da personalidade jurídica, da hierarquia das normas e dos princípios, direitos e garantias fundamentais constantes da Constituição Federal de 1988, julgue (C ou E) os itens que se seguem.
-- **Texto do item:** Dada a garantia constitucional do direito de associação, o vínculo associativo somente pode ser dissolvido compulsoriamente mediante sentença judicial.
+- **Tema atribuído:** `internacional_público` (por keyword)
+- **Keyword(s) que casaram:** `internacional_público`
+- **Enunciado (início):** Com relação aos tribunais internacionais, julgue (C ou E) os itens subsequentes.
+- **Texto do item:** O Tribunal Penal Internacional para a ex-Iugoslávia não possui competência para julgar crime de agressão.
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2022 · Q21 · item 2
-- **Disciplina:** Política Internacional · **Ano:** 2022
-- **Tema atribuído:** `multilateralismo` (fallback)
-- **Enunciado (início):** O conceito de soberania é ubíquo na literatura de Relações Internacionais. No que concerne a esse tema, julgue (C ou E) os itens a seguir.
-- **Texto do item:** Enquanto as perspectivas tradicionais tendem a avaliar a soberania como um dado ou atributo dos Estados, as leituras teóricas críticas enfatizam o caráter histórico e processual da construção desse princípio, bem como suas consequências sociais.
+## CACD_2010 · Q8 · item 3
+- **Disciplina:** Língua Portuguesa · **Ano:** 2010
+- **Tema atribuído:** `conectivos_e_Referenciação` (por keyword)
+- **Keyword(s) que casaram:** `conectivos_e_Referenciação`
+- **Enunciado (início):** Texto IV - para as questões 8 e 9\n\nQue a obra de boa qualidade sempre se destaca é uma afirmação sem valor, se aplicada a uma obra de qualidade realmente boa e se por "destaca" quer-se fazer referência à aceitação na s
+- **Texto do item:** Pelo desenvolvimento das ideias do texto, verifica-se que a referência do sujeito elíptico de todas as orações do período iniciado por "Se for original" (l.17) corresponde à expressão "o crítico competente" (l.14).
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
 ---
 
-## CACD_2013 · Q4 · item 4
-- **Disciplina:** Língua Portuguesa · **Ano:** 2013
-- **Tema atribuído:** `reescrita` (por keyword)
-- **Keyword(s) que casaram:** `reescrita`
-- **Enunciado (início):** Visita a Jean-Paul Sartre\nOs estudantes do velho Centro Acadêmico Cândido de Oliveira, do Rio, querem levar uma peça de Sartre, Morts sans Sépulture, sem pagar os direitos. O pedido vem às mãos de Roberto Assumpção, sec
-- **Texto do item:** O cronista brasileiro comenta que melhoraria seu estilo literário se escrevesse não apenas no ambiente do filósofo francês, mas também se consultasse os livros de Platão e de Mallarmé que estavam sobre a mesa de Jean-Paul Sartre no momento do encontro.
+## CACD_2012 · Q46 · item 2
+- **Disciplina:** História Mundial · **Ano:** 2012
+- **Tema atribuído:** `revolução_industrial` (por keyword)
+- **Keyword(s) que casaram:** `revolução_industrial`
+- **Enunciado (início):** A respeito da Revolução Industrial na Europa e de fatos a ela relacionados, julgue (C ou E) os itens subsequentes.
+- **Texto do item:** A expansão da Revolução Industrial na Europa favoreceu o surgimento de movimentos políticos e sociais, alguns deles relacionados ao rápido processo de urbanização que se verificou no continente a partir do século XIX.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2017 · Q41 · item 2
+- **Disciplina:** Língua Inglesa · **Ano:** 2017
+- **Tema atribuído:** `vocabulary` (por keyword)
+- **Keyword(s) que casaram:** `vocabulary`
+- **Enunciado (início):** In text IV, without altering the general meaning of the sentence, “pinpoint” (R.10) could be replaced by (mark right — C — or wrong — E)
+- **Texto do item:** determine.
+
+**Marque:** [ ] OK  [ ] Tema errado → correto: ______
+
+---
+
+## CACD_2022 · Q46 · item 2
+- **Disciplina:** História do Brasil · **Ano:** 2022
+- **Tema atribuído:** `império` (por keyword)
+- **Keyword(s) que casaram:** `império`
+- **Enunciado (início):** No que se refere às revoltas ocorridas no Período Regencial, julgue (C ou E) os itens a seguir.
+- **Texto do item:** Uma exceção às revoltas urbanas de tropa e povo do primeiro momento regencial foi a Cabanada (1831-1832), que atingiu as zonas rurais e teve a participação de expressivo contingente indígena do vale do rio Jacuípe, entre Alagoas (norte) e Pernambuco (mata sul)
 
 **Marque:** [ ] OK  [ ] Tema errado → correto: ______
 
